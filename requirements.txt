@@ -1,0 +1,10 @@
+transformers==4.40.0
+datasets==2.19.0
+sacrebleu
+sentencepiece
+accelerate
+evaluate
+torch
+tqdm
+numpy
+flask
