@@ -26,6 +26,8 @@ from src.config import (
     TGT_LANG,
     MODEL_DIR,
     SEED,
+    SESSION_SAVE_EVERY_EPOCHS,
+    RESUME_FROM_SESSION,
 )
 from src.data_utils import load_honorifics_from_register_files, stratified_split
 from src.dataset import HonorificsDataset
