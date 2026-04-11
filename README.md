@@ -364,15 +364,15 @@ INFORMAL Register:    45-50% (easier to learn)
 ## 📚 Dataset Statistics
 
 ```
-Total Examples:        11,582
-Training Set:          8,110 (70%)
-Validation Set:        1,736 (15%)
-Test Set:              1,736 (15%)
+Total Examples:        25,343
+Training Set:          17,740 (70%)
+Validation Set:        3,801 (15%)
+Test Set:              3,802 (15%)
 
 Register Distribution:
-  FORMAL:              3,885 (33.5%)
-  SEMI-FORMAL:         3,860 (33.3%)
-  INFORMAL:            3,837 (33.1%)
+  FORMAL:              8,436 (33.3%)
+  SEMI-FORMAL:         8,471 (33.4%)
+  INFORMAL:            8,436 (33.3%)
 
 Sentence Length:
   Average English:     8.3 words
@@ -446,4 +446,4 @@ This project uses Meta's NLLB-200 model under CC-BY-NC-4.0 license.
 
 **Last Updated:** March 31, 2026
 **Model Version:** NLLB-200 Distilled 600M
-**Dataset:** 11,582 English-Nepali honorific pairs
+**Dataset:** 25,343 English-Nepali honorific pairs

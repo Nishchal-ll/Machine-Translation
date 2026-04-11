@@ -4,13 +4,36 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent))
 
-from src.config import *
+from src.config import (
+    DATASET_FILES,
+    DEVICE,
+    EPOCHS,
+    BATCH_SIZE,
+    LEARNING_RATE,
+    WEIGHT_DECAY,
+    MAX_LENGTH,
+    WARMUP_RATIO,
+    GRADIENT_CLIP,
+    GRADIENT_ACCUMULATION_STEPS,
+    GRADIENT_CHECKPOINTING,
+    EARLY_STOPPING_PATIENCE,
+    USE_LORA,
+    LORA_R,
+    LORA_ALPHA,
+    LORA_DROPOUT,
+    MODEL_NAME,
+    SRC_LANG,
+    TGT_LANG,
+    MODEL_DIR,
+    SEED,
+)
 from src.data_utils import load_honorifics_from_register_files, stratified_split
 from src.dataset import HonorificsDataset
 from src.trainer import Trainer
 from src.utils import set_seed, print_training_summary
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from torch.utils.data import DataLoader
+
 
 def main():
     set_seed(SEED)
@@ -25,8 +48,11 @@ def main():
         return
 
     print("📁 Loading datasets from:")
+    file_line_counts = {}
     for register, path in DATASET_FILES.items():
-        print(f"   {register}: {path}")
+        line_count = sum(1 for _ in open(path, encoding="utf-8") if _.strip())
+        file_line_counts[register] = line_count
+        print(f"   {register}: {path} ({line_count:,} lines)")
     print("")
 
     all_data, skipped, reasons = load_honorifics_from_register_files(DATASET_FILES)
@@ -40,7 +66,28 @@ def main():
     train_data, val_data, test_data = stratified_split(all_data, seed=SEED)
     print(f"📊 Split → Train: {len(train_data):,} | Val: {len(val_data):,} | Test: {len(test_data):,}")
 
-    print_training_summary(type('Config', (), locals()))
+    config_obj = type('Config', (), {
+        'MODEL_NAME': MODEL_NAME,
+        'SRC_LANG': SRC_LANG,
+        'TGT_LANG': TGT_LANG,
+        'DEVICE': DEVICE,
+        'EPOCHS': EPOCHS,
+        'BATCH_SIZE': BATCH_SIZE,
+        'LEARNING_RATE': LEARNING_RATE,
+        'WEIGHT_DECAY': WEIGHT_DECAY,
+        'MAX_LENGTH': MAX_LENGTH,
+        'WARMUP_RATIO': WARMUP_RATIO,
+        'GRADIENT_CLIP': GRADIENT_CLIP,
+        'GRADIENT_ACCUMULATION_STEPS': GRADIENT_ACCUMULATION_STEPS,
+        'GRADIENT_CHECKPOINTING': GRADIENT_CHECKPOINTING,
+        'EARLY_STOPPING_PATIENCE': EARLY_STOPPING_PATIENCE,
+        'USE_LORA': USE_LORA,
+        'LORA_R': LORA_R,
+        'LORA_ALPHA': LORA_ALPHA,
+        'LORA_DROPOUT': LORA_DROPOUT,
+    })
+
+    print_training_summary(config_obj)
 
     # Load model and tokenizer
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, src_lang=SRC_LANG, tgt_lang=TGT_LANG)

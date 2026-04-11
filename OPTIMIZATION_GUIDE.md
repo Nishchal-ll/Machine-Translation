@@ -1,7 +1,7 @@
 # 🚀 ACCURACY OPTIMIZATION GUIDE (Without Adding Data)
 
 ## Current Setup
-- Dataset: 11,582 pairs (FORMAL, SEMI-FORMAL, INFORMAL equally distributed)
+- Dataset: 25,343 pairs (FORMAL, SEMI-FORMAL, INFORMAL equally distributed)
 - Model: facebook/nllb-200-distilled-600M with LoRA fine-tuning
 - Target: 70%+ accuracy
 
