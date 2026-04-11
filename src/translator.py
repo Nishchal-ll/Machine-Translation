@@ -27,14 +27,17 @@ class NepaliTranslator:
         # Remove special HTML/markup artifacts
         text = re.sub(r'<[^>]+>', '', text)
         
-        # Keep only Devanagari, spaces, and basic punctuation
+        # Keep only Devanagari, spaces, and punctuation expected in translations.
         allowed_chars = set()
         # Devanagari Unicode block
         allowed_chars.update(chr(i) for i in range(0x0900, 0x097F))
         # Common punctuation and spaces
-        allowed_chars.update(' \n\t।,.\'"\'')
+        allowed_chars.update(' \n\t।,.?!;:-()"\'')
         
-        cleaned = ''.join(char for char in text if char in allowed_chars or ord(char) < 128 and char in ' \n\t।.,')
+        cleaned = ''.join(
+            char for char in text
+            if char in allowed_chars or (ord(char) < 128 and char in ' \n\t.,?!;:-()"\'')
+        )
         return cleaned
 
     def preprocess_text(self, text: str) -> str:
@@ -74,18 +77,30 @@ class NepaliTranslator:
         
         return text.strip()
 
+    def split_into_sentences(self, text: str) -> list[str]:
+        """Split paragraph into sentences while keeping sentence-ending punctuation."""
+        chunks = re.findall(r'[^.!?।]+[.!?।]*', text)
+        return [chunk.strip() for chunk in chunks if chunk.strip()]
+
     @torch.no_grad()
-    def translate(self, english_text: str, max_length=64) -> str:
-        # Preprocess input
-        english_text = self.preprocess_text(english_text)
-        
+    def translate_batch(self, english_texts: list[str], max_length=64) -> list[str]:
+        if not english_texts:
+            return []
+
+        cleaned_inputs = [self.preprocess_text(text) for text in english_texts]
+
         self.tokenizer.src_lang = "eng_Latn"
         self.tokenizer.tgt_lang = "npi_Deva"
 
-        inputs = self.tokenizer(english_text, return_tensors="pt", padding=True, truncation=True, max_length=max_length)
+        inputs = self.tokenizer(
+            cleaned_inputs,
+            return_tensors="pt",
+            padding=True,
+            truncation=True,
+            max_length=max_length,
+        )
         inputs = {k: v.to(self.device) for k, v in inputs.items()}
 
-        # Optimized parameters: Beam search for exact domain match
         outputs = self.model.generate(
             **inputs,
             max_length=max_length,
@@ -96,16 +111,27 @@ class NepaliTranslator:
             early_stopping=True,
             do_sample=False,
             repetition_penalty=2.0,
-            # NEW: Enforce stricter generation
             diversity_penalty=0.0,
             num_beam_groups=1,
             temperature=1.0,
-            top_p=1.0,  # No sampling, pure beam search
+            top_p=1.0,
             eos_token_id=self.tokenizer.eos_token_id,
             pad_token_id=self.tokenizer.pad_token_id,
         )
 
-        translation = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-        # Postprocess output to remove artifacts
-        translation = self.postprocess_text(translation)
-        return translation
+        decoded = self.tokenizer.batch_decode(outputs, skip_special_tokens=True)
+        return [self.postprocess_text(text) for text in decoded]
+
+    @torch.no_grad()
+    def translate(self, english_text: str, max_length=64) -> str:
+        sentences = self.split_into_sentences(english_text)
+        if not sentences:
+            return ""
+
+        # For paragraphs, translate sentence chunks in parallel batches.
+        if len(sentences) > 1:
+            translated_sentences = self.translate_batch(sentences, max_length=max_length)
+            return " ".join(s for s in translated_sentences if s).strip()
+
+        translated = self.translate_batch(sentences, max_length=max_length)
+        return translated[0] if translated else ""

@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepali Honorifics Translator</title>
     <style>
+        :root {
+            --bg: #ffffff;
+            --surface: #f8f9fa;
+            --line: #dadce0;
+            --text: #202124;
+            --muted: #5f6368;
+            --primary: #1a73e8;
+            --primary-hover: #1765ca;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -12,94 +22,153 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background-color: #f5f5f5;
-            color: #202124;
+            font-family: "Segoe UI", "Noto Sans", sans-serif;
+            background: var(--bg);
+            color: var(--text);
         }
 
-        /* Header */
-        .header {
-            background-color: white;
-            border-bottom: 1px solid #dadce0;
-            padding: 16px 0;
+        .page {
+            max-width: 1280px;
+            margin: 24px auto;
+            padding: 0 12px;
         }
 
-        .header-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 16px;
+        .top-strip {
             display: flex;
             align-items: center;
-            gap: 16px;
+            justify-content: space-between;
+            padding: 8px 4px 14px;
+            border-bottom: 1px solid var(--line);
+            margin-bottom: 10px;
         }
 
-        .logo {
-            font-size: 24px;
-            font-weight: 500;
-            color: #1f2937;
+        .brand {
+            font-size: 20px;
+            color: var(--primary);
+            font-weight: 600;
         }
 
-        .tagline {
+        .sub {
+            font-size: 12px;
+            color: var(--muted);
+            text-align: right;
+        }
+
+        .status {
+            display: none;
             font-size: 13px;
-            color: #5f6368;
-        }
-
-        /* Main Container */
-        .main {
-            max-width: 1200px;
-            margin: 32px auto;
-            padding: 0 16px;
-        }
-
-        .translator-container {
-            background-color: white;
+            margin-bottom: 10px;
             border-radius: 8px;
-            box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+            padding: 10px 12px;
+            border: 1px solid transparent;
+        }
+
+        .status.success {
+            display: block;
+            background: #e6f4ea;
+            border-color: #b7dfbf;
+            color: #137333;
+        }
+
+        .status.error {
+            display: block;
+            background: #fce8e6;
+            border-color: #f2b8b5;
+            color: #b3261e;
+        }
+
+        .status.loading {
+            display: block;
+            background: #e8f0fe;
+            border-color: #c5d5fc;
+            color: #174ea6;
+        }
+
+        .language-bar {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            border: 1px solid var(--line);
+            border-radius: 12px 12px 0 0;
+            background: #fff;
             overflow: hidden;
         }
 
-        .translator-content {
+        .lang-side {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px;
+            min-height: 62px;
+        }
+
+        .lang-side.right {
+            justify-content: flex-start;
+        }
+
+        .chip {
+            border: none;
+            background: transparent;
+            color: var(--muted);
+            padding: 8px 10px;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: default;
+        }
+
+        .chip.active {
+            color: var(--primary);
+            background: #e8f0fe;
+            font-weight: 600;
+        }
+
+        .swap {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 1px solid var(--line);
+            background: #fff;
+            color: var(--muted);
+            display: grid;
+            place-items: center;
+            font-size: 16px;
+        }
+
+        .panel-wrap {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            min-height: 400px;
+            border: 1px solid var(--line);
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            overflow: hidden;
+            min-height: 360px;
         }
 
-        .section {
+        .panel {
+            position: relative;
+            border-right: 1px solid var(--line);
+            background: #fff;
             display: flex;
             flex-direction: column;
-            border-right: 1px solid #dadce0;
-            position: relative;
         }
 
-        .section:last-child {
+        .panel:last-child {
             border-right: none;
-        }
-
-        .section-header {
-            padding: 12px 16px;
-            border-bottom: 1px solid #dadce0;
-            font-size: 13px;
-            color: #5f6368;
-            font-weight: 500;
-        }
-
-        .section-content {
-            flex: 1;
-            position: relative;
-            display: flex;
-            flex-direction: column;
+            background: var(--surface);
         }
 
         textarea {
-            flex: 1;
             border: none;
-            padding: 16px;
-            font-size: 16px;
-            font-family: inherit;
-            resize: none;
             outline: none;
-            background-color: white;
-            color: #202124;
+            resize: none;
+            width: 100%;
+            flex: 1;
+            font-size: 26px;
+            line-height: 1.35;
+            background: transparent;
+            color: var(--text);
+            padding: 18px 18px 12px;
+            font-family: inherit;
         }
 
         textarea::placeholder {
@@ -107,127 +176,66 @@
         }
 
         #outputText {
-            background-color: #f8f9fa;
+            color: #3c4043;
         }
 
-        .char-count {
-            font-size: 12px;
-            color: #9aa0a6;
-            padding: 8px 16px 12px 16px;
-            text-align: right;
-        }
-
-        .button-group {
+        .meta {
             display: flex;
-            gap: 12px;
-            padding: 16px;
-            background-color: white;
-            border-top: 1px solid #dadce0;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 16px 14px;
+            border-top: 1px solid rgba(218, 220, 224, 0.6);
+            font-size: 12px;
+            color: var(--muted);
+        }
+
+        .controls {
+            margin-top: 12px;
+            display: flex;
+            gap: 10px;
             justify-content: center;
             flex-wrap: wrap;
         }
 
-        button {
-            padding: 10px 24px;
-            border: none;
-            border-radius: 4px;
+        .btn {
+            border: 1px solid var(--line);
+            background: #fff;
+            color: var(--text);
+            padding: 9px 16px;
             font-size: 14px;
-            font-weight: 500;
+            border-radius: 8px;
             cursor: pointer;
-            transition: all 0.2s;
         }
 
-        .translate-btn {
-            background-color: #4285f4;
-            color: white;
+        .btn.primary {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: #fff;
             min-width: 120px;
         }
 
-        .translate-btn:hover:not(:disabled) {
-            background-color: #357ae8;
-            box-shadow: 0 2px 5px 0 rgba(66, 133, 244, 0.3);
+        .btn.primary:hover:not(:disabled) {
+            background: var(--primary-hover);
+            border-color: var(--primary-hover);
         }
 
-        .translate-btn:disabled {
-            background-color: #dadce0;
-            color: #9aa0a6;
+        .btn:hover:not(:disabled) {
+            background: #f1f3f4;
+        }
+
+        .btn:disabled {
+            opacity: 0.65;
             cursor: not-allowed;
-        }
-
-        .copy-btn {
-            background-color: white;
-            color: #4285f4;
-            border: 1px solid #dadce0;
-        }
-
-        .copy-btn:hover:not(:disabled) {
-            background-color: #f1f3f4;
-            border-color: #dadce0;
-        }
-
-        .clear-btn {
-            background-color: white;
-            color: #202124;
-            border: 1px solid #dadce0;
-        }
-
-        .clear-btn:hover {
-            background-color: #f1f3f4;
-            border-color: #dadce0;
-        }
-
-        button:disabled {
-            opacity: 0.6;
-        }
-
-        .status {
-            padding: 12px 16px;
-            border-radius: 4px;
-            text-align: center;
-            font-size: 13px;
-            display: none;
-            margin-bottom: 12px;
-            animation: fadeIn 0.3s ease-in;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        .status.success {
-            background-color: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
-            display: block;
-        }
-
-        .status.error {
-            background-color: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
-            display: block;
-        }
-
-        .status.loading {
-            background-color: #d1ecf1;
-            color: #0c5460;
-            border: 1px solid #bee5eb;
-            display: block;
         }
 
         .spinner {
             display: inline-block;
             width: 12px;
             height: 12px;
-            border: 2px solid rgba(12, 84, 96, 0.3);
-            border-top-color: #0c5460;
+            border: 2px solid rgba(23, 78, 166, 0.2);
+            border-top-color: #174ea6;
             border-radius: 50%;
-            animation: spin 0.6s linear infinite;
+            animation: spin 0.7s linear infinite;
             margin-right: 8px;
             vertical-align: middle;
         }
@@ -238,93 +246,78 @@
             }
         }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .translator-content {
+        @media (max-width: 900px) {
+            .panel-wrap {
                 grid-template-columns: 1fr;
-                min-height: auto;
             }
 
-            .section {
+            .panel {
                 border-right: none;
-                border-bottom: 1px solid #dadce0;
-                min-height: 250px;
+                border-bottom: 1px solid var(--line);
+                min-height: 220px;
             }
 
-            .section:last-child {
+            .panel:last-child {
                 border-bottom: none;
             }
 
-            .header-content {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .main {
-                margin: 16px auto;
-            }
-        }
-
-        @media (max-width: 600px) {
             textarea {
-                font-size: 14px;
-                min-height: 150px;
+                font-size: 20px;
             }
 
-            button {
-                padding: 8px 16px;
-                font-size: 13px;
+            .language-bar {
+                grid-template-columns: 1fr;
+                gap: 0;
             }
 
-            .translator-content {
-                min-height: auto;
+            .swap {
+                display: none;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Header -->
-    <div class="header">
-        <div class="header-content">
-            <div>
-                <div class="logo">Nepali Translator</div>
-                <div class="tagline">English to Nepali with Honorifics</div>
-            </div>
+    <div class="page">
+        <div class="top-strip">
+            <div class="brand">Honorific Aware Translator</div>
+            <div class="sub">English to Nepali • Honorifics aware</div>
         </div>
-    </div>
 
-    <!-- Main Content -->
-    <div class="main">
         <div class="status" id="status"></div>
 
-        <div class="translator-container">
-            <div class="translator-content">
-                <!-- Input Section -->
-                <div class="section">
-                    <div class="section-header">English</div>
-                    <div class="section-content">
-                        <textarea id="inputText" placeholder="Enter text to translate..."></textarea>
-                        <div class="char-count">
-                            <span id="charCount">0</span>/500
-                        </div>
-                    </div>
-                </div>
+        <div class="language-bar">
+            <div class="lang-side">
+                <button class="chip">Source language</button>
+                <button class="chip active">English</button>
+            </div>
+            <div class="swap" aria-hidden="true">⇄</div>
+            <div class="lang-side right">
+                <button class="chip active">Nepali</button>
+            </div>
+        </div>
 
-                <!-- Output Section -->
-                <div class="section">
-                    <div class="section-header">Nepali</div>
-                    <div class="section-content">
-                        <textarea id="outputText" disabled placeholder="Translation will appear here..."></textarea>
-                    </div>
+        <div class="panel-wrap">
+            <div class="panel">
+                <textarea id="inputText" placeholder="Enter text"></textarea>
+                <div class="meta">
+                    <span>Press Ctrl+Enter to translate</span>
+                    <span><span id="charCount">0</span></span>
                 </div>
             </div>
 
-            <!-- Button Group -->
-            <div class="button-group">
-                <button class="translate-btn" id="translateBtn">Translate</button>
-                <button class="copy-btn" id="copyBtn">Copy</button>
-                <button class="clear-btn" id="clearBtn">Clear</button>
+            <div class="panel">
+                <textarea id="outputText" disabled placeholder="Translation"></textarea>
+                <div class="meta">
+                    <span>Output</span>
+                    <span id="outCount">0</span>
+                </div>
             </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn primary" id="translateBtn">Translate</button>
+            <button class="btn" id="copyBtn">Copy</button>
+            <button class="btn" id="clearBtn">Clear</button>
         </div>
     </div>
 
@@ -337,17 +330,12 @@
         const copyBtn = document.getElementById('copyBtn');
         const statusDiv = document.getElementById('status');
         const charCount = document.getElementById('charCount');
+        const outCount = document.getElementById('outCount');
 
-        // Update character count
         inputText.addEventListener('input', (e) => {
             charCount.textContent = e.target.value.length;
-            if (e.target.value.length > 500) {
-                inputText.value = inputText.value.substring(0, 500);
-                charCount.textContent = 500;
-            }
         });
 
-        // Translate function
         translateBtn.addEventListener('click', async () => {
             const text = inputText.value.trim();
 
@@ -359,6 +347,7 @@
             translateBtn.disabled = true;
             showStatus('<span class="spinner"></span>Translating...', 'loading');
             outputText.value = '';
+            outCount.textContent = '0';
 
             try {
                 const response = await fetch('/api/translate', {
@@ -373,6 +362,7 @@
 
                 if (data.success) {
                     outputText.value = data.translation;
+                    outCount.textContent = data.translation.length;
                     showStatus('✅ Translation successful!', 'success');
                 } else {
                     showStatus(`❌ ${data.error}`, 'error');
@@ -385,17 +375,16 @@
             }
         });
 
-        // Clear function
         clearBtn.addEventListener('click', () => {
             inputText.value = '';
             outputText.value = '';
             charCount.textContent = 0;
+            outCount.textContent = 0;
             statusDiv.textContent = '';
             statusDiv.className = 'status';
             inputText.focus();
         });
 
-        // Copy function
         copyBtn.addEventListener('click', async () => {
             const text = outputText.value;
 
@@ -418,7 +407,6 @@
             }
         });
 
-        // Helper function to show status messages
         function showStatus(message, type) {
             statusDiv.innerHTML = message;
             statusDiv.className = `status ${type}`;
@@ -430,14 +418,12 @@
             }
         }
 
-        // Allow Enter key for translation (Ctrl+Enter)
         inputText.addEventListener('keydown', (e) => {
             if (e.key === 'Enter' && e.ctrlKey) {
                 translateBtn.click();
             }
         });
 
-        // Check model status on load
         window.addEventListener('load', async () => {
             try {
                 const response = await fetch('/api/health');
@@ -451,7 +437,6 @@
             }
         });
 
-        // Focus on input on load
         inputText.focus();
     </script>
 </body>

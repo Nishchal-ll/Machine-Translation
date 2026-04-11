@@ -143,6 +143,85 @@ def parse_honorifics_file(file_path: Path):
     return pairs, skipped, reasons
 
 
+def parse_honorifics_file_with_register(file_path: Path, register_hint: str):
+    """Parse a single-register file where each line is either EN\tNE or EN NE."""
+    pairs = []
+    skipped = 0
+    reasons = defaultdict(int)
+
+    register = register_hint.strip().upper()
+    if register not in ["FORMAL", "SEMI-FORMAL", "INFORMAL"]:
+        raise ValueError(f"Unsupported register hint: {register_hint}")
+
+    with open(file_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+
+            english = ""
+            nepali = ""
+
+            if "\t" in line:
+                parts = line.split("\t")
+                if len(parts) >= 2:
+                    english = parts[0].strip()
+                    nepali = parts[1].strip()
+                else:
+                    skipped += 1
+                    reasons["wrong_format"] += 1
+                    continue
+            else:
+                # Fallback: detect first Devanagari char and split there.
+                match = re.search(r"[\u0900-\u097F]", line)
+                if not match:
+                    skipped += 1
+                    reasons["no_devanagari"] += 1
+                    continue
+
+                split_pos = match.start()
+                english = line[:split_pos].strip()
+                nepali = line[split_pos:].strip()
+
+            if not english or not nepali:
+                skipped += 1
+                reasons["empty_field"] += 1
+                continue
+
+            if not re.search(r"[\u0900-\u097F]", nepali):
+                skipped += 1
+                reasons["no_devanagari"] += 1
+                continue
+
+            pairs.append({
+                "english": english,
+                "nepali": nepali,
+                "register": register,
+            })
+
+    return pairs, skipped, reasons
+
+
+def load_honorifics_from_register_files(dataset_files: dict):
+    """Load and merge multiple register-specific files into one training list."""
+    merged = []
+    total_skipped = 0
+    all_reasons = defaultdict(int)
+
+    for register, file_path in dataset_files.items():
+        file_path = Path(file_path)
+        if not file_path.exists():
+            raise FileNotFoundError(f"Dataset not found for {register}: {file_path}")
+
+        data, skipped, reasons = parse_honorifics_file_with_register(file_path, register)
+        merged.extend(data)
+        total_skipped += skipped
+        for key, value in reasons.items():
+            all_reasons[key] += value
+
+    return merged, total_skipped, dict(all_reasons)
+
+
 def stratified_split(data, train_ratio=0.70, val_ratio=0.15, test_ratio=0.15, seed=42):
     random.seed(seed)
     groups = defaultdict(list)

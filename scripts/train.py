@@ -5,7 +5,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent))
 
 from src.config import *
-from src.data_utils import parse_honorifics_file, stratified_split
+from src.data_utils import load_honorifics_from_register_files, stratified_split
 from src.dataset import HonorificsDataset
 from src.trainer import Trainer
 from src.utils import set_seed, print_training_summary
@@ -17,12 +17,14 @@ def main():
 
     print("🇳🇵 Starting NLLB-200 Honorifics Fine-Tuning (English → Nepali)\n")
 
-    data_file = DATA_DIR / "honoorifics.txt"
-    if not data_file.exists():
-        print(f"❌ Dataset not found: {data_file}")
+    missing_files = [path for path in DATASET_FILES.values() if not path.exists()]
+    if missing_files:
+        print("❌ Missing dataset files:")
+        for path in missing_files:
+            print(f"   - {path}")
         return
 
-    all_data, skipped, reasons = parse_honorifics_file(data_file)
+    all_data, skipped, reasons = load_honorifics_from_register_files(DATASET_FILES)
     print(f"✅ Loaded {len(all_data):,} valid sentence pairs (skipped {skipped})")
 
     if len(all_data) == 0:
@@ -69,12 +71,22 @@ def main():
     # Start Trainer
     trainer = Trainer(model, train_loader, val_loader, tokenizer, config=config_obj)
 
-    print(f"\n🚀 Starting training for {EPOCHS} epochs on {DEVICE}...\n")
+    resumed_epoch = 0
+    if RESUME_FROM_SESSION:
+        resumed_epoch = trainer.load_session_checkpoint()
+
+    print(f"\n🚀 Starting session training for {EPOCHS} epochs on {DEVICE}...\n")
+    if resumed_epoch > 0:
+        print(f"🔁 Continuing from previous session at epoch {resumed_epoch}\n")
+
+    last_completed_epoch = resumed_epoch
 
     for epoch in range(1, EPOCHS + 1):
-        print(f"--- Epoch {epoch}/{EPOCHS} ---")
+        global_epoch = resumed_epoch + epoch
+        print(f"--- Session Epoch {epoch}/{EPOCHS} (Global {global_epoch}) ---")
         train_loss = trainer.train_epoch()
         val_loss, perplexity = trainer.validate()
+        last_completed_epoch = global_epoch
 
         print(f"Train Loss : {train_loss:.4f}")
         print(f"Val Loss   : {val_loss:.4f}")
@@ -90,7 +102,14 @@ def main():
         
         if should_stop:
             print(f"\n⛔ Early stopping triggered after {epoch} epochs")
+            trainer.save_session_checkpoint(epoch_completed=global_epoch)
             break
+
+        if epoch % SESSION_SAVE_EVERY_EPOCHS == 0:
+            trainer.save_session_checkpoint(epoch_completed=global_epoch)
+
+    # Always save at end of run so next session can continue.
+    trainer.save_session_checkpoint(epoch_completed=last_completed_epoch)
 
     print("\n🎉 Training finished successfully!")
     print(f"Best model saved at: {trainer.best_model_path}")

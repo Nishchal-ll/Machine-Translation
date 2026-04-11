@@ -80,6 +80,7 @@ class Trainer:
         self.gradient_accumulation_steps = getattr(config, 'GRADIENT_ACCUMULATION_STEPS', 1)
         self.patience = getattr(config, 'EARLY_STOPPING_PATIENCE', 3)
         self.patience_counter = 0
+        self.session_checkpoint_path = config.MODEL_DIR / "session_checkpoint.pt"
 
     def train_epoch(self):
         self.model.train()
@@ -151,3 +152,39 @@ class Trainer:
         self.model.save_pretrained(self.best_model_path)
         self.tokenizer.save_pretrained(self.best_model_path)
         print(f"💾 Best model saved → {self.best_model_path}")
+
+    def save_session_checkpoint(self, epoch_completed: int):
+        """Save checkpoint that can resume training in next run."""
+        self.session_checkpoint_path.parent.mkdir(parents=True, exist_ok=True)
+        checkpoint = {
+            "epoch_completed": epoch_completed,
+            "best_val_loss": self.best_val_loss,
+            "patience_counter": self.patience_counter,
+            "model_state_dict": self.model.state_dict(),
+            "optimizer_state_dict": self.optimizer.state_dict(),
+            "scheduler_state_dict": self.scheduler.state_dict(),
+        }
+        if self.scaler is not None:
+            checkpoint["scaler_state_dict"] = self.scaler.state_dict()
+
+        torch.save(checkpoint, self.session_checkpoint_path)
+        print(f"💾 Session checkpoint saved → {self.session_checkpoint_path}")
+
+    def load_session_checkpoint(self):
+        """Load previous training checkpoint. Returns completed epoch count."""
+        if not self.session_checkpoint_path.exists():
+            return 0
+
+        checkpoint = torch.load(self.session_checkpoint_path, map_location=self.config.DEVICE)
+        self.model.load_state_dict(checkpoint["model_state_dict"], strict=False)
+        self.optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
+        self.scheduler.load_state_dict(checkpoint["scheduler_state_dict"])
+        self.best_val_loss = checkpoint.get("best_val_loss", self.best_val_loss)
+        self.patience_counter = checkpoint.get("patience_counter", 0)
+
+        if self.scaler is not None and "scaler_state_dict" in checkpoint:
+            self.scaler.load_state_dict(checkpoint["scaler_state_dict"])
+
+        epoch_completed = int(checkpoint.get("epoch_completed", 0))
+        print(f"♻️  Resumed from checkpoint at epoch {epoch_completed}")
+        return epoch_completed

@@ -8,6 +8,13 @@ OUTPUT_DIR = ROOT_DIR / "outputs"
 MODEL_DIR = OUTPUT_DIR / "models"
 LOG_DIR = OUTPUT_DIR / "logs"
 
+# Training datasets by register
+DATASET_FILES = {
+    "FORMAL": DATA_DIR / "formal.txt",
+    "SEMI-FORMAL": DATA_DIR / "semi-formal.txt",
+    "INFORMAL": DATA_DIR / "informal.txt",
+}
+
 # Create directories
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
@@ -20,6 +27,8 @@ TGT_LANG = "npi_Deva"
 
 # ====================== TRAINING CONFIG ======================
 EPOCHS = 20                        # Increased from 15 for better convergence
+SESSION_SAVE_EVERY_EPOCHS = 1      # Save resumable checkpoint every N epochs
+RESUME_FROM_SESSION = True         # Continue from previous session checkpoint if available
 BATCH_SIZE = 2                     # Reduced for 4GB GPU
 LEARNING_RATE = 5e-6               # Lower LR for finer domain-specific tuning
 WEIGHT_DECAY = 0.02                # Increased for stronger regularization
