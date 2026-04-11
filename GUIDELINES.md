@@ -19,7 +19,7 @@ Comprehensive guidelines for fine-tuning, evaluating, and deploying the NLLB-200
 
 ### Format Requirements
 
-**File:** `data/raw/honoorifics.txt`
+**Files:** `data/raw/formal.txt`, `data/raw/semi-formal.txt`, `data/raw/informal.txt`
 
 Each line must have exactly 3 tab-separated fields:
 ```
@@ -192,14 +192,11 @@ CASUAL: "बस न"
 
 #### 1. Verify Dataset
 ```bash
-# Check dataset statistics
 python -c "
-from src.data_utils import parse_honorifics_file
-from pathlib import Path
+from src.data_utils import load_honorifics_from_register_files
+from src.config import DATASET_FILES
 
-data_file = Path('data/raw/honoorifics.txt')
-all_data, skipped, reasons = parse_honorifics_file(data_file)
-
+all_data, skipped, reasons = load_honorifics_from_register_files(DATASET_FILES)
 print(f'Total pairs: {len(all_data)}')
 print(f'Skipped: {skipped}')
 print(f'Registers: {set(item[\"register\"] for item in all_data)}')

@@ -24,6 +24,11 @@ def main():
             print(f"   - {path}")
         return
 
+    print("📁 Loading datasets from:")
+    for register, path in DATASET_FILES.items():
+        print(f"   {register}: {path}")
+    print("")
+
     all_data, skipped, reasons = load_honorifics_from_register_files(DATASET_FILES)
     print(f"✅ Loaded {len(all_data):,} valid sentence pairs (skipped {skipped})")
 

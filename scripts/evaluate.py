@@ -3,7 +3,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent))
 
 from src.config import *
-from src.data_utils import parse_honorifics_file, stratified_split
+from src.data_utils import load_honorifics_from_register_files, stratified_split
 from src.evaluator import Evaluator
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
@@ -13,10 +13,7 @@ def main():
         print("❌ No trained model found. Train first using scripts/train.py")
         return
 
-    data_file = DATA_DIR / "honoorifics.txt"
-    _, _, _ = parse_honorifics_file(data_file)  # just to get all_data
-    # Re-split to get test set (same seed)
-    all_data, _, _ = parse_honorifics_file(data_file)
+    all_data, _, _ = load_honorifics_from_register_files(DATASET_FILES)
     _, _, test_data = stratified_split(all_data, seed=SEED)
 
     tokenizer = AutoTokenizer.from_pretrained(model_path)

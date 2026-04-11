@@ -81,15 +81,11 @@ python scripts/demo.py
 
 ## 📝 Update train.py to Use Augmented Data
 
-In `scripts/train.py`, change:
-```python
-data_file = DATA_DIR / "honoorifics.txt"
-```
+If you want to switch to augmented data instead of the raw register-specific files, update `DATASET_FILES` in `src/config.py` to point to the augmented dataset file(s), or adjust `scripts/train.py` accordingly. The default training pipeline now loads:
 
-To:
-```python
-data_file = DATA_DIR / "honoorifics_augmented.txt"  # Use augmented data
-```
+- `data/raw/formal.txt`
+- `data/raw/semi-formal.txt`
+- `data/raw/informal.txt`
 
 ## ⚠️ Important Notes
 

@@ -59,7 +59,9 @@ Nepali:  सर, कृपया बस्नुहोस् ।
 nllb-honorifics-nepali/
 ├── data/
 │   └── raw/
-│       └── honoorifics.txt          # Training dataset (tab-separated)
+│       ├── formal.txt                # Formal register training data
+│       ├── semi-formal.txt           # Semi-formal register training data
+│       └── informal.txt              # Informal register training data
 ├── src/
 │   ├── __init__.py
 │   ├── config.py                    # Configuration parameters
@@ -151,19 +153,20 @@ for en_text in texts:
 ## 🎓 Training
 
 ### Dataset Format
-File: `data/raw/honoorifics.txt`
+Files:
+- `data/raw/formal.txt`
+- `data/raw/semi-formal.txt`
+- `data/raw/informal.txt`
+
+Each register-specific file should contain one English/Nepali pair per line, for example:
 
 ```
-English text	नेपाली पाठ	REGISTER
-Please sit down, sir	सर, कृपया बस्नुहोस्	FORMAL
-How are you	तपाईं कस्तो हुनुहुन्छ ?	FORMAL
-I am fine	म ठीक छु ।	INFORMAL
+Please sit down, sir	सर, कृपया बस्नुहोस्
+How are you	तपाईं कस्तो हुनुहुन्छ ?
+I am fine	म ठीक छु ।
 ```
 
-**Supported Registers:**
-- `FORMAL` - Respectful, formal tone (using -नुहोस्, तपाई, साहब, etc.)
-- `SEMI-FORMAL` - Mixed formality
-- `INFORMAL` - Casual, direct (using -छु, तिमी, etc.)
+The training pipeline will load the register type from each file name, so the three files must correspond to `FORMAL`, `SEMI-FORMAL`, and `INFORMAL`.
 
 ### Training Command
 ```bash
@@ -187,7 +190,7 @@ LORA_ALPHA = 32
 ✅ Random seed set to 42
 🇳🇵 Starting NLLB-200 Honorifics Fine-Tuning (English → Nepali)
 
-✅ Loaded 11,582 valid sentence pairs (skipped 1)
+✅ Loaded valid sentence pairs from the new register-specific files (formal, semi-formal, informal).
 📊 Split → Train: 8,110 | Val: 1,736 | Test: 1,736
 
 🚀 Starting training for 20 epochs on cuda...
@@ -322,7 +325,7 @@ Output: "उनले ... वाङ्ग ... छ ।" (nonsensical)
 
 **Solutions:**
 1. Check if model is fully trained (minimum 10 epochs)
-2. Verify dataset format in `data/raw/honoorifics.txt`
+2. Verify dataset format in the register-specific raw files (`data/raw/formal.txt`, `data/raw/semi-formal.txt`, `data/raw/informal.txt`)
 3. Check if best model is saved: `outputs/models/best_honorifics_model/`
 
 ### Issue: ModuleNotFoundError
