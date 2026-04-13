@@ -129,15 +129,23 @@ def main():
     if RESUME_FROM_SESSION:
         resumed_epoch = trainer.load_session_checkpoint()
 
-    print(f"\n🚀 Starting session training for {EPOCHS} epochs on {DEVICE}...\n")
+    remaining_epochs = max(EPOCHS - resumed_epoch, 0)
+    print(f"\n🚀 Starting training on {DEVICE}...")
+    print(f"🎯 Target total epochs: {EPOCHS}")
     if resumed_epoch > 0:
-        print(f"🔁 Continuing from previous session at epoch {resumed_epoch}\n")
+        print(f"🔁 Continuing from previous session at completed global epoch {resumed_epoch}")
+
+    if remaining_epochs == 0:
+        print(f"✅ Training already reached target: completed {resumed_epoch}/{EPOCHS} epochs")
+        return
+
+    print(f"⏳ Remaining epochs to run now: {remaining_epochs}\n")
 
     last_completed_epoch = resumed_epoch
 
-    for epoch in range(1, EPOCHS + 1):
-        global_epoch = resumed_epoch + epoch
-        print(f"--- Session Epoch {epoch}/{EPOCHS} (Global {global_epoch}) ---")
+    for session_epoch in range(1, remaining_epochs + 1):
+        global_epoch = resumed_epoch + session_epoch
+        print(f"--- Epoch {global_epoch}/{EPOCHS} (Session {session_epoch}/{remaining_epochs}) ---")
         train_loss = trainer.train_epoch()
         val_loss, perplexity = trainer.validate()
         last_completed_epoch = global_epoch
@@ -155,11 +163,11 @@ def main():
             print(f"⚠️  Patience: {trainer.patience_counter}/{trainer.patience}")
         
         if should_stop:
-            print(f"\n⛔ Early stopping triggered after {epoch} epochs")
+            print(f"\n⛔ Early stopping triggered at global epoch {global_epoch}")
             trainer.save_session_checkpoint(epoch_completed=global_epoch)
             break
 
-        if epoch % SESSION_SAVE_EVERY_EPOCHS == 0:
+        if session_epoch % SESSION_SAVE_EVERY_EPOCHS == 0:
             trainer.save_session_checkpoint(epoch_completed=global_epoch)
 
     # Always save at end of run so next session can continue.
