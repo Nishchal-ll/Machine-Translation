@@ -8,7 +8,20 @@ class NepaliTranslator:
         from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
-        self.model = AutoModelForSeq2SeqLM.from_pretrained(model_path).to(self.device)
+        # Load model with trust_remote_code and explicit SafeTensors support
+        try:
+            self.model = AutoModelForSeq2SeqLM.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                use_safetensors=True
+            )
+        except Exception as e:
+            print(f"Trying fallback load: {e}")
+            self.model = AutoModelForSeq2SeqLM.from_pretrained(
+                model_path,
+                trust_remote_code=True
+            )
+        self.model = self.model.to(self.device)
         self.model.eval()
 
     def is_devanagari(self, text: str) -> bool:
@@ -105,8 +118,10 @@ class NepaliTranslator:
             **inputs,
             max_length=max_length,
             min_length=2,
-            num_beams=4,
-            length_penalty=1.2,
+            # num_beams=4,
+            num_beams=6,
+            # length_penalty=1.2,
+             length_penalty=0.9,
             no_repeat_ngram_size=4,
             early_stopping=True,
             do_sample=False,

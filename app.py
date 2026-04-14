@@ -4,9 +4,13 @@ Flask API for Nepali Honorifics Translator
 from flask import Flask, render_template, request, jsonify
 from pathlib import Path
 import sys
+import os
 
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent))
+
+# Force CPU-only inference for local runs on low-VRAM systems.
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
 from src.translator import NepaliTranslator
 from src.config import MODEL_DIR
@@ -20,7 +24,7 @@ if not model_path.exists():
     translator = None
 else:
     try:
-        translator = NepaliTranslator(model_path)
+        translator = NepaliTranslator(model_path, device="cpu")
         print("✅ Model loaded successfully")
     except Exception as e:
         print(f"❌ Error loading model: {e}")
@@ -103,4 +107,4 @@ if __name__ == '__main__':
     # Run on localhost:5000
     print("🚀 Starting Flask API server...")
     print("📖 Visit http://localhost:5000 to access the translator")
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=False, use_reloader=False, host='127.0.0.1', port=5000)
