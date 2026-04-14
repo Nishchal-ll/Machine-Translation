@@ -16,7 +16,7 @@ def main():
     all_data, _, _ = load_honorifics_from_register_files(DATASET_FILES)
     _, _, test_data = stratified_split(all_data, seed=SEED)
 
-    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    tokenizer = AutoTokenizer.from_pretrained(model_path) 
     model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
 
     evaluator = Evaluator(model, tokenizer, DEVICE)

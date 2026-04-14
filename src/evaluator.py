@@ -1,5 +1,6 @@
 import torch
 from sacrebleu import corpus_bleu
+from sacrebleu.metrics import CHRF, TER
 from tqdm import tqdm
 import re
 
@@ -80,7 +81,7 @@ class Evaluator:
         for item in tqdm(test_data):
             pred = self.generate_translation(item["english"])
             predictions.append(pred)
-            references.append([item["nepali"]])   # sacrebleu expects list of lists
+            references.append(item["nepali"])
             
             # Normalize for comparison
             pred_norm = self.normalize_text(pred)
@@ -94,7 +95,10 @@ class Evaluator:
             elif self.is_similar(pred_norm, ref_norm):
                 partial_matches += 1
 
-        bleu = corpus_bleu(predictions, references)
+        # SacreBLEU expects a list of reference streams: [[ref1, ref2, ...]]
+        bleu = corpus_bleu(predictions, [references])
+        chrf = CHRF(word_order=2).corpus_score(predictions, [references])
+        ter = TER().corpus_score(predictions, [references])
         exact_accuracy = (exact_matches / len(test_data)) * 100
         partial_accuracy = (partial_matches / len(test_data)) * 100
         
@@ -102,8 +106,16 @@ class Evaluator:
         print(f"📊 EVALUATION RESULTS")
         print(f"{'='*60}")
         print(f"🔵 SacreBLEU Score        : {bleu.score:.2f}")
+        print(f"🟣 chrF++ Score           : {chrf.score:.2f}")
+        print(f"🟠 TER Score              : {ter.score:.2f}")
         print(f"🟢 Exact Match Accuracy   : {exact_accuracy:.2f}% ({exact_matches}/{len(test_data)})")
         print(f"🟡 Partial Match Accuracy : {partial_accuracy:.2f}% ({partial_matches}/{len(test_data)})")
         print(f"{'='*60}")
         
-        return {"bleu": bleu.score, "exact": exact_accuracy, "partial": partial_accuracy}
+        return {
+            "bleu": bleu.score,
+            "chrf": chrf.score,
+            "ter": ter.score,
+            "exact": exact_accuracy,
+            "partial": partial_accuracy,
+        }
