@@ -61,16 +61,13 @@ class Trainer:
                 weight_decay=weight_decay
             )
 
-        # Use cyclic learning rate for small datasets (better convergence)
-        # Cycles between LR and 0.1*LR every epoch
-        from torch.optim.lr_scheduler import CyclicLR
-        
-        self.scheduler = CyclicLR(
+        # Use linear warmup + decay scheduler for stable fine-tuning
+        total_steps = max(1, len(train_loader) * config.EPOCHS // config.GRADIENT_ACCUMULATION_STEPS)
+        warmup_steps = max(1, int(total_steps * config.WARMUP_RATIO))
+        self.scheduler = get_linear_schedule_with_warmup(
             self.optimizer,
-            base_lr=config.LEARNING_RATE,
-            max_lr=config.LEARNING_RATE * 2,  # Go up to 2x the base LR
-            step_size_up=len(train_loader) // 2,
-            cycle_momentum=False
+            num_warmup_steps=warmup_steps,
+            num_training_steps=total_steps,
         )
 
         self.best_val_loss = float("inf")
@@ -120,6 +117,19 @@ class Trainer:
                 self.optimizer.zero_grad()
 
             total_loss += loss.item() * self.gradient_accumulation_steps
+
+        # Final optimizer step for any remaining gradients
+        if accumulation_counter % self.gradient_accumulation_steps != 0:
+            if self.scaler:
+                self.scaler.unscale_(self.optimizer)
+            torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.config.GRADIENT_CLIP)
+            if self.scaler:
+                self.scaler.step(self.optimizer)
+                self.scaler.update()
+            else:
+                self.optimizer.step()
+            self.scheduler.step()
+            self.optimizer.zero_grad()
 
         return total_loss / len(self.train_loader)
 

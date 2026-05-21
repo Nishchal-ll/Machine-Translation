@@ -5,15 +5,14 @@ class HonorificsDataset(Dataset):
         self.data = data
         self.tokenizer = tokenizer
         self.max_length = max_length
+        self.tokenizer.src_lang = "eng_Latn"
+        self.tokenizer.tgt_lang = "npi_Deva"
 
     def __len__(self):
         return len(self.data)
 
     def __getitem__(self, idx):
         item = self.data[idx]
-
-        self.tokenizer.src_lang = "eng_Latn"
-        self.tokenizer.tgt_lang = "npi_Deva"
 
         source = self.tokenizer(
             item["english"],

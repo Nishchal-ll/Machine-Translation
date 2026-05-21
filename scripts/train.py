@@ -4,7 +4,9 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent))
 
+from argparse import ArgumentParser
 from src.config import (
+    COLAB_MODE,
     DATASET_FILES,
     DEVICE,
     EPOCHS,
@@ -12,6 +14,7 @@ from src.config import (
     LEARNING_RATE,
     WEIGHT_DECAY,
     MAX_LENGTH,
+    NUM_WORKERS,
     WARMUP_RATIO,
     GRADIENT_CLIP,
     GRADIENT_ACCUMULATION_STEPS,
@@ -37,7 +40,21 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from torch.utils.data import DataLoader
 
 
+def parse_args():
+    parser = ArgumentParser(description="Train the Nepali honorifics translation model")
+    parser.add_argument("--batch-size", type=int, help="Override the batch size")
+    parser.add_argument("--epochs", type=int, help="Override number of epochs")
+    parser.add_argument("--max-length", type=int, help="Override maximum token length")
+    parser.add_argument("--learning-rate", type=float, help="Override learning rate")
+    parser.add_argument("--model-name", type=str, help="Override HuggingFace model name/path")
+    parser.add_argument("--no-lora", action="store_true", help="Disable LoRA fine-tuning")
+    parser.add_argument("--num-workers", type=int, help="Override DataLoader num_workers")
+    parser.add_argument("--colab", action="store_true", help="Enable Colab-friendly defaults")
+    return parser.parse_args()
+
+
 def main():
+    args = parse_args()
     set_seed(SEED)
 
     print("🇳🇵 Starting NLLB-200 Honorifics Fine-Tuning (English → Nepali)\n")
@@ -68,59 +85,67 @@ def main():
     train_data, val_data, test_data = stratified_split(all_data, seed=SEED)
     print(f"📊 Split → Train: {len(train_data):,} | Val: {len(val_data):,} | Test: {len(test_data):,}")
 
+    effective_batch_size = args.batch_size if args.batch_size is not None else BATCH_SIZE
+    effective_epochs = args.epochs if args.epochs is not None else EPOCHS
+    effective_max_length = args.max_length if args.max_length is not None else MAX_LENGTH
+    effective_learning_rate = args.learning_rate if args.learning_rate is not None else LEARNING_RATE
+    effective_model_name = args.model_name if args.model_name is not None else MODEL_NAME
+    effective_use_lora = False if args.no_lora else USE_LORA
+    effective_num_workers = NUM_WORKERS
+
+    if args.colab or COLAB_MODE:
+        effective_num_workers = 0
+
+    if args.num_workers is not None:
+        effective_num_workers = args.num_workers
+
     config_obj = type('Config', (), {
-        'MODEL_NAME': MODEL_NAME,
+        'MODEL_NAME': effective_model_name,
         'SRC_LANG': SRC_LANG,
         'TGT_LANG': TGT_LANG,
         'DEVICE': DEVICE,
-        'EPOCHS': EPOCHS,
-        'BATCH_SIZE': BATCH_SIZE,
-        'LEARNING_RATE': LEARNING_RATE,
+        'EPOCHS': effective_epochs,
+        'BATCH_SIZE': effective_batch_size,
+        'LEARNING_RATE': effective_learning_rate,
         'WEIGHT_DECAY': WEIGHT_DECAY,
-        'MAX_LENGTH': MAX_LENGTH,
+        'MAX_LENGTH': effective_max_length,
+        'NUM_WORKERS': effective_num_workers,
         'WARMUP_RATIO': WARMUP_RATIO,
         'GRADIENT_CLIP': GRADIENT_CLIP,
         'GRADIENT_ACCUMULATION_STEPS': GRADIENT_ACCUMULATION_STEPS,
         'GRADIENT_CHECKPOINTING': GRADIENT_CHECKPOINTING,
         'EARLY_STOPPING_PATIENCE': EARLY_STOPPING_PATIENCE,
-        'USE_LORA': USE_LORA,
+        'USE_LORA': effective_use_lora,
         'LORA_R': LORA_R,
         'LORA_ALPHA': LORA_ALPHA,
         'LORA_DROPOUT': LORA_DROPOUT,
+        'MODEL_DIR': MODEL_DIR,
     })
 
     print_training_summary(config_obj)
 
     # Load model and tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, src_lang=SRC_LANG, tgt_lang=TGT_LANG)
-    model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
+    tokenizer = AutoTokenizer.from_pretrained(effective_model_name, src_lang=SRC_LANG, tgt_lang=TGT_LANG)
+    model = AutoModelForSeq2SeqLM.from_pretrained(effective_model_name)
 
     # Datasets and loaders
-    train_dataset = HonorificsDataset(train_data, tokenizer, MAX_LENGTH)
-    val_dataset   = HonorificsDataset(val_data,   tokenizer, MAX_LENGTH)
+    train_dataset = HonorificsDataset(train_data, tokenizer, effective_max_length)
+    val_dataset   = HonorificsDataset(val_data,   tokenizer, effective_max_length)
 
-    train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True,  num_workers=2, pin_memory=True)
-    val_loader   = DataLoader(val_dataset,   batch_size=BATCH_SIZE, shuffle=False, num_workers=2, pin_memory=True)
-
-    # Create config object properly
-    config_obj = type('Config', (), {
-        'DEVICE': DEVICE,
-        'MODEL_DIR': MODEL_DIR,
-        'EPOCHS': EPOCHS,
-        'BATCH_SIZE': BATCH_SIZE,
-        'LEARNING_RATE': LEARNING_RATE,
-        'WEIGHT_DECAY': WEIGHT_DECAY,
-        'MAX_LENGTH': MAX_LENGTH,
-        'WARMUP_RATIO': WARMUP_RATIO,
-        'GRADIENT_CLIP': GRADIENT_CLIP,
-        'GRADIENT_ACCUMULATION_STEPS': GRADIENT_ACCUMULATION_STEPS,
-        'GRADIENT_CHECKPOINTING': GRADIENT_CHECKPOINTING,
-        'EARLY_STOPPING_PATIENCE': EARLY_STOPPING_PATIENCE,
-        'USE_LORA': USE_LORA,
-        'LORA_R': LORA_R,
-        'LORA_ALPHA': LORA_ALPHA,
-        'LORA_DROPOUT': LORA_DROPOUT,
-    })
+    train_loader = DataLoader(
+        train_dataset,
+        batch_size=effective_batch_size,
+        shuffle=True,
+        num_workers=effective_num_workers,
+        pin_memory=DEVICE.type == 'cuda'
+    )
+    val_loader   = DataLoader(
+        val_dataset,
+        batch_size=effective_batch_size,
+        shuffle=False,
+        num_workers=effective_num_workers,
+        pin_memory=DEVICE.type == 'cuda'
+    )
 
     # Start Trainer
     trainer = Trainer(model, train_loader, val_loader, tokenizer, config=config_obj)
@@ -129,14 +154,14 @@ def main():
     if RESUME_FROM_SESSION:
         resumed_epoch = trainer.load_session_checkpoint()
 
-    remaining_epochs = max(EPOCHS - resumed_epoch, 0)
+    remaining_epochs = max(effective_epochs - resumed_epoch, 0)
     print(f"\n🚀 Starting training on {DEVICE}...")
-    print(f"🎯 Target total epochs: {EPOCHS}")
+    print(f"🎯 Target total epochs: {effective_epochs}")
     if resumed_epoch > 0:
         print(f"🔁 Continuing from previous session at completed global epoch {resumed_epoch}")
 
     if remaining_epochs == 0:
-        print(f"✅ Training already reached target: completed {resumed_epoch}/{EPOCHS} epochs")
+        print(f"✅ Training already reached target: completed {resumed_epoch}/{effective_epochs} epochs")
         return
 
     print(f"⏳ Remaining epochs to run now: {remaining_epochs}\n")

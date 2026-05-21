@@ -23,6 +23,8 @@ class NepaliTranslator:
             )
         self.model = self.model.to(self.device)
         self.model.eval()
+        self.tokenizer.src_lang = "eng_Latn"
+        self.tokenizer.tgt_lang = "npi_Deva"
 
     def is_devanagari(self, text: str) -> bool:
         """Check if text contains Devanagari script"""
@@ -118,18 +120,13 @@ class NepaliTranslator:
             **inputs,
             max_length=max_length,
             min_length=2,
-            # num_beams=4,
-            num_beams=6,
-            # length_penalty=1.2,
-             length_penalty=0.9,
-            no_repeat_ngram_size=4,
+            num_beams=4,
+            length_penalty=1.0,
+            no_repeat_ngram_size=2,
             early_stopping=True,
             do_sample=False,
-            repetition_penalty=2.0,
+            repetition_penalty=1.5,
             diversity_penalty=0.0,
-            num_beam_groups=1,
-            temperature=1.0,
-            top_p=1.0,
             eos_token_id=self.tokenizer.eos_token_id,
             pad_token_id=self.tokenizer.pad_token_id,
         )
