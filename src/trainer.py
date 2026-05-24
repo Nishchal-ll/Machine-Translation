@@ -72,6 +72,7 @@ class Trainer:
 
         self.best_val_loss = float("inf")
         self.best_model_path = config.MODEL_DIR / "best_honorifics_model"
+        self.final_model_path = config.MODEL_DIR / "final_honorifics_model"
         # Use new torch.amp API
         self.scaler = GradScaler('cuda') if config.DEVICE.type == 'cuda' else None
         self.gradient_accumulation_steps = getattr(config, 'GRADIENT_ACCUMULATION_STEPS', 1)
@@ -157,10 +158,19 @@ class Trainer:
             self.patience_counter += 1
             return self.patience_counter >= self.patience, False  # Stop if patience exceeded, don't save
 
+    def _save_pretrained_model(self, path: Path):
+        path.mkdir(parents=True, exist_ok=True)
+        self.model.save_pretrained(path)
+        self.tokenizer.save_pretrained(path)
+
+        # If the model is a PEFT wrapper, also save the underlying base model for robust loading.
+        if hasattr(self.model, 'base_model'):
+            base_model_path = path / 'base_model'
+            base_model_path.mkdir(parents=True, exist_ok=True)
+            self.model.base_model.save_pretrained(base_model_path)
+
     def save_best_model(self):
-        self.best_model_path.mkdir(parents=True, exist_ok=True)
-        self.model.save_pretrained(self.best_model_path)
-        self.tokenizer.save_pretrained(self.best_model_path)
+        self._save_pretrained_model(self.best_model_path)
         print(f"💾 Best model saved → {self.best_model_path}")
 
     def save_session_checkpoint(self, epoch_completed: int):
@@ -179,6 +189,10 @@ class Trainer:
 
         torch.save(checkpoint, self.session_checkpoint_path)
         print(f"💾 Session checkpoint saved → {self.session_checkpoint_path}")
+
+    def save_final_model(self):
+        self._save_pretrained_model(self.final_model_path)
+        print(f"💾 Final model saved → {self.final_model_path}")
 
     def load_session_checkpoint(self):
         """Load previous training checkpoint. Returns completed epoch count."""

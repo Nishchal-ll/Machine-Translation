@@ -1,3 +1,603 @@
+Please restart the server to clean the memory cache, colleague.	कृपया मेमोरी क्यास सफा गर्न सर्भर रिस्टार्ट गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you adjust the telescope focal length settings, assistant?	के तपाईं दूरबीनको फोकल लम्बाइ मिलाउन सक्नुहुन्छ, सहयोगी भाइ ?	SEMI-FORMAL
+Please upload the latest satellite telemetry data file, teammate.	कृपया पछिल्लो उपग्रह टेलिमेट्री तथ्याङ्क फाइल अपलोड गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you find any discrepancies in the data sheet, analyst?	के तपाईंले तथ्याङ्क पानामा कुनै विसंगति भेट्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please change the liquid nitrogen tank valves safely, technician.	कृपया तरल नाइट्रोजन ट्याङ्कीको भल्भ सुरक्षित रूपमा फेर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you write a python script to parse logs, programmer?	के तपाईं लगहरू पार्स गर्न पाइथन स्क्रिप्ट लेख्न सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please check the machine learning algorithm training accuracy, colleague.	कृपया मेशिन लर्निङ एल्गोरिदमको तालिम शुद्धता जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you track the deep space frequency signals today, operator?	के तपाईंले आज गहिरो अन्तरिक्षको आवृत्ति सङ्केतहरू ट्र्याक गर्नुभयो, अपरेटर भाइ ?	SEMI-FORMAL
+Please prepare the agar plates for the bacteria culture, assistant.	कृपया ब्याक्टेरिया कल्चरका लागि एगार प्लेटहरू तयार पार्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Can you test the firewall against external network attacks, teammate?	के तपाईं बाह्य नेटवर्क आक्रमणहरू विरुद्ध फायरवाल परीक्षण गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please change the backup power batteries in the lab, technician.	कृपया प्रयोगशालामा ब्याकअप पावर ब्याट्रीहरू परिवर्तन गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you finish compiling the quantum encryption software source, developer?	के तपाईंले क्वान्टम इन्क्रिप्सन सफ्टवेयरको स्रोत कम्पाइल गर्न सक्नुभयो, विकासकर्ता साथी ?	SEMI-FORMAL
+Please document the Mars exploration rover motor temperature readings, colleague.	कृपया मङ्गल ग्रह अन्वेषण रोभरको मोटर तापक्रमको रिडिङ अभिलेखीकरण गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you filter the database for missing entry errors, analyst?	के तपाईं छुटेका प्रविष्टि त्रुटिहरूका लागि डेटाबेस फिल्टर गर्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please load the DNA sequencing samples into the machine, assistant.	कृपया डीएनए अनुक्रमणका नमुनाहरू मेसिनमा लोड गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you check the server connection latency rates, operator?	के तपाईंले सर्भर जडानको ढिलाइ हुने दर जाँच गर्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please optimize the SQL query for the database table, programmer.	कृपया डेटाबेस तालिकाका लागि एसक्यूएल क्वेरी अनुकूलित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Can you fix the autonomous vehicle radar tracking software, teammate?	के तपाईं स्वचालित सवारी साधनको राडार ट्र्याकिङ सफ्टवेयर बनाउन सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please recalibrate the environmental simulation chamber sensors daily, technician.	कृपया वातावरणीय सिमुलेशन चेम्बर सेन्सरहरू दैनिक रूपमा पुन: क्यालिब्रेट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you receive the satellite communication testing signal window, colleague?	के तपाईंले उपग्रह सञ्चार परीक्षण सङ्केतको समय पाउनुभयो, साथी ?	SEMI-FORMAL
+Please run the data pipeline on the new system, analyst.	कृपया नयाँ प्रणालीमा तथ्याङ्क पाइपलाइन चलाउनुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Can you clean the centrifuge machine after the extraction, assistant?	के तपाईं निष्कर्षण पछि सेन्ट्रीफ्यूज मेसिन सफा गर्न सक्नुहुन्छ, सहयोगी बहिनी ?	SEMI-FORMAL
+Please update the software application installation files on GitHub, developer.	कृपया गिठबमा सफ्टवेयर एप्लिकेसन स्थापनाका फाइलहरू अपडेट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Did you lock the server room doors properly tonight, guard?	के तपाईंले आज राति सर्भर कोठाको ढोका राम्ररी बन्द गर्नुभयो, रक्षक दाइ ?	SEMI-FORMAL
+Please trace the network packet drops using automated software, operator.	कृपया स्वचालित सफ्टवेयर प्रयोग गरेर नेटवर्क प्याकेट ड्रपहरू ट्रेस गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Can you monitor the solar radiation testing gauges, technician?	के तपाईं सौर्य विकिरण परीक्षण गेजहरू निगरानी गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please verify the machine learning model deployment steps, programmer.	कृपया मेशिन लर्निङ मोडेल कार्यान्वयनका चरणहरू प्रमाणित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Did you back up the rocket trajectory code files, teammate?	के तपाईंले रकेटको प्रक्षेपण मार्गको कोड फाइलहरू ब्याकअप गर्नुभयो, साथी ?	SEMI-FORMAL
+Please export the seismology simulation graphs to PDF format, assistant.	कृपया भूकम्प विज्ञान सिमुलेशन ग्राफहरू पीडीएफ ढाँचामा निर्यात गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you review the encryption key generation source code, developer?	के तपाईं इन्क्रिप्सन साँचो उत्पादनको स्रोत कोड समीक्षा गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please update the team about the upcoming satellite deployment, colleague.	कृपया आउँदो उपग्रह प्रक्षेपणको बारेमा टोलीलाई अपडेट गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you complete the dataset verification for data bias, analyst?	के तपाईंले तथ्याङ्क पूर्वाग्रहका लागि डेटासेट प्रमाणीकरण पूरा गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please keep the biohazard sample boxes inside the freezer, assistant.	कृपया जैविक खतराको नमुना बाकसहरू फ्रिजरभित्र राख्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you configuration check the routing tables on the core router, operator?	के तपाईं मुख्य राउटरमा राउटिङ तालिकाहरूको कन्फिगरेसन जाँच गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please replace the broken cooling fan on the server rack, technician.	कृपया सर्भर र्याकमा बिग्रेको कुलिङ फ्यान फेरिदिनुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you finish creating the API endpoints for the application, programmer?	के तपाईंले एप्लिकेसनका लागि एपीआई एन्डपोइन्टहरू बनाउन सक्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please cross-check the Mars probe antenna calibration results, teammate.	कृपया मङ्गल ग्रहको प्रोब एन्टेना क्यालिब्रेसन नतिजा क्रस-चेक गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you measure the electrical resistance of the solar cells, assistant?	के तपाईं सौर्य सेलको विद्युत प्रतिरोध मापन गर्न सक्नुहुन्छ, सहयोगी भाइ ?	SEMI-FORMAL
+Please format the hard drives before building the raid storage, technician.	कृपया रेड भण्डारण निर्माण गर्नु अघि हार्ड ड्राइभहरू फर्म्याट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you notice any system alerts during the database download, operator?	के तपाईंले डेटाबेस डाउनलोडको क्रममा कुनै प्रणाली चेतावनीहरू देख्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please commit your latest changes to the main repository code, developer.	कृपया मुख्य रिपोजिटरी कोडमा आफ्ना नवीनतम परिवर्तनहरू कमिट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Can you update the cloud deployment cost estimate report, analyst?	के तपाईं क्लाउड डिप्लोइमेन्ट लागत अनुमान प्रतिवेदन अपडेट गर्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please clean the telescope eyepiece lens using specialized solution, assistant.	कृपया विशेष घोल प्रयोग गरेर दूरबीनको आइपिस लेन्स सफा गर्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Did you check the hydrogen fuel pressure level charts, teammate?	के तपाईंले हाइड्रोजन इन्धनको दबाब स्तरको चार्ट जाँच गर्नुभयो, साथी ?	SEMI-FORMAL
+Please run a diagnostic scan on the local network router, technician.	कृपया स्थानीय नेटवर्क राउटरमा डायग्नोस्टिक स्क्यान चलाउनुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you fix the broken links in the internal documentation, programmer?	के तपाईं आन्तरिक कागजातमा बिग्रेका लिङ्कहरू मिलाउन सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please verify the identity tokens before generating the cloud instances, operator.	कृपया क्लाउड इन्स्टान्सहरू उत्पन्न गर्नु अघि पहिचान टोकनहरू प्रमाणित गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you find the mutation logs in the genomic data, analyst?	के तपाईंले जीनोमिक तथ्याङ्कमा उत्परिवर्तन लगहरू फेला पार्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please attach the safety label to the chemical incubator machine, assistant.	कृपया रासायनिक इन्क्युबेटर मेसिनमा सुरक्षा लेबल टाँस्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you test the autonomous drone sensor tracking module, teammate?	के तपाईं स्वचालित ड्रोन सेन्सर ट्र्याकिङ मोड्युल परीक्षण गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please configure the firewall rules to block unauthorized connections, operator.	कृपया अनाधिकृत जडानहरू रोक्न फायरवाल नियमहरू कन्फिगर गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you download the seismic wave simulated timeline tables, analyst?	के तपाईंले भूकम्पीय तरङ्गको सिमुलेटेड टाइमलाइन तालिकाहरू डाउनलोड गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please measure the output voltage of the renewable energy inverter, technician.	कृपया नवीकरणीय ऊर्जा इन्भर्टरको आउटपुट भोल्टेज मापन गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you debug the natural language model tokenizer system errors, programmer?	के तपाईं प्राकृतिक भाषा मोडेल टोकनाइजरको प्रणाली त्रुटिहरू डिबग गर्न सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please transfer the asteroid mineralogy files to the cloud server, colleague.	कृपया क्षुद्रग्रह खनिज विज्ञानका फाइलहरू क्लाउड सर्भरमा स्थानान्तरण गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you notice any unusual power fluctuations in the grid, operator?	के तपाईंले ग्रिडमा कुनै असामान्य विद्युत उतारचढाव देख्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please change the water filter of the laboratory cleanroom setup, assistant.	कृपया प्रयोगशालाको क्लिनरुम सेटअपको पानीको फिल्टर परिवर्तन गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you code a dashboard interface for the blockchain scanner, developer?	के तपाईं ब्लकचेन स्क्यानरका लागि ड्यासबोर्ड इन्टरफेस कोड गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please double-check the carbon capture machine valve settings data, teammate.	कृपया कार्बन क्याप्चर मेसिनको भल्भ सेटिङ तथ्याङ्क दुई पटक जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you verify the integrity of the downloaded data zip, analyst?	के तपाईंले डाउनलोड गरिएको तथ्याङ्क जिप फाइलको अखण्डता प्रमाणित गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please check the software logs for automated framework connection drops, operator.	कृपया स्वचालित फ्रेमवर्क जडान टुट्ने समस्याका लागि सफ्टवेयर लगहरू जाँच गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Can you replace the network cables behind the server panel, technician?	के तपाईं सर्भर प्यानल पछाडिका नेटवर्क केबलहरू फेर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please optimize the script execution runtime for the automation pipeline, programmer.	कृपया स्वचालन पाइपलाइनका लागि स्क्रिप्ट कार्यान्वयनको समय अनुकूलित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Did you calculate the orbital tracking adjustment parameters for tonight, colleague?	के तपाईंले आज रातिको लागि कक्षीय ट्र्याकिङ समायोजन मापदण्ड गणना गर्नुभयो, साथी ?	SEMI-FORMAL
+Please change the nutrient broth for the cell division test, assistant.	कृपया कोशिका विभाजन परीक्षणका लागि पोषक तत्वको झोल परिवर्तन गर्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Can you build an encryption layer for the database connections, developer?	के तपाईं डेटाबेस जडानहरूका लागि इन्क्रिप्सन तह निर्माण गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please download the ocean current sensor telemetry monitoring graphs, analyst.	कृपया समुद्री बहाव सेन्सर टेलिमेट्री निगरानी ग्राफहरू डाउनलोड गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Did you isolate the system failure logs from the mainframe, operator?	के तपाईंले मेनफ्रेमबाट प्रणाली विफलताको लगहरू अलग गर्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please test the automated assembly drone arm positioning metrics, technician.	कृपया स्वचालित एसेम्बली ड्रोन हातको स्थिति मापन परीक्षण गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you generate a summary report for the blockchain transactions, analyst?	के तपाईं ब्लकचेन कारोबारहरूको संक्षिप्त प्रतिवेदन तयार पार्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please upload the volcanic lava gas measurement spreadsheet files, assistant.	कृपया ज्वालामुखीको लाभा ग्यास मापनको स्प्रेडसिट फाइलहरू अपलोड गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you complete the penetration testing simulation on the database, programmer?	के तपाईंले डेटाबेसमा पेनिट्रेसन परीक्षण सिमुलेशन पूरा गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please verify the connection between the satellite dish and analyzer, technician.	कृपया उपग्रह डिश र विश्लेषक बीचको जडान प्रमाणित गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you check the machine learning classification dataset tag errors, teammate?	के तपाईं मेशिन लर्निङ वर्गीकरण डेटासेटको ट्याग त्रुटिहरू जाँच गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please update the software dependencies inside the Docker configuration container, developer.	कृपया डकर कन्फिगरेसन कन्टेनर भित्र सफ्टवेयर निर्भरताहरू अपडेट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Did you find any security loopholes in the web application, analyst?	के तपाईंले वेब एप्लिकेसनमा कुनै सुरक्षा कमजोरीहरू फेला पार्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please recalibrate the mass spectrometer before running the protein tests, assistant.	कृपया प्रोटिन परीक्षणहरू चलाउनु अघि मास स्पेक्ट्रोमिटरलाई पुन: क्यालिब्रेट गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you set up a mirror server for data backup, operator?	के तपाईं तथ्याङ्क ब्याकअपका लागि मिरर सर्भर सेटअप गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please verify the solar panel tracking system engine alignment, technician.	कृपया सौर्य प्यानल ट्र्याकिङ प्रणालीको इन्जिन पङ्क्तिबद्धता प्रमाणित गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you check the pipeline parameters for machine learning latency, programmer?	के तपाईंले मेशिन लर्निङ ढिलाइका लागि पाइपलाइन मापदण्ड जाँच गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please organize the asteroid chemical composition spectrum analyzer files, analyst.	कृपया क्षुद्रग्रह रासायनिक संरचना स्पेक्ट्रम विश्लेषकका फाइलहरू व्यवस्थित गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Can you upgrade the operating system kernel on the host, technician?	के तपाईं होस्ट मेसिनमा अपरेटिङ सिस्टम कर्नेल अपग्रेड गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please change the settings to clear old storage transaction history, operator.	कृपया पुरानो भण्डारण कारोबार इतिहास मेटाउन सेटिङहरू परिवर्तन गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you complete the satellite signal interference matrix generation sheet, teammate?	के तपाईंले उपग्रह सङ्केत अवरोध म्याट्रिक्स उत्पादन पाना पूरा गर्नुभयो, साथी ?	SEMI-FORMAL
+Please clean the laboratory glassware using sterilized distilled water tanks, assistant.	कृपया निसङ्क्रमित डिस्टिल्ड वाटर ट्याङ्की प्रयोग गरेर प्रयोगशालाका सिसाका सामानहरू सफा गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you write unit tests for the token management component, developer?	के तपाईं टोकन व्यवस्थापन कम्पोनेन्टका लागि युनिट परीक्षणहरू लेख्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please check the carbon dioxide conversion sensor reading numbers daily, teammate.	कृपया कार्बन डाइअक्साइड रूपान्तरण सेन्सरको रिडिङ नम्बरहरू दैनिक रूपमा जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you find the cause of the database framework latency, programmer?	के तपाईंले डेटाबेस फ्रेमवर्क ढिलाइ हुनुको कारण फेला पार्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please mount the secondary hard drive storage allocation to path, technician.	कृपया माध्यमिक हार्ड ड्राइभ भण्डारण आवंटनलाई पाथमा माउन्ट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you monitor the network traffic load during the test, operator?	के तपाईं परीक्षणको क्रममा नेटवर्क ट्राफिक लोड निगरानी गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please review the genome annotation processing pipeline script file settings, analyst.	कृपया जीनोम एनोटेसन प्रशोधन पाइपलाइन स्क्रिप्ट फाइल सेटिङहरूको समीक्षा गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Did you change the broken power supply of the lab incubator, technician?	के तपाईंले प्रयोगशाला इन्क्युबेटरको बिग्रेको पावर आपूर्ति परिवर्तन गर्नुभयो, प्राविधिक भाइ ?	SEMI-FORMAL
+Please copy the compiled model matrix arrays to storage sectors, programmer.	कृपया कम्पाइल गरिएको मोडेल म्याट्रिक्स एरेहरू भण्डारण क्षेत्रहरूमा प्रतिलिपि गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Can you extract the specific satellite coordinate data tracking values, teammate?	के तपाईं विशिष्ट उपग्रह निर्देशांक तथ्याङ्क ट्र्याकिङ मानहरू निकाल्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please change the membrane filters inside the air extraction system, assistant.	कृपया हावा निष्कर्षण प्रणाली भित्रको मेम्ब्रेन फिल्टरहरू परिवर्तन गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you complete the security vulnerability tracking report on the cloud, analyst?	के तपाईंले क्लाउडमा सुरक्षा संवेदनशीलता ट्र्याकिङ प्रतिवेदन पूरा गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please review the smart contract functions code blocks before launching, developer.	कृपया सञ्चालन गर्नु अघि स्मार्ट कन्ट्याक्ट प्रकार्यको कोड ब्लकहरूको समीक्षा गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Can you check the internal coolant pressure of the server rack, technician?	के तपाईं सर्भर र्याकको आन्तरिक कुल्यान्ट दबाब जाँच गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please upload the processed satellite radar image map visualization charts, teammate.	कृपया प्रशोधन गरिएको उपग्रह राडार छवि नक्सा भिजुअलाइजेशन चार्टहरू अपलोड गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you complete the database indexing layout configuration task today, programmer?	के तपाईंले आज डेटाबेस अनुक्रमणिका रूपरेखा कन्फिगरेसन कार्य पूरा गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please restart the main router to clear routing tables, colleague.	कृपया राउटिङ तालिकाहरू सफा गर्न मुख्य राउटर रिस्टार्ट गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you adjust the solar tracker solar angle adjustment tilt, assistant?	के तपाईं सौर्य ट्र्याकरको सौर्य कोण समायोजन झुकाव मिलाउन सक्नुहुन्छ, सहयोगी भाइ ?	SEMI-FORMAL
+Please upload the latest firewall system entry log files, teammate.	कृपया पछिल्लो फायरवाल प्रणाली प्रविष्टि लग फाइलहरू अपलोड गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you find any security discrepancies in the packet capture, analyst?	के तपाईंले प्याकेट क्याप्चरमा कुनै सुरक्षा विसंगति भेट्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please change the inverter fuse units inside the cabinet, technician.	कृपया क्याबिनेट भित्रको इन्भर्टर फ्युज एकाइहरू फेर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you write a bash script to automate file decryption, programmer?	के तपाईं फाइल डिक्रिप्सन स्वचालित गर्न ब्यास स्क्रिप्ट लिखना सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please check the power grid transmission frequency stability metrics, colleague.	कृपया पावर ग्रिड प्रसारण आवृत्ति स्थिरता मापन जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you track the brute force attack source IP addresses, operator?	के तपाईंले ब्रुट फोर्स आक्रमणको स्रोत आईपी ठेगानाहरू ट्र्याक गर्नुभयो, अपरेटर भाइ ?	SEMI-FORMAL
+Please prepare the test framework for the solar panel inspection, assistant.	कृपया सौर्य प्यानल निरीक्षणका लागि परीक्षण ढाँचा तयार पार्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Can you test the backup server recovery timeline sheets, teammate?	के तपाईं ब्याकअप सर्भर रिकभरी टाइमलाइन पानाहरू परीक्षण गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please change the faulty network interface cards in the rack, technician.	कृपया र्याकमा त्रुटिपूर्ण नेटवर्क इन्टरफेस कार्डहरू परिवर्तन गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you finish compiling the custom decryption tool library modules, developer?	के तपाईंले अनुकूलन डिक्रिप्सन उपकरण लाइब्रेरी मोड्युलहरू कम्पाइल गर्न सक्नुभयो, विकासकर्ता साथी ?	SEMI-FORMAL
+Please document the turbine gearbox temperature variations metrics graphs, colleague.	कृपया टर्बाइन गियरबक्सको तापक्रम परिवर्तन मापन ग्राफहरू अभिलेखीकरण गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you filter the log files for identity token mismatches, analyst?	के तपाईं पहिचान टोकन नमिल्ने त्रुटिका लागि लग फाइलहरू फिल्टर गर्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please load the solar cell electrical testing data spreadsheet, assistant.	कृपया सौर्य सेल विद्युतीय परीक्षण तथ्याङ्क स्प्रेडसिट लोड गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you check the system firewall connection rule validation speed, operator?	के तपाईंले प्रणाली फायरवाल जडान नियम प्रमाणीकरण गति जाँच गर्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please optimize the database index schema for the security logs, programmer.	कृपया सुरक्षा लगहरूका लागि डेटाबेस अनुक्रमणिका स्कीमा अनुकूलित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Can you fix the automated grid safety switch configuration lines, teammate?	के तपाईं स्वचालित ग्रिड सुरक्षा स्विच कन्फिगरेसन लाइनहरू मिलाउन सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please recalibrate the microgrid voltage calculation sensor units daily, technician.	कृपया माइक्रोग्रिड भोल्टेज गणना सेन्सर एकाइहरू दैनिक रूपमा पुन: क्यालिब्रेट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you receive the security alert email notification token window, colleague?	के तपाईंले सुरक्षा चेतावनी इमेल सूचना टोकन विन्डो प्राप्त गर्नुभयो, साथी ?	SEMI-FORMAL
+Please run the vulnerability scanner on the staging environment, analyst.	कृपया स्टिजिङ वातावरणमा संवेदनशीलता स्क्यानर चलाउनुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Can you clean the solar inverter ventilation dust filters weekly, assistant?	के तपाईं सौर्य इन्भर्टरको भेन्टिलेसन धुलो फिल्टर साप्ताहिक रूपमा सफा गर्न सक्नुहुन्छ, सहयोगी बहिनी ?	SEMI-FORMAL
+Please update the repository configuration files on the secure server, developer.	कृपया सुरक्षित सर्भरमा रिपोजिटरी कन्फिगरेसन फाइलहरू अपडेट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Did you lock the backup diesel generator control box cabinet, guard?	के तपाईंले ब्याकअप डिजेल जेनेरेटर नियन्त्रण बाकसको क्याबिनेट बन्द गर्नुभयो, रक्षक दाइ ?	SEMI-FORMAL
+Please trace the network packet dropping location on the map, operator.	कृपया नक्सामा नेटवर्क प्याकेट ड्रप हुने स्थान ट्रेस गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Can you monitor the hydro plant turbine water discharge meters, technician?	के तपाईं हाइड्रो प्लान्ट टर्बाइनको पानी बहाव मिटर निगरानी गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please verify the deployment configurations for the secure server patch, programmer.	कृपया सुरक्षित सर्भर प्याचका लागि डिप्लोइमेन्ट कन्फिगरेसनहरू प्रमाणित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Did you back up the smart grid system automation script files, teammate?	के तपाईंले स्मार्ट ग्रिड प्रणाली स्वचालन स्क्रिप्ट फाइलहरू ब्याकअप गर्नुभयो, साथी ?	SEMI-FORMAL
+Please export the network intrusion path flowcharts to vector format, assistant.	कृपया नेटवर्क घुसपैठ मार्गको फ्लोचार्ट भेक्टर ढाँचामा निर्यात गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you review the cryptographic authentication protocol source blocks, developer?	के तपाईं क्रिप्टोग्राफिक प्रमाणीकरण प्रोटोकल स्रोत ब्लकहरू समीक्षा गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please update the field staff about grid diagnostic testing times, colleague.	कृपया क्षेत्रका कर्मचारीहरूलाई ग्रिड डायग्नोस्टिक परीक्षण समयको बारेमा अपडेट गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you complete the penetration test dashboard summary validation task, analyst?	के तपाईंले पेनिट्रेसन टेस्ट ड्यासबोर्ड सारांश प्रमाणीकरण कार्य पूरा गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please keep the damaged grid isolation module inside the yard, assistant.	कृपया बिग्रेको ग्रिड आइसोलेसन मोड्युललाई यार्डभित्र राख्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you check the network layout routing tables configuration scripts, operator?	के तपाईं नेटवर्क लेआउट राउटिङ टेबल कन्फिगरेसन स्क्रिप्टहरू जाँच गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please replace the blown surge protection modules on terminal bars, technician.	कृपया टर्मिनल बारमा बिग्रेका सर्ज प्रोटेक्सन मोड्युलहरू फेरिदिनुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you finish writing code for endpoint malware analysis script, programmer?	के तपाईंले एन्डपोइन्ट मालवेयर विश्लेषण स्क्रिप्टको कोड लेख्न सक्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please cross-check the biomass plant control sensor configuration values, teammate.	कृपया बायोमास प्लान्ट नियन्त्रण सेन्सर कन्फिगरेसन मानहरू क्रस-चेक गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you measure the electrical resistance values of transformer grounding, assistant?	के तपाईं ट्रान्सफर्मर ग्राउन्डिङको विद्युतीय प्रतिरोध मान मापन गर्न सक्नुहुन्छ, सहयोगी भाइ ?	SEMI-FORMAL
+Please format the secure storage arrays before loading recovery backups, technician.	कृपया रिकभरी ब्याकअपहरू लोड गर्नु अघि सुरक्षित भण्डारण एरेहरू फर्म्याट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you notice any configuration error alerts on security software, operator?	के तपाईंले सुरक्षा सफ्टवेयरमा कुनै कन्फिगरेसन त्रुटि चेतावनीहरू देख्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please commit the multi-factor authentication integration code adjustments updates, developer.	कृपया बहु-कारक प्रमाणीकरण एकीकरण कोड समायोजन अपडेटहरू कमिट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Can you update the renewable energy power storage projection models, analyst?	के तपाईं नवीकरणीय ऊर्जा शक्ति भण्डारण प्रक्षेपण मोडेलहरू अपडेट गर्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please clean the network data switch connector slots using cleaner, assistant.	कृपया क्लिनर प्रयोग गरेर नेटवर्क डेटा स्विच कनेक्टर स्लटहरू सफा गर्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Did you check the hydrogen cell temperature control safety thresholds, teammate?	के तपाईंले हाइड्रोजन सेल तापक्रम नियन्त्रण सुरक्षा थ्रेसहोल्डहरू जाँच गर्नुभयो, साथी ?	SEMI-FORMAL
+Please run a local database security compliance auditing scan tool, technician.	कृपया स्थानीय डेटाबेस सुरक्षा अनुपालन अडिटिङ स्क्यान टूल चलाउनुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you fix the broken code variables in firewall control, programmer?	के तपाईं फायरवाल नियन्त्रणमा बिग्रेका कोड भेरिएबलहरू मिलाउन सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please verify the endpoint verification tokens before cloud system update, operator.	कृपया क्लाउड प्रणाली अपडेट गर्नु अघि एन्डपोइन्ट प्रमाणीकरण टोकनहरू प्रमाणित गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you find the network exploit pattern strings in logs, analyst?	के तपाईंले लगहरूमा नेटवर्क एक्स्प्लोइट ढाँचा स्ट्रिङहरू फेला पार्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please attach the high voltage danger signs to transformer doors, assistant.	कृपया ट्रान्सफर्मरको ढोकामा उच्च भोल्टेज खतराको सङ्केत टाँस्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you test the automatic wind turbine controller protection configuration, teammate?	के तपाईं स्वचालित वायु टर्बाइन नियन्त्रक सुरक्षा कन्फिगरेसन परीक्षण गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please configure the firewall network rules to block threat vectors, operator.	कृपया खतरा भेक्टरहरू रोक्न फायरवाल नेटवर्क नियमहरू कन्फिगर गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you download the microgrid solar energy storage timeline charts, analyst?	के तपाईंले माइक्रोग्रिड सौर्य ऊर्जा भण्डारण टाइमलाइन चार्टहरू डाउनलोड गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please measure the electricity current output of the hydro plant inverter, technician.	कृपया हाइड्रो प्लान्ट इन्भर्टरको विद्युत प्रवाह आउटपुट मापन गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you debug the secure token generation module timeout errors, programmer?	के तपाईं सुरक्षित टोकन उत्पादन मोड्युल टाइमआउट त्रुटिहरू डिबग गर्न सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please transfer the secure threat intelligence files to local desktop, colleague.	कृपया सुरक्षित खतरा गुप्तचर फाइलहरू स्थानीय डेस्कटपमा स्थानान्तरण गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you notice any unusual grid voltage dips during test, operator?	के तपाईंले परीक्षणको क्रममा कुनै असामान्य ग्रिड भोल्टेज गिरावट देख्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please change the cleanroom laboratory carbon air filter element sheets, assistant.	कृपया क्लिनरुम प्रयोगशालाको कार्बन एयर फिल्टर एलिमेन्ट पानाहरू परिवर्तन गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you code a custom monitoring graph for network anomalies, developer?	के तपाईं नेटवर्क विसंगतिहरूका लागि अनुकूलन निगरानी ग्राफ कोड गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please double-check the geofenced facility security camera access lists, teammate.	कृपया जियोफेन्स्ड सुविधा सुरक्षा क्यामेरा पहुँच सूचीहरू दुई पटक जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you verify the file integrity hash values for backup, analyst?	के तपाईंले ब्याकअपका लागि फाइल अखण्डता ह्यास मानहरू प्रमाणित गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please check the server security logs for failed root authentication, operator.	कृपया असफल रूट प्रमाणीकरणका लागि सर्भर सुरक्षा लगहरू जाँच गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Can you replace the network terminal patch cables inside box, technician?	के तपाईं बाकस भित्रका नेटवर्क टर्मिनल प्याच केबलहरू फेर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please optimize the script code runtime logic for identity checks, programmer.	कृपया पहिचान जाँचका लागि स्क्रिप्ट कोड रनटाईम लजिक अनुकूलित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Did you calculate the solar array power distribution losses today, colleague?	के तपाईंले आज सौर्य एरे शक्ति वितरण ह्रासको गणना गर्नुभयो, साथी ?	SEMI-FORMAL
+Please change the battery fluid indicator chart variables for testing, assistant.	कृपया परीक्षणका लागि ब्याट्री फ्लुइड सूचक चार्ट भेरिएबलहरू परिवर्तन गर्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Can you build an encryption layer module for local storage, developer?	के तपाईं स्थानीय भण्डारणका लागि इन्क्रिप्सन तह मोड्युल निर्माण गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please download the distributed ledger system transaction tracking metrics sheets, analyst.	कृपया डिस्ट्रिब्युटेड लेजर प्रणाली कारोबार ट्र्याकिङ मापन पानाहरू डाउनलोड गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Did you isolate the firewall script failure logs from mainframe, operator?	के तपाईंले मेनफ्रेमबाट फायरवाल स्क्रिप्ट विफलता लगहरू अलग गर्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please test the automated solar grid battery connection alignment specs, technician.	कृपया स्वचालित सौर्य ग्रिड ब्याट्री जडान पङ्क्तिबद्धता विनिर्देशहरू परीक्षण गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you generate an export status summary for server keys, analyst?	के तपाईं सर्भर साँचोका लागि निर्यात स्थिति सारांश तयार पार्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please upload the carbon grid performance tracker monitoring metric charts, assistant.	कृपया कार्बन ग्रिड प्रदर्शन ट्र्याकर निगरानी मापन चार्टहरू अपलोड गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you complete the security firewall validation checking code execution, programmer?	के तपाईंले सुरक्षा फायरवाल प्रमाणीकरण जाँच कोड कार्यान्वयन पूरा गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please verify the optical line connector matching terminal numbers link, technician.	कृपया अप्टिकल लाइन कनेक्टर मिल्दो टर्मिनल नम्बर लिङ्क प्रमाणित गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you check the web network threat signatures mapping table, teammate?	के तपाईं वेब नेटवर्क खतरा हस्ताक्षर म्यापिङ तालिका जाँच गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please update software configuration paths inside the secure tracking system, developer.	कृपया सुरक्षित ट्र्याकिङ प्रणाली भित्र सफ्टवेयर कन्फिगरेशन पाथहरू अपडेट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Did you find any security validation bypass exploits in testing, analyst?	के तपाईंले परीक्षणमा कुनै सुरक्षा प्रमाणीकरण बाइपास एक्स्प्लोइट फेला पार्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please recalibrate the microgrid battery charging current measurement tool, assistant.	कृपया माइक्रोग्रिड ब्याट्री चार्जिङ करेन्ट मापन उपकरण पुन: क्यालिब्रेट गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you set up an offline staging environment repository mirror, operator?	के तपाईं एउटा अफलाइन स्टिजिङ वातावरण रिपोजिटरी मिरर सेटअप गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please verify the solar plant sub-station automated disconnect switch gear, technician.	कृपया सौर्य प्लान्ट सब-स्टेशन स्वचालित विच्छेद स्विच गियर प्रमाणित गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you check the pipeline interface data processing memory constraints, programmer?	के तपाईंले पाइपलाइन इन्टरफेस तथ्याङ्क प्रशोधन मेमोरी अवरोधहरू जाँच गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please organize the cloud account security vulnerability scanning history charts, analyst.	कृपया क्लाउड खाता सुरक्षा संवेदनशीलता स्क्यानिङ इतिहास चार्टहरू व्यवस्थित गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Can you upgrade the network intrusion firewall platform software release, technician?	के तपाईं नेटवर्क घुसपैठ फायरवाल प्लेटफर्म सफ्टवेयर रिलिज अपग्रेड गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please change options configuration flags to clear security tracking logs, operator.	कृपया सुरक्षा ट्र्याकिङ लगहरू मेटाउन विकल्प कन्फिगरेसन फ्ल्यागहरू परिवर्तन गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you complete the grid power quality monitoring report checklist, teammate?	के तपाईंले ग्रिड पावर गुणस्तर निगरानी प्रतिवेदन चेकलिस्ट पूरा गर्नुभयो, साथी ?	SEMI-FORMAL
+Please clean the solar facility monitoring computer terminal keyboard frame, assistant.	कृपया सौर्य सुविधा निगरानी कम्प्युटर टर्मिनल किबोर्ड फ्रेम सफा गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you write security authentication wrapper components for local application, developer?	के तपाईं स्थानीय एप्लिकेसनका लागि सुरक्षा प्रमाणीकरण र्यापर कम्पोनेन्टहरू लेख्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please check the main smart grid electrical line meter readings, teammate.	कृपया मुख्य स्मार्ट ग्रिड विद्युतीय लाइन मिटर रिडिङहरू जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you discover the core cause of decryption system lag, programmer?	के तपाईंले डिक्रिप्सन प्रणाली ढिलाइ हुनुको मुख्य कारण फेला पार्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please mount the primary network security monitoring storage directory volume, technician.	कृपया प्राथमिक नेटवर्क सुरक्षा निगरानी भण्डारण डाइरेक्टरी भोल्युम माउन्ट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you monitor database network connection traffic loads during deploy, operator?	के तपाईं डिप्लोइमेन्टको क्रममा डेटाबेस नेटवर्क जडान ट्राफिक लोडहरू निगरानी गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please review code repository access configuration settings data sheets, analyst.	कृपया कोड रिपोजिटरी पहुँच कन्फिगरेसन सेटिङ तथ्याङ्क पानाहरूको समीक्षा गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Did you change the broken power supply connector of server, technician?	के तपाईंले सर्भरको बिग्रेको पावर आपूर्ति कनेक्टर परिवर्तन गर्नुभयो, प्राविधिक भाइ ?	SEMI-FORMAL
+Please copy secure tracking algorithm configuration matrices to system drives, programmer.	कृपया सुरक्षित ट्र्याकिङ एल्गोरिदम कन्फिगरेसन म्याट्रिक्स प्रणाली ड्राइभहरूमा प्रतिलिपि गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Can you extract server file metadata attributes for security assessment, teammate?	के तपाईं सुरक्षा मूल्याङ्कनका लागि सर्भर फाइल मेटाडेटा विशेषताहरू निकाल्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please change air system purification charcoal filtering block pads safely, assistant.	कृपया वायु प्रणाली शुद्धिकरण चारकोल फिल्टरिङ ब्लक प्याडहरू सुरक्षित रूपमा परिवर्तन गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you complete security logging protocol baseline parameters integration sheet, analyst?	के तपाईंले सुरक्षा लगिङ प्रोटोकल बेसलाइन मापदण्ड एकीकरण पाना पूरा गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please review code validation processing script file execution settings blocks, developer.	कृपया कोड प्रमाणीकरण प्रशोधन स्क्रिप्ट फाइल कार्यान्वयन सेटिङ ब्लकहरूको समीक्षा गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Can you check internal fluid coolant indicators of battery stack, technician?	के तपाईं ब्याट्री स्ट्याकको आन्तरिक तरल कुल्यान्ट सूचकहरू जाँच गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please upload grid line telemetry diagnostic data logging sheet matrices, teammate.	कृपया ग्रिड लाइन टेलिमेट्री डायग्नोस्टिक तथ्याङ्क लगिङ पाना म्याट्रिक्स अपलोड गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you complete the security authentication mapping script framework updates, programmer?	के तपाईंले सुरक्षा प्रमाणीकरण म्यापिङ स्क्रिप्ट ढाँचा अपडेटहरू पूरा गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please restart the sequencer to clear the data cache, colleague.	कृपया तथ्याङ्क क्यास सफा गर्न सिक्वेन्सर रिस्टार्ट गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you adjust the seismograph pen tracking calibration tilt, assistant?	के तपाईं भूकम्पमापक यन्त्रको पेन ट्र्याकिङ क्यालिब्रेसन झुकाव मिलाउन सक्नुहुन्छ, सहयोगी भाइ ?	SEMI-FORMAL
+Please upload the latest volcanic gas telemetry logs, teammate.	कृपया पछिल्लो ज्वालामुखी ग्यास टेलिमेट्री लग फाइलहरू अपलोड गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you find any structural discrepancies in bedrock core, analyst?	के तपाईंले चट्टानी कोर नमुनामा कुनै संरचनात्मक विसंगति भेट्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please change the liquid nitrogen virus storage vials, technician.	कृपया तरल नाइट्रोजन भाइरस भण्डारणका भायलहरू फेर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you write a python script to process genome data, programmer?	के तपाईं जीनोम तथ्याङ्क प्रशोधन गर्न पाइथन स्क्रिप्ट लेख्न सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please check the biohazard cabinet air ventilation pressure, colleague.	कृपया जैविक सुरक्षा क्याबिनेटको हावा भेन्टिलेसन दबाब जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you track the micro-earthquake aftershock wave paths, operator?	के तपाईंले मुख्य भूकम्पपछिका धक्काहरूको तरङ्ग मार्ग ट्र्याक गर्नुभयो, अपरेटर भाइ ?	SEMI-FORMAL
+Please prepare the nutrient broth for bacteria cell culture, assistant.	कृपया ब्याक्टेरिया कोशिका कल्चरका लागि पोषक तत्वको झोल तयार पार्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Can you test the volcano eruption simulation timeline sheets, teammate?	के तपाईं ज्वालामुखी विस्फोट सिमुलेशन टाइमलाइन पानाहरू परीक्षण गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please change the broken seismic sensor cables in yard, technician.	कृपया चौरमा बिग्रेका भूकम्पीय सेन्सर केबलहरू परिवर्तन गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you finish compiling the DNA pattern analysis library, developer?	के तपाईंले डीएनए ढाँचा विश्लेषण लाइब्रेरी मोड्युलहरू कम्पाइल गर्न सक्नुभयो, विकासकर्ता साथी ?	SEMI-FORMAL
+Please document the fault line soil temperature variations, colleague.	कृपया फल्ट लाइनको माटोको तापक्रम परिवर्तन मापन अभिलेखीकरण गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you filter the logs for gene sequence anomalies, analyst?	के तपाईं जीन अनुक्रम विसंगतिहरूका लागि लग फाइलहरू फिल्टर गर्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please load the tectonic plate velocity tracking spreadsheet, assistant.	कृपया टेक्टोनिक प्लेट गति ट्र्याकिङ स्प्रेडसिट लोड गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you check the bioreactor nutrient level indicator speed, operator?	के तपाईंले बायोरिएक्टर पोषक तत्व स्तर सूचकको गति जाँच गर्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please optimize the index database for the protein logs, programmer.	कृपया प्रोटिन लगहरूका लागि अनुक्रमणिका डेटाबेस अनुकूलित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Can you fix the automated seismic alert configuration lines, teammate?	के तपाईं स्वचालित भूकम्पीय चेतावनी कन्फिगरेसन लाइनहरू मिलाउन सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please recalibrate the mass spectrometer sensor units daily, technician.	कृपया मास स्पेक्ट्रोमिटर सेन्सर एकाइहरू दैनिक रूपमा पुन: क्यालिब्रेट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you receive the biohazard alert email notification window, colleague?	के तपाईंले जैविक खतरा चेतावनी इमेल सूचना विन्डो प्राप्त गर्नुभयो, साथी ?	SEMI-FORMAL
+Please run the sequence validation script on server environment, analyst.	कृपया सर्भर वातावरणमा अनुक्रम प्रमाणीकरण स्क्रिप्ट चलाउनुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Can you clean the centrifuge machine chamber rotation walls, assistant?	के तपाईं सेन्ट्रीफ्यूज मेसिन चेम्बरको घुम्ने पर्खाल सफा गर्न सक्नुहुन्छ, सहयोगी बहिनी ?	SEMI-FORMAL
+Please update the seismic data repository configuration files, developer.	कृपया भूकम्पीय तथ्याङ्क रिपोजिटरी कन्फिगरेसन फाइलहरू अपडेट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Did you lock the laboratory biological samples freezer room, guard?	के तपाईंले प्रयोगशालाको जैविक नमुना फ्रिजर कोठा बन्द गर्नुभयो, रक्षक दाइ ?	SEMI-FORMAL
+Please trace the volcanic ash dispersion pattern flow, operator.	कृपया ज्वालामुखीको खरानी फैलिएको ढाँचाको बहाव ट्रेस गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Can you monitor the rock core drill machine depth meters, technician?	के तपाईं ढुङ्गा कोर ड्रिल मेसिनको गहिराई मिटर निगरानी गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please verify the deployment configuration for sequence analysis patch, programmer.	कृपया अनुक्रम विश्लेषण प्याचका लागि डिप्लोइमेन्ट कन्फिगरेसनहरू प्रमाणित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Did you back up the tectonic simulation system automation scripts, teammate?	के तपाईंले टेक्टोनिक सिमुलेशन प्रणाली स्वचालन स्क्रिप्ट फाइलहरू ब्याकअप गर्नुभयो, साथी ?	SEMI-FORMAL
+Please export the chromosomal structural charts to vector format, assistant.	कृपया क्रोमोजोम संरचनात्मक चार्टहरू भेक्टर ढाँचामा निर्यात गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you review the genomic mutation validation protocol blocks, developer?	के तपाईं जीनोमिक उत्परिवर्तन प्रमाणीकरण प्रोटोकल ब्लकहरू समीक्षा गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please update the field crew about seismic fault line tests, colleague.	कृपया क्षेत्रका कर्मचारीहरूलाई भूकम्पीय फल्ट लाइन परीक्षणका बारेमा अपडेट गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you complete the volcano topographic summary validation task, analyst?	के तपाईंले ज्वालामुखी टोपोग्राफिक सारांश प्रमाणीकरण कार्य पूरा गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please keep the contaminated petri dishes inside containment boxes, assistant.	कृपया सङ्क्रमित पेट्री डिशहरू नियन्त्रण बाकसभित्र राख्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you check the seismology software array database configuration, operator?	के तपाईं भूकम्प विज्ञान सफ्टवेयर एरे डेटाबेस कन्फिगरेसन जाँच गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please replace the broken cooling fan inside sequencer rack, technician.	कृपया सिक्वेन्सर र्याक भित्रको बिग्रेको कुलिङ फ्यान फेरिदिनुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you finish writing code for enzyme pathway script, programmer?	के तपाईंले इन्जाइम मार्ग स्क्रिप्टको कोड लेख्न सक्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please cross-check the groundwater chemical measurement sensor values, teammate.	कृपया भूमिगत पानीको रासायनिक मापन सेन्सर मानहरू क्रस-चेक गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you measure the electrical resistance of soil layers, assistant?	के तपाईं माटोको तहहरूको विद्युतीय प्रतिरोध मान मापन गर्न सक्नुहुन्छ, सहयोगी भाइ ?	SEMI-FORMAL
+Please format storage arrays before loading genetic data backups, technician.	कृपया आनुवंशिक तथ्याङ्क ब्याकअप लोड गर्नु अघि भण्डारण एरेहरू फर्म्याट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you notice any error alerts on seismometer panel, operator?	के तपाईंले भूकम्पमापक यन्त्रको प्यानलमा कुनै त्रुटि चेतावनीहरू देख्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please commit the gene sequencing validation algorithm framework codes, developer.	कृपया जीन अनुक्रमण प्रमाणीकरण एल्गोरिदम ढाँचाको कोडहरू कमिट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Can you update the landslide hazard zone projection models, analyst?	के तपाईं पहिरो जोखिम क्षेत्र प्रक्षेपण मोडेलहरू अपडेट गर्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please clean the laboratory micro-pipette tips connector blocks, assistant.	कृपया प्रयोगशालाको माइक्रो-पिपेट टिप कनेक्टर ब्लकहरू सफा गर्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Did you check the viral incubator temperature configuration thresholds, teammate?	के तपाईंले भाइरस इन्क्युबेटरको तापक्रम कन्फिगरेसन थ्रेसहोल्डहरू जाँच गर्नुभयो, साथी ?	SEMI-FORMAL
+Please run a geological database indexing compliance scan tool, technician.	कृपया भूवैज्ञानिक डेटाबेस अनुक्रमणिका अनुपालन स्क्यान टूल चलाउनुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you fix the broken script variables in analyzer, programmer?	के तपाईं विश्लेषक सफ्टवेयरमा बिग्रेका स्क्रिप्ट भेरिएबलहरू मिलाउन सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please verify identity tokens before granting bio-database access, operator.	कृपया जैविक डेटाबेस पहुँच अनुमति दिनु अघि पहिचान टोकनहरू प्रमाणित गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you find tectonic plate displacement history in logs, analyst?	के तपाईंले लगहरूमा टेक्टोनिक प्लेट विस्थापनको इतिहास फेला पार्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please attach biohazard containment signs to laboratory glass panels, assistant.	कृपया प्रयोगशालाको सिसाको प्यानलहरूमा जैविक खतरा नियन्त्रणको सङ्केत टाँस्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you test the automatic fault line activity monitor, teammate?	के तपाईं स्वचालित फल्ट लाइन गतिविधि अनुगमन यन्त्र परीक्षण गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please configure the firewall rules to secure genetic data, operator.	कृपया आनुवंशिक तथ्याङ्क सुरक्षित गर्न फायरवाल नियमहरू कन्फिगर गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you download the volcano lava flow velocity metrics, analyst?	के तपाईंले ज्वालामुखीको लाभा बहाव गतिको मापन तालिका डाउनलोड गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please measure the output concentration of chemical extraction buffers, technician.	कृपया रासायनिक निष्कर्षण बफरको आउटपुट एकाग्रता मापन गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you debug the genomic mapping software runtime errors, programmer?	के तपाईं जीनोमिक म्यापिङ सफ्टवेयरको रनटाईम त्रुटिहरू डिबग गर्न सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please transfer the seismic wave amplitude charts to desktop, colleague.	कृपया भूकम्पीय तरङ्ग आयाम चार्टहरू स्थानीय डेस्कटपमा स्थानान्तरण गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you notice any unusual crust deformation measurements today, operator?	के तपाईंले आज भू-पर्पटी विरूपण मापनमा कुनै असामान्य परिवर्तन देख्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please change the cleanroom air system membrane filter sheets, assistant.	कृपया क्लिनरुम वायु प्रणालीको मेम्ब्रेन फिल्टर पानाहरू परिवर्तन गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you code a monitoring interface for volcanic tremor logs, developer?	के तपाईं ज्वालामुखी कम्पन लगहरूका लागि अनुगमन इन्टरफेस कोड गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please double-check the containment facility lock automation settings, teammate.	कृपया नियन्त्रण केन्द्रको लक स्वचालन सेटिङहरू दुई पटक जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you verify the file integrity hash values for, analyst?	के तपाईंले ब्याकअप फाइलको अखण्डता ह्यास मानहरू प्रमाणित गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please check the database logs for failed enzyme tests, operator.	कृपया असफल इन्जाइम परीक्षणका लागि डेटाबेस लगहरू जाँच गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Can you replace the seismometer signal transmission wire blocks, technician?	के तपाईं भूकम्पमापक यन्त्रको सङ्केत प्रसारण तार ब्लकहरू फेर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please optimize script logic execution runtime for genome searches, programmer.	कृपया जीनोम खोजीका लागि स्क्रिप्ट लजिक कार्यान्वयनको समय अनुकूलित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Did you calculate the fault line slip acceleration rates, colleague?	के तपाईंले फल्ट लाइन चिराको गति वृद्धि दरको गणना गर्नुभयो, साथी ?	SEMI-FORMAL
+Please change the chemical reagent measurement matrix sheets variables, assistant.	कृपया रासायनिक अभिकर्मक मापन म्याट्रिक्स पानाको भेरिएबलहरू परिवर्तन गर्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Can you build an encryption layer module for bio-informatics, developer?	के तपाईं बायो-इन्फर्मेटिक्सका लागि इन्क्रिप्सन तह मोड्युल निर्माण गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please download the tectonic subduction movement data tracking charts, analyst.	कृपया टेक्टोनिक सबडक्सन आन्दोलन तथ्याङ्क ट्र्याकिङ चार्टहरू डाउनलोड गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Did you isolate the centrifuge controller failure logs today, operator?	के तपाईंले आज सेन्ट्रीफ्यूज नियन्त्रक विफलताको लगहरू अलग गर्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please test automated bedrock core drill bit pressure indicators, technician.	कृपया स्वचालित चट्टान कोर ड्रिल बिटको दबाब सूचकहरू परीक्षण गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you generate an export status summary for gene, analyst?	के तपाईं जीन अनुक्रमका लागि निर्यात स्थिति सारांश तयार पार्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please upload landslide terrain monitoring elevation mapping matrix grids, assistant.	कृपया पहिरो भूभाग अनुगमनको उचाई म्यापिङ म्याट्रिक्स ग्रिडहरू अपलोड गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you complete biohazard containment lock validation process codes, programmer?	के तपाईंले जैविक खतरा नियन्त्रण लक प्रमाणीकरण प्रक्रिया कोड पूरा गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please verify the seismometer calibration interface cable connector path, technician.	कृपया भूकम्पमापक क्यालिब्रेसन इन्टरफेस केबल कनेक्टरको मार्ग प्रमाणित गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you check genome database structural annotation sequence paths, teammate?	के तपाईं जीनोम डेटाबेस संरचनात्मक एनोटेसन अनुक्रम मार्गहरू जाँच गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please update processing paths variables inside core drilling tracking, developer.	कृपया कोर ड्रिलिङ ट्र्याकिङ सफ्टवेयर भित्र प्रशोधन मार्गको भेरिएबलहरू अपडेट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Did you find any template mapping validation anomalies today, analyst?	के तपाईंले आज टेम्प्लेट म्यापिङ प्रमाणीकरणमा कुनै विसंगति फेला पार्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please recalibrate the cell replication monitoring incubator humidity gauges, assistant.	कृपया कोशिका प्रतिलिपि अनुगमन इन्क्युबेटरको आर्द्रता गेज पुन: क्यालिब्रेट गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you set up an offline genome repository backup mirror, operator?	के तपाईं एउटा अफलाइन जीनोम रिपोजिटरी ब्याकअप मिरर सेटअप गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please verify fault line telemetry tracking substation automation switch, technician.	कृपया फल्ट लाइन टेलिमेट्री ट्र्याकिङ सबस्टेशन स्वचालन स्विच प्रमाणित गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you check cellular mutation data processing system memory constraints, programmer?	के तपाईंले कोषिका उत्परिवर्तन तथ्याङ्क प्रशोधन प्रणालीको मेमोरी अवरोधहरू जाँच गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please organize the volcanic tremor magnitude statistical scanning data files, analyst.	कृपया ज्वालामुखी कम्पन परिमाणको साङ्ख्यिकीय स्क्यानिङ तथ्याङ्क फाइलहरू व्यवस्थित गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Can you upgrade protein sequence alignment software system software framework, technician?	के तपाईं प्रोटिन अनुक्रम पङ्क्तिबद्धता सफ्टवेयर प्रणालीको ढाँचा अपग्रेड गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please change configurations flags parameters to clear old bio-test histories, operator.	कृपया पुरानो जैविक परीक्षणको इतिहास मेटाउन कन्फिगरेसन फ्ल्याग मापदण्ड परिवर्तन गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you complete regional earthquake intensity index report status sheet, teammate?	के तपाईंले क्षेत्रीय भूकम्प तीव्रता सूचकाङ्क प्रतिवेदन स्थिति पाना पूरा गर्नुभयो, साथी ?	SEMI-FORMAL
+Please clean automated DNA analyzer platform glass slide transport frame, assistant.	कृपया स्वचालित डीएनए विश्लेषक प्लेटफर्मको सिसाको स्लाइड ढुवानी गर्ने फ्रेम सफा गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you write biological data parsing extraction framework code modules, developer?	के तपाईं जैविक तथ्याङ्क पार्सिङ निष्कर्षण ढाँचाको कोड मोड्युलहरू लेख्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please check the primary fault zone tiltmeter measurement logs, teammate.	कृपया मुख्य फल्ट क्षेत्रको टिल्टमिटर मापन लगहरू जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you discover core structural cause of genomic matching software, programmer?	के तपाईंले जीनोमिक मिलान सफ्टवेयर ढिलाइ हुनुको मुख्य संरचनात्मक कारण फेला पार्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please mount seismic activity baseline sensor tracking data repository volume, technician.	कृपया भूकम्पीय गतिविधि बेसलाइन सेन्सर ट्र्याकिङ तथ्याङ्क भण्डारण भोल्युम माउन्ट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you monitor biological incubator airflow traffic load charts during, operator?	के तपाईं परीक्षणको क्रममा जैविक इन्क्युबेटर वायुप्रवाह लोड चार्टहरू निगरानी गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please review bedrock density core analysis laboratory calibration file sheets, analyst.	कृपया चट्टान घनत्व कोर विश्लेषण प्रयोगशाला क्यालिब्रेसन फाइल पानाहरूको समीक्षा गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Did you change the damaged fluid drainage valve of laboratory, technician?	के तपाईंले प्रयोगशालाको बिग्रेको तरल निकास भल्भ परिवर्तन गर्नुभयो, प्राविधिक भाइ ?	SEMI-FORMAL
+Please copy secure bio-informatics data mapping matrix assets to system, programmer.	कृपया सुरक्षित बायो-इन्फर्मेटिक्स तथ्याङ्क म्यापिङ म्याट्रिक्स सम्पत्तिहरू प्रणाली ड्राइभमा प्रतिलिपि गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Can you extract volcanic gas eruption compound particles validation data metrics, teammate?	के तपाईं ज्वालामुखी ग्यास विस्फोटको संयुक्त कण प्रमाणीकरण तथ्याङ्क मापन निकाल्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please change cell storage cooling environment gas containment seal pads, assistant.	कृपया कोशिका भण्डारण कुलिङ वातावरणको ग्यास नियन्त्रण सिल प्याडहरू परिवर्तन गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you complete regional soil density profiling parameter framework data matrix, analyst?	के तपाईंले क्षेत्रीय माटो घनत्व प्रोफाइलिङ मापदण्ड ढाँचाको तथ्याङ्क म्याट्रिक्स पूरा गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please review genome classification logic software script processing variables configuration, developer.	कृपया जीनोम वर्गीकरण लजिक सफ्टवेयर स्क्रिप्ट प्रशोधन भेरिएबल कन्फिगरेसनको समीक्षा गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Can you check internal oil pressure configurations inside drilling engine, technician?	के तपाईं ड्रिलिङ इन्जिन भित्रको आन्तरिक तेलको दबाब कन्फिगरेसन जाँच गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please upload tectonic block fault movement timeline tracking vector graphs, teammate.	कृपया टेक्टोनिक ब्लक फल्ट मुभमेन्ट टाइमलाइन ट्र्याकिङ भेक्टर ग्राफहरू अपलोड गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you complete biotechnology application parsing model software logic compilation, programmer?	के तपाईंले जैवप्रविधि एप्लिकेसन पार्सिङ मोडेल सफ्टवेयर लजिक कम्पाइलेशन पूरा गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please restart the main workstation to clear telemetry data tables, colleague.	कृपया टेलिमेट्री तथ्याङ्क तालिकाहरू सफा गर्न मुख्य वर्कस्टेशन रिस्टार्ट गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you adjust the telescope optical axis adjustment alignment mirror, assistant?	के तपाईं टेलिस्कोप अप्टिकल अक्ष समायोजन पङ्क्तिबद्धता ऐना मिलाउन सक्नुहुन्छ, सहयोगी भाइ ?	SEMI-FORMAL
+Please upload the latest firewall quantum compilation processing entry log files, teammate.	कृपया पछिल्लो फायरवाल क्वान्टम कम्पाइलेसन प्रशोधन प्रविष्टि लग फाइलहरू अपलोड गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you find any telemetry discrepancies in the rocket data packet capture, analyst?	के तपाईंले रकेट तथ्याङ्क प्याकेट क्याप्चरमा कुनै टेलिमेट्री विसंगति भेट्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please change the cryogenic fluid controller valve units inside cabinet, technician.	कृपया क्याबिनेट भित्रको क्रायोजेनिक तरल नियन्त्रक भल्भ एकाइहरू फेर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you write a bash script to automate qubit state decryption, programmer?	के तपाईं क्युबिट अवस्था डिक्रिप्सन स्वचालित गर्न ब्यास स्क्रिप्ट लेख्न सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please check the ground station tracking antenna frequency stability metrics, colleague.	कृपया भू-केन्द्र ट्र्याकिङ एन्टेना आवृत्ति स्थिरता मापन जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you track the laser network brute force jamming source IP addresses, operator?	के तपाईंले लेजर नेटवर्क ब्रुट फोर्स ज्यामिङको स्रोत आईपी ठेगानाहरू ट्र्याक गर्नुभयो, अपरेटर भाइ ?	SEMI-FORMAL
+Please prepare the test framework for the carbon composite sheet inspection, assistant.	कृपया कार्बन कम्पोजिट पाना निरीक्षणका लागि परीक्षण ढाँचा तयार पार्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Can you test the backup vacuum chamber pressure recovery timeline sheets, teammate?	के तपाईं ब्याकअप भ्याकुम चेम्बर दबाब रिकभरी टाइमलाइन पानाहरू परीक्षण गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please change the faulty telemetry interface interface cards in the rack, technician.	कृपया र्याकमा त्रुटिपूर्ण टेलिमेट्री इन्टरफेस कार्डहरू परिवर्तन गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you finish compiling the custom quantum circuit compiler library modules, developer?	के तपाईंले अनुकूलन क्वान्टम सर्किट कम्पाइलर लाइब्रेरी मोड्युलहरू कम्पाइल गर्न सक्नुभयो, विकासकर्ता साथी ?	SEMI-FORMAL
+Please document the satellite battery stack thermal variations metrics graphs, colleague.	कृपया भूउपग्रह ब्याट्री स्ट्याक थर्मल परिवर्तन मापन ग्राफहरू अभिलेखीकरण गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you filter the telemetry log files for optical alignment token mismatches, analyst?	के तपाईं अप्टिकल पङ्क्तिबद्धता टोकन नमिल्ने त्रुटिका लागि टेलिमेट्री लग फाइलहरू फिल्टर गर्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please load the nanomaterial electrical testing simulation spreadsheet data asset, assistant.	कृपया नानोसामग्री विद्युतीय परीक्षण सिमुलेशन स्प्रेडसिट तथ्याङ्क लोड गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you check the tracking system transceiver data stream validation speed, operator?	के तपाईंले ट्र्याकिङ प्रणाली ट्रान्सीभर तथ्याङ्क प्रवाह प्रमाणीकरण गति जाँच गर्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please optimize the database index schema for the spacecraft security logs, programmer.	कृपया अन्तरिक्ष यान सुरक्षा लगहरूका लागि डेटाबेस अनुक्रमणिका स्कीमा अनुकूलित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Can you fix the automated satellite solar array deployment configuration lines, teammate?	के तपाईं स्वचालित भूउपग्रह सौर्य एरे तैनाथी कन्फिगरेसन लाइनहरू मिलाउन सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please recalibrate the quantum magnetometer calculation sensor units daily, technician.	कृपया क्वान्टम म्याग्नेटोमिटर गणना सेन्सर एकाइहरू दैनिक रूपमा पुन: क्यालिब्रेट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you receive the ground terminal communication alert notification token window, colleague?	के तपाईंले भू-टर्मिनल सञ्चार चेतावनी सूचना टोकन विन्डो प्राप्त गर्नुभयो, साथी ?	SEMI-FORMAL
+Please run the vulnerability scanner on the telescope tracking environment, analyst.	कृपया टेलिस्कोप ट्र्याकिङ वातावरणमा संवेदनशीलता स्क्यानर चलाउनुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Can you clean the cleanroom fabrication enclosure dust filter sheets weekly, assistant?	के तपाईं क्लिनरुम फेब्रिकेसन घेराको धुलो फिल्टर पाना साप्ताहिक रूपमा सफा गर्न सक्नुहुन्छ, सहयोगी बहिनी ?	SEMI-FORMAL
+Please update the repository configuration files on the telemetry server, developer.	कृपया टेलिमेट्री सर्भरमा रिपोजिटरी कन्फिगरेसन फाइलहरू अपडेट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Did you lock the backup liquid nitrogen coolant tank valve box cabinet, guard?	के तपाईंले ब्याकअप तरल नाइट्रोजन कुल्यान्ट ट्याङ्की भल्भ बाकस क्याबिनेट बन्द गर्नुभयो, रक्षक दाइ ?	SEMI-FORMAL
+Please trace the satellite laser packet dropping sector location on map, operator.	कृपया नक्सामा भूउपग्रह लेजर प्याकेट ड्रप हुने क्षेत्रको स्थान ट्रेस गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Can you monitor the cleanroom high-vacuum system chamber pressure meters, technician?	के तपाईं क्लिनरुम उच्च-भ्याकुम प्रणाली चेम्बर दबाब मिटर निगरानी गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please verify the deployment configurations for the telescope receiver software patch, programmer.	कृपया टेलिस्कोप रिसीभर सफ्टवेयर प्याचका लागि डिप्लोइमेन्ट कन्फिगरेसनहरू प्रमाणित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Did you back up the spacecraft system tracking automation framework script files, teammate?	के तपाईंले अन्तरिक्ष यान प्रणाली ट्र्याकिङ स्वचालन ढाँचा स्क्रिप्ट फाइलहरू ब्याकअप गर्नुभयो, साथी ?	SEMI-FORMAL
+Please export the quantum circuit connectivity path flowcharts to vector format, assistant.	कृपया क्वान्टम सर्किट जडान मार्गको फ्लोचार्ट भेक्टर ढाँचामा निर्यात गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you review the cryptographic authentication protocol hardware source blocks, developer?	के तपाईं क्रिप्टोग्राफिक प्रमाणीकरण प्रोटोकल हार्डवेयर स्रोत ब्लकहरू समीक्षा गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please update the field staff about antenna diagnostic validation testing times, colleague.	कृपया क्षेत्रका कर्मचारीहरूलाई एन्टेना डायग्नोस्टिक प्रमाणीकरण परीक्षण समयको बारेमा अपडेट गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you complete the telescope payload summary matrix dashboard validation task, analyst?	के तपाईंले टेलिस्कोप पेलोड सारांश म्याट्रिक्स ड्यासबोर्ड प्रमाणीकरण कार्य पूरा गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please keep the damaged carbon composite isolation bracket inside the yard, assistant.	कृपया बिग्रेको कार्बन कम्पोजिट आइसोलेसन ब्रैकेटलाई यार्डभित्र राख्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you check the satellite constellation layout routing tables configuration scripts, operator?	के तपाईं भूउपग्रह कन्स्टिलेसन लेआउट राउटिङ टेबल कन्फिगरेसन स्क्रिप्टहरू जाँच गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please replace the blown surge protection hardware modules on terminal bars, technician.	कृपया टर्मिनल बारमा बिग्रेका सर्ज प्रोटेक्सन हार्डवेयर मोड्युलहरू फेरिदिनुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you finish writing code for endpoint telemetry malware analysis script, programmer?	के तपाईंले एन्डपोइन्ट टेलिमेट्री मालवेयर विश्लेषण स्क्रिप्टको कोड लेख्न सक्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please cross-check the cleanroom thermal cooling sensor configuration values, teammate.	कृपया क्लिनरुम थर्मल कुलिङ सेन्सर कन्फिगरेसन मानहरू क्रस-चेक गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you measure the electrical resistance values of optical bench grounding, assistant?	के तपाईं अप्टिकल बेन्च ग्राउन्डिङको विद्युतीय प्रतिरोध मान मापन गर्न सक्नुहुन्छ, सहयोगी भाइ ?	SEMI-FORMAL
+Please format the secure storage arrays before loading telemetry recovery backups, technician.	कृपया टेलिमेट्री रिकभरी ब्याकअपहरू लोड गर्नु अघि सुरक्षित भण्डारण एरेहरू फर्म्याट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you notice any configuration error alerts on telescope control software, operator?	के तपाईंले टेलिस्कोप नियन्त्रण सफ्टवेयरमा कुनै कन्फिगरेसन त्रुटि चेतावनीहरू देख्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please commit the quantum gate array simulation code integration adjustments updates, developer.	कृपया क्वान्टम गेट एरे सिमुलेशन कोड एकीकरण समायोजन अपडेटहरू कमिट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Can you update the aerospace composite material structural degradation models, analyst?	के तपाईं एयरोस्पेस कम्पोजिट सामग्री संरचनात्मक क्षयीकरण मोडेलहरू अपडेट गर्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please clean the cleanroom data switch connector assembly slots using cleaner, assistant.	कृपया क्लिनर प्रयोग गरेर क्लिनरुम डेटा स्विच कनेक्टर एसेम्बली स्लटहरू सफा गर्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Did you check the rocket propellant cryogenic temperature control safety thresholds, teammate?	के तपाईंले रकेट प्रोपेलान्ट क्रायोजेनिक तापक्रम नियन्त्रण सुरक्षा थ्रेसहोल्डहरू जाँच गर्नुभयो, साथी ?	SEMI-FORMAL
+Please run a local database quantum cryptography compliance auditing scan tool, technician.	कृपया स्थानीय डेटाबेस क्वान्टम क्रिप्टोग्राफी अनुपालन अडिटिङ स्क्यान टूल चलाउनुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you fix the broken code variables in tracking antenna firewall control, programmer?	के तपाईं ट्र्याकिङ एन्टेना फायरवाल नियन्त्रणमा बिग्रेका कोड भेरिएबलहरू मिलाउन सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please verify the satellite endpoint verification tokens before cloud system update, operator.	कृपया क्लाउड प्रणाली अपडेट गर्नु अघि भूउपग्रह एन्डपोइन्ट प्रमाणीकरण टोकनहरू प्रमाणित गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you find the telemetry exploit signal pattern strings in receiver logs, analyst?	के तपाईंले रिसीभर लगहरूमा टेलिमेट्री एक्स्प्लोइट सङ्केत ढाँचा स्ट्रिङहरू फेला पार्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please attach the high voltage cryogenic hazard signs to facility chamber doors, assistant.	कृपया केन्द्रको चेम्बर ढोकामा उच्च भोल्टेज क्रायोजेनिक खतराको सङ्केत टाँस्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you test the automatic telescope axis tracker controller protection configuration, teammate?	के तपाईं स्वचालित टेलिस्कोप अक्ष ट्र्याकर नियन्त्रक सुरक्षा कन्फिगरेसन परीक्षण गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please configure the ground system network rules to block signal threat vectors, operator.	कृपया सङ्केत खतरा भेक्टरहरू रोक्न भू-प्रणाली नेटवर्क नियमहरू कन्फिगर गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you download the nanomaterial crystalline structure timeline tracking data charts, analyst?	के तपाईंले नानोसामग्री क्रिस्टलीय संरचना टाइमलाइन ट्र्याकिङ तथ्याङ्क चार्टहरू डाउनलोड गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please measure the electricity current output of the satellite solar panel inverter, technician.	कृपया भूउपग्रह सौर्य प्यानल इन्भर्टरको विद्युत प्रवाह आउटपुट मापन गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you debug the quantum token generation module timeout execution framework errors, programmer?	के तपाईं क्वान्टम टोकन उत्पादन मोड्युल टाइमआउट कार्यान्वयन ढाँचा त्रुटिहरू डिबग गर्न सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please transfer the secure space threat intelligence data files to local desktop, colleague.	कृपया सुरक्षित अन्तरिक्ष खतरा गुप्तचर तथ्याङ्क फाइलहरू स्थानीय डेस्कटपमा स्थानान्तरण गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you notice any unusual antenna tracking signal power dips during simulation, operator?	के तपाईंले सिमुलेशनको क्रममा कुनै असामान्य एन्टेना ट्र्याकिङ सङ्केत पावर गिरावट देख्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please change the cleanroom laboratory air purification system chemical filter sheets, assistant.	कृपया क्लिनरुम प्रयोगशालाको हावा शुद्धिकरण प्रणालीको रासायनिक फिल्टर पानाहरू परिवर्तन गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you code a custom monitoring graph interface for quantum circuit anomalies, developer?	के तपाईं क्वान्टम सर्किट विसंगतिहरूका लागि अनुकूलन निगरानी ग्राफ इन्टरफेस कोड गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please double-check the geofenced launch facility security camera tracking access lists, teammate.	कृपया जियोफेन्स्ड प्रक्षेपण केन्द्रको सुरक्षा क्यामेरा ट्र्याकिङ पहुँच सूचीहरू दुई पटक जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you verify the file integrity hash values for the satellite telemetry backup, analyst?	के तपाईंले भूउपग्रह टेलिमेट्री ब्याकअपका लागि फाइल अखण्डता ह्यास मानहरू प्रमाणित गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please check the ground station receiver logs for failed tracking unit authentication, operator.	कृपया असफल ट्र्याकिङ एकाइ प्रमाणीकरणका लागि भू-केन्द्र रिसीभर लगहरू जाँच गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Can you replace the optical receiver terminal patch interface cables inside box, technician?	के तपाईं बाकस भित्रका अप्टिकल रिसीभर टर्मिनल प्याच इन्टरफेस केबलहरू फेर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please optimize the script code runtime logic framework for quantum identity checks, programmer.	कृपया क्वान्टम पहिचान जाँचका लागि स्क्रिप्ट कोड रनटाईम लजिक ढाँचा अनुकूलित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Did you calculate the satellite solar array power distribution efficiency losses today, colleague?	के तपाईंले आज भूउपग्रह सौर्य एरे शक्ति वितरण दक्षता ह्रासको गणना गर्नुभयो, साथी ?	SEMI-FORMAL
+Please change the liquid nitrogen tank fluid level indicator configuration chart variables, assistant.	कृपया तरल नाइट्रोजन ट्याङ्की तरल स्तर सूचक कन्फिगरेसन चार्ट भेरिएबलहरू परिवर्तन गर्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Can you build a hardware encryption layer module for quantum storage units, developer?	के तपाईं क्वान्टम भण्डारण एकाइहरूका लागि हार्डवेयर इन्क्रिप्सन तह मोड्युल निर्माण गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please download the distributed quantum simulation transaction tracking metric asset sheets, analyst.	कृपया वितरित क्वान्टम सिमुलेशन कारोबार ट्र्याकिङ मापन सम्पत्ति पानाहरू डाउनलोड गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Did you isolate the telescope tracking system firewall script failure logs from mainframe, operator?	के तपाईंले मेनफ्रेमबाट टेलिस्कोप ट्र्याकिङ प्रणाली फायरवाल स्क्रिप्ट विफलता लगहरू अलग गर्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please test the automated satellite solar array connection tracker alignment parameters tool, technician.	कृपया स्वचालित भूउपग्रह सौर्य एरे जडान ट्र्याकर पङ्क्तिबद्धता मापदण्ड उपकरण परीक्षण गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you generate an export status validation matrix summary for quantum security keys, analyst?	के तपाईं क्वान्टम सुरक्षा साँचोका लागि निर्यात स्थिति प्रमाणीकरण म्याट्रिक्स सारांश तयार पार्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please upload the carbon nanotube asset performance tracker monitoring metric matrix charts, assistant.	कृपया कार्बन नानोट्युब सम्पत्ति प्रदर्शन ट्र्याकर निगरानी मापन म्याट्रिक्स चार्टहरू अपलोड गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you complete the telemetry security firewall validation checking algorithm code execution, programmer?	के तपाईंले टेलिमेट्री सुरक्षा फायरवाल प्रमाणीकरण जाँच एल्गोरिदम कोड कार्यान्वयन पूरा गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please verify the optical line connector tracking matching terminal numbers alignment link, technician.	कृपया अप्टिकल लाइन कनेक्टर ट्र्याकिङ मिल्दो टर्मिनल नम्बर पङ्क्तिबद्धता लिङ्क प्रमाणित गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you check the space telescope network threat signatures mapping allocation table, teammate?	के तपाईं अन्तरिक्ष टेलिस्कोप नेटवर्क खतरा हस्ताक्षर म्यापिङ बाँडफाँड तालिका जाँच गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please update software configuration paths inside the secure satellite tracking interface system, developer.	कृपया सुरक्षित भूउपग्रह ट्र्याकिङ इन्टरफेस प्रणाली भित्र सफ्टवेयर कन्फिगरेशन पाथहरू अपडेट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Did you find any security validation bypass exploits in quantum circuit interface testing, analyst?	के तपाईंले क्वान्टम सर्किट इन्टरफेस परीक्षणमा कुनै सुरक्षा प्रमाणीकरण बाइपास एक्स्प्लोइट फेला पार्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please recalibrate the quantum dot solar cell monitoring charging current measurement tool, assistant.	कृपया क्वान्टम डट सौर्य सेल अनुगमन चार्जिङ करेन्ट मापन उपकरण पुन: क्यालिब्रेट गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you set up an offline tracking data staging environment repository backup mirror, operator?	के तपाईं एउटा अफलाइन ट्र्याकिङ तथ्याङ्क स्टिजिङ वातावरण रिपोजिटरी ब्याकअप मिरर सेटअप गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please verify the aerospace facility testing sub-station automated rocket disconnect switch gear, technician.	कृपया एयरोस्पेस केन्द्र परीक्षण सब-स्टेशन स्वचालित रकेट विच्छेद स्विच गियर प्रमाणित गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you check the telemetry pipeline processing system data processing allocation memory constraints, programmer?	के तपाईंले टेलिमेट्री पाइपलाइन प्रशोधन प्रणाली तथ्याङ्क प्रशोधन बाँडफाँड मेमोरी अवरोधहरू जाँच गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please organize the cloud account tracking software vulnerability framework mapping history charts, analyst.	कृपया क्लाउड खाता ट्र्याकिङ सफ्टवेयर संवेदनशीलता ढाँचा म्यापिङ इतिहास चार्टहरू व्यवस्थित गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Can you upgrade the ground terminal network intrusion firewall platform application release software, technician?	के तपाईं भू-टर्मिनल नेटवर्क घुसपैठ फायरवाल प्लेटफर्म एप्लिकेसन रिलिज सफ्टवेयर अपग्रेड गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please change options configuration flags parameters to clear secure tracking telemetry histories, operator.	कृपया सुरक्षित ट्र्याकिङ टेलिमेट्री इतिहास मेटाउन विकल्प कन्फिगरेसन फ्ल्याग मापदण्ड परिवर्तन गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you complete the satellite payload tracking quality monitoring framework checklist sheet, teammate?	के तपाईंले भूउपग्रह पेलोड ट्र्याकिङ गुणस्तर निगरानी ढाँचा चेकलिस्ट पाना पूरा गर्नुभयो, साथी ?	SEMI-FORMAL
+Please clean the cleanroom facility monitoring hardware computer terminal input device frame, assistant.	कृपया क्लिनरुम सुविधा निगरानी हार्डवेयर कम्प्युटर टर्मिनल इनपुट यन्त्र फ्रेम सफा गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you write security authentication wrapper code components for quantum cloud application platform, developer?	के तपाईं क्वान्टम क्लाउड एप्लिकेसन प्लेटफर्मका लागि सुरक्षा प्रमाणीकरण र्यापर कोड कम्पोनेन्टहरू लेख्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please check the main ground tracking station antenna network alignment drive readings, teammate.	कृपया मुख्य भू-ट्र्याकिङ स्टेशन एन्टेना नेटवर्क पङ्क्तिबद्धता ड्राइभ रिडिङहरू जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you discover the core structural cause of quantum network simulation encryption system lag, programmer?	के तपाईंले क्वान्टम नेटवर्क सिमुलेशन इन्क्रिप्सन प्रणाली ढिलाइ हुनुको मुख्य संरचनात्मक कारण फेला पार्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please mount the primary telescope asset security monitoring tracking data storage directory volume, technician.	कृपया प्राथमिक टेलिस्कोप सम्पत्ति सुरक्षा निगरानी ट्र्याकिङ तथ्याङ्क भण्डारण डाइरेक्टरी भोल्युम माउन्ट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you monitor database network data packet connection traffic loads during launch simulation, operator?	के तपाईं प्रक्षेपण सिमुलेशनको क्रममा डेटाबेस नेटवर्क तथ्याङ्क प्याकेट जडान ट्राफिक लोडहरू निगरानी गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please review rocket telemetry repository access authentication configuration settings asset data sheets, analyst.	कृपया रकेट टेलिमेट्री रिपोजिटरी पहुँच प्रमाणीकरण कन्फिगरेसन सेटिङ सम्पत्ति तथ्याङ्क पानाहरूको समीक्षा गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Did you change the broken liquid helium coolant line supply connector of simulator, technician?	के तपाईंले सिमुलेटरको बिग्रेको तरल हिलियम कुल्यान्ट लाइन आपूर्ति कनेक्टर परिवर्तन गर्नुभयो, प्राविधिक भाइ ?	SEMI-FORMAL
+Please copy secure satellite tracking algorithm interface configuration matrices to framework system drives, programmer.	कृपया सुरक्षित भूउपग्रह ट्र्याकिङ एल्गोरिदम इन्टरफेस कन्फिगरेसन म्याट्रिक्स ढाँचा प्रणाली ड्राइभहरूमा प्रतिलिपि गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Can you extract telescope tracking system data metadata attributes sheets for quantum asset assessment, teammate?	के तपाईं क्वान्टम सम्पत्ति मूल्याङ्कनका लागि टेलिस्कोप ट्र्याकिङ प्रणाली तथ्याङ्क मेटाडेटा विशेषता पानाहरू निकाल्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please change cleanroom laboratory air purification system chemical carbon filtering block pads safely, assistant.	कृपया क्लिनरुम प्रयोगशालाको हावा शुद्धिकरण प्रणालीको रासायनिक कार्बन फिल्टरिङ ब्लक प्याडहरू सुरक्षित रूपमा परिवर्तन गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you complete telemetry data logging protocol baseline calibration parameters software tracking integration sheet, analyst?	के तपाईंले टेलिमेट्री तथ्याङ्क लगिङ प्रोटोकल बेसलाइन क्यालिब्रेसन मापदण्ड सफ्टवेयर ट्र्याकिङ एकीकरण पाना पूरा गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please review quantum circuit state validation processing algorithm script file execution configuration settings blocks, developer.	कृपया क्वान्टम सर्किट अवस्था प्रमाणीकरण प्रशोधन एल्गोरिदम स्क्रिप्ट फाइल कार्यान्वयन कन्फिगरेसन सेटिङ ब्लकहरूको समीक्षा गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Can you check internal liquid helium cryogenic coolant indicators of quantum computing unit stack, technician?	के तपाईं क्वान्टम कम्प्युटिङ एकाई स्ट्याकको आन्तरिक तरल हिलियम क्रायोजेनिक कुल्यान्ट सूचकहरू जाँच गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please upload rocket trajectory telemetry diagnostic data logging sheet framework configuration script matrices, teammate.	कृपया रकेट मार्ग टेलिमेट्री डायग्नोस्टिक तथ्याङ्क लगिङ पाना ढाँचा कन्फिगरेसन स्क्रिप्ट म्याट्रिक्स अपलोड गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you complete the quantum cryptography asset authentication mapping script interface software framework updates, programmer?	के तपाईंले क्वान्टम क्रिप्टोग्राफी सम्पत्ति प्रमाणीकरण म्यापिङ स्क्रिप्ट इन्टरफेस सफ्टवेयर ढाँचा अपडेटहरू पूरा गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please restart the main database server, colleague.	कृपया मुख्य डेटाबेस सर्भर रिस्टार्ट गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you adjust the robot arm camera, assistant?	के तपाईं रोबोटिक हातको क्यामेरा मिलाउन सक्नुहुन्छ, सहयोगी भाइ ?	SEMI-FORMAL
+Please upload the latest ocean telemetry logs, teammate.	कृपया पछिल्लो समुद्री टेलिमेट्री लगहरू अपलोड गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you find discrepancies in the charts, analyst?	के तपाईंले चार्टहरूमा कुनै विसंगति भेट्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please change the liquid nitrogen core vials, technician.	कृपया तरल नाइट्रोजन कोर भायलहरू फेर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you write a script to process data, programmer?	के तपाईं तथ्याङ्क प्रशोधन गर्न स्क्रिप्ट लेख्न सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please check the submarine air ventilation valves, colleague.	कृपया पनडुब्बीको हावा भेन्टिलेसन भल्भहरू जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you track the deep-sea shark paths, operator?	के तपाईंले गहिरो समुद्री शार्कको मार्ग ट्र्याक गर्नुभयो, अपरेटर भाइ ?	SEMI-FORMAL
+Please prepare the nutrient mixture for algae, assistant.	कृपया लेउका लागि पोषक तत्वको मिश्रण तयार पार्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Can you test the drone flight timeline sheets, teammate?	के तपाईं ड्रोन उडान टाइमलाइन पानाहरू परीक्षण गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please change the broken network sensor cables, technician.	कृपया बिग्रेका नेटवर्क सेन्सर केबलहरू परिवर्तन गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you finish compiling the database library, developer?	के तपाईंले डेटाबेस लाइब्रेरी कम्पाइल गर्न सक्नुभयो, विकासकर्ता साथी ?	SEMI-FORMAL
+Please document the coastal water temperature variations, colleague.	कृपया तटीय पानीको तापक्रम परिवर्तन अभिलेखीकरण गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you filter the logs for errors, analyst?	के तपाईं त्रुटिहरूका लागि लग फाइलहरू फिल्टर गर्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please load the robotic boat velocity spreadsheet, assistant.	कृपया रोबोटिक डुङ्गाको गतिको स्प्रेडसिट लोड गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you check the water level indicator speed, operator?	के तपाईंले पानीको स्तर सूचकको गति जाँच गर्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please optimize the database index for logs, programmer.	कृपया लगहरूका लागि डेटाबेस अनुक्रमणिका अनुकूलित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Can you fix the automated system alert lines, teammate?	के तपाईं स्वचालित प्रणाली चेतावनी लाइनहरू मिलाउन सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please recalibrate the ocean sensor units daily, technician.	कृपया समुद्री सेन्सर एकाइहरू दैनिक रूपमा पुन: क्यालिब्रेट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you receive the system alert email window, colleague?	के तपाईंले प्रणाली चेतावनी इमेल विन्डो प्राप्त गर्नुभयो, साथी ?	SEMI-FORMAL
+Please run the validation script on server, analyst.	कृपया सर्भरमा प्रमाणीकरण स्क्रिप्ट चलाउनुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Can you clean the centrifuge machine chamber, assistant?	के तपाईं सेन्ट्रीफ्यूज मेसिनको चेम्बर सफा गर्न सक्नुहुन्छ, सहयोगी बहिनी ?	SEMI-FORMAL
+Please update the seismic data repository files, developer.	कृपया भूकम्पीय तथ्याङ्क रिपोजिटरी फाइलहरू अपडेट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Did you lock the laboratory biological room, guard?	के तपाईंले प्रयोगशालाको जैविक कोठा बन्द गर्नुभयो, रक्षक दाइ ?	SEMI-FORMAL
+Please trace the toxic spill dispersion pattern, operator.	कृपया विषाक्त चुहावट फैलिएको ढाँचा ट्रेस गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Can you monitor the robotic drill depth meters, technician?	के तपाईं रोबोटिक ड्रिलको गहिराई मिटर निगरानी गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please verify the deployment configuration for patch, programmer.	कृपया प्याचका लागि डिप्लोइमेन्ट कन्फिगरेसन प्रमाणित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Did you back up the simulation system scripts, teammate?	के तपाईंले सिमुलेशन प्रणाली स्क्रिप्टहरू ब्याकअप गर्नुभयो, साथी ?	SEMI-FORMAL
+Please export the marine habitat flowcharts directly, assistant.	कृपया समुद्री बासस्थानको फ्लोचार्ट सिधै निर्यात गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you review the server security blocks, developer?	के तपाईं सर्भर सुरक्षा ब्लकहरू समीक्षा गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please update the field crew about testing, colleague.	कृपया क्षेत्रका कर्मचारीहरूलाई परीक्षणका बारेमा अपडेट गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you complete the ocean summary validation, analyst?	के तपाईंले समुद्री सारांश प्रमाणीकरण पूरा गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please keep the contaminated dishes inside boxes, assistant.	कृपया सङ्क्रमित डिशहरू बाकसभित्र राख्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you check the software configuration scripts, operator?	के तपाईं सफ्टवेयर कन्फिगरेसन स्क्रिप्टहरू जाँच गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please replace the broken cooling fan inside, technician.	कृपया भित्रको बिग्रेको कुलिङ फ्यान फेरिदिनुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you finish writing code for script, programmer?	के तपाईंले स्क्रिप्टको कोड लेख्न सक्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please cross-check the groundwater sensor values, teammate.	कृपया भूमिगत पानीको सेन्सर मानहरू क्रस-चेक गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you measure the electrical resistance values, assistant?	के तपाईं विद्युतीय प्रतिरोध मान मापन गर्न सक्नुहुन्छ, सहयोगी भाइ ?	SEMI-FORMAL
+Please format storage arrays before loading backups, technician.	कृपया ब्याकअप लोड गर्नु अघि भण्डारण एरेहरू फर्म्याट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you notice any error alerts today, operator?	के तपाईंले आज कुनै त्रुटि चेतावनीहरू देख्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please commit the machine learning algorithm codes, developer.	कृपया मेशिन लर्निङ एल्गोरिदमको कोडहरू कमिट गर्नुहोस्, विकासकर्ता साथी ।	LED-FORMAL
+Can you update the coastal hazard models, analyst?	के तपाईं तटीय जोखिम मोडेलहरू अपडेट गर्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please clean the laboratory pipette connector blocks, assistant.	कृपया प्रयोगशालाको पिपेट कनेक्टर ब्लकहरू सफा गर्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Did you check the marine incubator thresholds, teammate?	के तपाईंले समुद्री इन्क्युबेटर थ्रेसहोल्डहरू जाँच गर्नुभयो, साथी ?	SEMI-FORMAL
+Please run a database auditing scan tool, technician.	कृपया डेटाबेस अडिटिङ स्क्यान टूल चलाउनुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you fix the broken script variables, programmer?	के तपाईं बिग्रेका स्क्रिप्ट भेरिएबलहरू मिलाउन सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please verify database access tokens before update, operator.	कृपया अपडेट गर्नु अघि डेटाबेस पहुँच टोकनहरू प्रमाणित गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you find data displacement history logs, analyst?	के तपाईंले विस्थापन इतिहास लगहरू फेला पार्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please attach biohazard signs to glass panels, assistant.	कृपया सिसाको प्यानलहरूमा जैविक खतराको सङ्केत टाँस्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you test the automatic monitor device, teammate?	के तपाईं स्वचालित अनुगमन यन्त्र परीक्षण गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please configure the firewall rules for security, operator.	कृपया सुरक्षाका लागि फायरवाल नियमहरू कन्फिगर गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you download the sea current velocity metrics, analyst?	के तपाईंले समुद्री बहाव गतिको मापन तालिका डाउनलोड गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please measure the output concentration of buffers, technician.	कृपया बफरको आउटपुट एकाग्रता मापन गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you debug the neural mapping software, programmer?	के तपाईं न्यूरल म्यापिङ सफ्टवेयर डिबग गर्न सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please transfer the sound amplitude charts now, colleague.	कृपया ध्वनिको आयाम चार्टहरू अहिले नै स्थानान्तरण गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you notice unusual data measurements today, operator?	के तपाईंले आज असामान्य तथ्याङ्क मापन देख्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please change the laboratory water filter sheets, assistant.	कृपया प्रयोगशालाको पानी फिल्टर गर्ने पानाहरू परिवर्तन गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you code an interface for logs, developer?	के तपाईं लगहरूका लागि इन्टरफेस कोड गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please double-check the facility lock settings, teammate.	कृपया केन्द्रको लक सेटिङहरू दुई पटक जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you verify the file integrity hashes, analyst?	के तपाईंले फाइल अखण्डता ह्यास मानहरू प्रमाणित गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please check the database logs for errors, operator.	कृपया त्रुटिहरूका लागि डेटाबेस लगहरू जाँच गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Can you replace the signal transmission wires, technician?	के तपाईं सङ्केत प्रसारण तारहरू फेर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please optimize script runtime for system searches, programmer.	कृपया प्रणाली खोजीका लागि स्क्रिप्ट चल्ने समय अनुकूलित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Did you calculate the coastal erosion rates, colleague?	के तपाईंले तटीय कटान दरको गणना गर्नुभयो, साथी ?	SEMI-FORMAL
+Please change the chemical measurement matrix sheets, assistant.	कृपया रासायनिक मापन म्याट्रिक्स पानाहरू परिवर्तन गर्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Can you build an encryption layer module, developer?	के तपाईं इन्क्रिप्सन तह मोड्युल निर्माण गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please download the ocean current tracking charts, analyst.	कृपया समुद्री बहाव ट्र्याकिङ चार्टहरू डाउनलोड गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Did you isolate the centrifuge failure logs, operator?	के तपाईंले सेन्ट्रीफ्यूज विफलताको लगहरू अलग गर्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please test automated underwater drill indicators, technician.	कृपया स्वचालित पानीमुनिको ड्रिल सूचकहरू परीक्षण गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you generate an export status summary, analyst?	के तपाईं निर्यात स्थिति सारांश तयार पार्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please upload coastal terrain elevation mapping grids, assistant.	कृपया तटीय भूभागको उचाई म्यापिङ ग्रिडहरू अपलोड गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you complete biological lock validation codes, programmer?	के तपाईंले जैविक लक प्रमाणीकरण कोड पूरा गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please verify the sensor calibration interface cable, technician.	कृपया सेन्सर क्यालिब्रेसन इन्टरफेस केबल प्रमाणित गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you check database structural sequence paths, teammate?	के तपाईं डेटाबेस संरचनात्मक अनुक्रम मार्गहरू जाँच गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please update processing paths variables inside software, developer.	कृपया सफ्टवेयर भित्र प्रशोधन मार्गको भेरिएबलहरू अपडेट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Did you find any template validation anomalies, analyst?	के तपाईंले कुनै टेम्प्लेट प्रमाणीकरण विसंगति फेला पार्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please recalibrate the incubator humidity gauges now, assistant.	कृपया इन्क्युबेटरको आर्द्रता गेज अहिले नै पुन: क्यालिब्रेट गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you set up an offline repository, operator?	के तपाईं एउटा अफライン रिपोजिटरी सेटअप गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please verify telemetry tracking automation switch gear, technician.	कृपया टेलिमेट्री ट्र्याकिङ स्वचालन स्विच गियर प्रमाणित गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you check system memory allocation constraints, programmer?	के तपाईंले प्रणाली मेमोरी बाँडफाँड अवरोधहरू जाँच गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please organize the statistical data files properly, analyst.	कृपया साङ्ख्यिकीय तथ्याङ्क फाइलहरू राम्ररी व्यवस्थित गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Can you upgrade neural network framework software, technician?	के तपाईं न्यूरल नेटवर्क ढाँचा सफ्टवेयर अपग्रेड गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please change configurations parameters to clear history, operator.	कृपया इतिहास कुन हटाउन कन्फिगरेसन मापदण्ड परिवर्तन गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you complete regional intensity index report, teammate?	के तपाईंले क्षेत्रीय तीव्रता सूचकाङ्क प्रतिवेदन पूरा गर्नुभयो, साथी ?	SEMI-FORMAL
+Please clean automated analyzer platform glass slide, assistant.	कृपया स्वचालित विश्लेषक प्लेटफर्मको सिसाको स्लाइड सफा गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you write data parsing extraction code, developer?	के तपाईं तथ्याङ्क पार्सिङ निष्कर्षण कोड लेख्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please check the primary zone tracking logs, teammate.	कृपया मुख्य क्षेत्र ट्र्याकिङ लगहरू जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you discover core cause of software, programmer?	के तपाईंले सफ्टवेयर ढिलाइ हुनुको मुख्य कारण फेला पार्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please mount activity sensor tracking storage volume, technician.	कृपया गतिविधि सेन्सर ट्र्याकिङ भण्डारण भोल्युम माउन्ट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you monitor incubator airflow load charts, operator?	के तपाईं इन्क्युबेटर वायुप्रवाह लोड चार्टहरू निगरानी गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please review density analysis laboratory file sheets, analyst.	कृपया घनत्व विश्लेषण प्रयोगशाला पानाहरूको समीक्षा गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Did you change the damaged drainage valve, technician?	के तपाईंले बिग्रेको निकास भल्भ परिवर्तन गर्नुभयो, प्राविधिक भाइ ?	SEMI-FORMAL
+Please copy secure data mapping matrix assets, programmer.	कृपया सुरक्षित तथ्याङ्क म्यापिङ म्याट्रिक्स सम्पत्तिहरू प्रतिलिपि गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Can you extract gas compound particles data, teammate?	के तपाईं ग्यास संयुक्त कणको तथ्याङ्क निकाल्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please change storage cooling environment seal pads, assistant.	कृपया भण्डारण कुलिङ वातावरणको सिल प्याडहरू परिवर्तन गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you complete regional profiling data matrix, analyst?	के तपाईंले क्षेत्रीय प्रोफाइलिङ तथ्याङ्क म्याट्रिक्स पूरा गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please review classification logic script variables configuration, developer.	कृपया वर्गीकरण लजिक स्क्रिप्ट भेरिएबल कन्फिगरेसनको समीक्षा गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Can you check internal pressure inside engine, technician?	के तपाईं इन्जिन भित्रको आन्तरिक दबाब जाँच गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please upload block movement timeline tracking graphs, teammate.	कृपया ब्लक मुभमेन्ट टाइमलाइन ट्र्याकिङ ग्राफहरू अपलोड गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you complete application parsing model compilation, programmer?	के तपाईंले एप्लिकेसन पार्सिङ मोडेल कम्पाइलेशन पूरा गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please restart the main workstation to clear smart grid telemetry tables, colleague.	कृपया स्मार्ट ग्रिड टेलिमेट्री तथ्याङ्क तालिकाहरू सफा गर्न मुख्य वर्कस्टेशन रिस्टार्ट गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you adjust the solar tracker optical axis adjustment alignment mirror, assistant?	के तपाईं सौर्य ट्र्याकर अप्टिकल अक्ष समायोजन पङ्क्तिबद्धता ऐना मिलाउन सक्नुहुन्छ, सहयोगी भाइ ?	SEMI-FORMAL
+Please upload the latest firewall genetic compilation processing entry log files, teammate.	कृपया पछिल्लो फायरवाल जेनेटिक कम्पाइलेसन प्रशोधन प्रविष्टि लग फाइलहरू अपलोड गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you find any telemetry discrepancies in the grid data packet capture, analyst?	के तपाईंले ग्रिड तथ्याङ्क प्याकेट क्याप्चरमा कुनै टेलिमेट्री विसंगति भेट्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please change the anaerobic digester fluid controller valve units inside cabinet, technician.	कृपया क्याबिनेट भित्रको एनारोबिक डाइजेस्टर तरल नियन्त्रक भल्भ एकाइहरू फेर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you write a bash script to automate genetic code sequence decryption, programmer?	के तपाईं आनुवंशिक कोड अनुक्रम डिक्रिप्सन स्वचालित गर्न ब्यास स्क्रिप्ट लेख्न सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please check the substation tracking antenna frequency stability metrics, colleague.	कृपया उपकेन्द्र ट्र्याकिङ एन्टेना आवृत्ति स्थिरता मापन जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you track the grid network brute force jamming source IP addresses, operator?	के तपाईंले ग्रिड नेटवर्क ब्रुट फोर्स ज्यामिङको स्रोत आईपी ठेगानाहरू TR्याक गर्नुभयो, अपरेटर भाइ ?	SEMI-FORMAL
+Please prepare the test framework for the bio-polymer sheet inspection, assistant.	कृपया बायो-पोलिमर पाना निरीक्षणका लागि परीक्षण ढाँचा तयार पार्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Can you test the backup vacuum chamber pressure recovery timeline sheets, teammate?	के तपाईं ब्याकअप भ्याकुम चेम्बर दबाब रिकभरी टाइमलाइन पानाहरू परीक्षण गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please change the faulty grid telemetry interface cards in the rack, technician.	कृपया र्याकमा त्रुटिपूर्ण ग्रिड टेलिमेट्री इन्टरफेस कार्डहरू परिवर्तन गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you finish compiling the custom genetic expression compiler library modules, developer?	के तपाईंले अनुकूलन जेनेटिक अभिव्यक्ति कम्पाइलर लाइब्रेरी मोड्युलहरू कम्पाइल गर्न सक्नुभयो, विकासकर्ता साथी ?	SEMI-FORMAL
+Please document the inverter battery stack thermal variations metrics graphs, colleague.	कृपया इन्वर्टर ब्याट्री स्ट्याक थर्मल परिवर्तन मापन ग्राफहरू अभिलेखीकरण गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you filter the telemetry log files for optical alignment token mismatches, analyst?	के तपाईं अप्टिकल पङ्क्तिबद्धता टोकन नमिल्ने त्रुटिका लागि टेलिमेट्री लग फाइलहरू फिल्टर गर्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please load the biomaterial electrical testing simulation spreadsheet data asset, assistant.	कृपया जैविक सामग्री विद्युतीय परीक्षण सिमुलेशन स्प्रेडसिट तथ्याङ्क लोड गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you check the tracking system inverter data stream validation speed, operator?	के तपाईंले ट्र्याकिङ प्रणाली इन्भर्टर तथ्याङ्क प्रवाह प्रमाणीकरण गति जाँच गर्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please optimize the database index schema for the substation security logs, programmer.	कृपया उपकेन्द्र सुरक्षा लगहरूका लागि डेटाबेस अनुक्रमणिका स्कीमा अनुकूलित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Can you fix the automated grid solar array deployment configuration lines, teammate?	के तपाईं स्वचालित ग्रिड सौर्य एरे तैनाथी कन्फिगरेसन लाइनहरू मिलाउन सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please recalibrate the biosensor magnetometer calculation sensor units daily, technician.	कृपया बायोसेन्सर म्याग्नेटोमिटर गणना सेन्サー एकाइहरू दैनिक रूपमा पुन: क्यालिब्रेट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you receive the substation communication alert notification token window, colleague?	के तपाईंले उपकेन्द्र सञ्चार चेतावनी सूचना टोकन विन्डो प्राप्त गर्नुभयो, साथी ?	SEMI-FORMAL
+Please run the vulnerability scanner on the substation tracking environment, analyst.	कृपया उपकेन्द्र ट्र्याकिङ वातावरणमा संवेदनशीलता स्क्यानर चलाउनुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Can you clean the cleanroom biotech enclosure dust filter sheets weekly, assistant?	के तपाईं क्लिनरुम बायोटेक घेराको धुलो फिल्टर पाना साप्ताहिक रूपमा सफा गर्न सक्नुहुन्छ, सहयोगी बहिनी ?	SEMI-FORMAL
+Please update the repository configuration files on the grid telemetry server, developer.	कृपया ग्रिड टेलिमेट्री सर्भरमा रिपोजिटरी कन्फिगरेसन फाइलहरू अपडेट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Did you lock the backup liquid nitrogen coolant tank valve box cabinet, guard?	के तपाईंले ब्याकअप तरल नाइट्रोजन कुल्यान्ट ट्याङ्की भल्भ बाकस क्याबिनेट बन्द गर्नुभयो, रक्षक दाइ ?	SEMI-FORMAL
+Please trace the substation laser packet dropping sector location on map, operator.	कृपया नक्सामा उपकेन्द्र लेजर प्याकेट ड्रप हुने क्षेत्रको स्थान ट्रेस गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Can you monitor the cleanroom high-vacuum bioreactor chamber pressure meters, technician?	के तपाईं क्लिनरुम उच्च-भ्याकुम बायोरिएक्टर चेम्बर दबाब मिटर निगरानी गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please verify the deployment configurations for the substation receiver software patch, programmer.	कृपया उपकेन्द्र रिसीभर सफ्टवेयर प्याचका लागि डिप्लोइमेन्ट कन्फिगरेसनहरू प्रमाणित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Did you back up the grid power system tracking automation framework script files, teammate?	के तपाईंले ग्रिड पावर प्रणाली ट्र्याकिङ स्वचालन ढाँचा स्क्रिप्ट फाइलहरू ब्याकअप गर्नुभयो, साथी ?	SEMI-FORMAL
+Please export the genetic linkage connectivity path flowcharts to vector format, assistant.	कृपया आनुवंशिक लिङ्केज जडान मार्गको फ्लोचार्ट भेक्टर ढाँचामा निर्यात गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you review the cryptographic authentication protocol substation source blocks, developer?	के तपाईं क्रिप्टोग्राफिक प्रमाणीकरण प्रोटोकल उपकेन्द्र स्रोत ब्लकहरू समीक्षा गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please update the field staff about solar panel validation testing times, colleague.	कृपया क्षेत्रका कर्मचारीहरूलाई सौर्य प्यानल प्रमाणीकरण परीक्षण समयको बारेमा अपडेट गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you complete the substation payload summary matrix dashboard validation task, analyst?	के तपाईंले उपकेन्द्र पेलोड सारांश म्याट्रिक्स ड्यासबोर्ड प्रमाणीकरण कार्य पूरा गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please keep the damaged bio-polymer isolation bracket inside the yard, assistant.	कृपया बिग्रेको बायो-पोलिमर आइसोलेसन ब्रैकेटलाई यार्डभित्र राख्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you check the grid substation layout routing tables configuration scripts, operator?	के तपाईं ग्रिड उपकेन्द्र लेआउट राउटिङ टेबल कन्फिगरेसन स्क्रिप्टहरू जाँच गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please replace the blown surge protection hardware modules on substation bars, technician.	कृपया उपकेन्द्र बारमा बिग्रेका सर्ज प्रोटेक्सन हार्डवेयर मोड्युलहरू फेरिदिनुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you finish writing code for endpoint grid malware analysis script, programmer?	के तपाईंले एन्डपोइन्ट ग्रिड मालवेयर विश्लेषण स्क्रिप्टको कोड लेख्न सक्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please cross-check the cleanroom thermal cooling sensor configuration values, teammate.	कृपया क्लिनरुम थर्मल कुलिङ सेन्सर कन्फिगरेसन मानहरू क्रस-चेक गर्नुहोस्, साथी ।	SEMI-FORMAL
+Can you measure the electrical resistance values of substation grounding, assistant?	के तपाईं उपकेन्द्र ग्राउन्डिङको विद्युतीय प्रतिरोध मान मापन गर्न सक्नुहुन्छ, सहयोगी भाइ ?	SEMI-FORMAL
+Please format the secure storage arrays before loading grid recovery backups, technician.	कृपया ग्रिड रिकभरी ब्याकअपहरू लोड गर्नु अघि सुरक्षित भण्डारण एरेहरू फर्म्याट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you notice any configuration error alerts on substation control software, operator?	के तपाईंले उपकेन्द्र नियन्त्रण सफ्टवेयरमा कुनै कन्फिगरेसन त्रुटि चेतावनीहरू देख्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please commit the genetic sequence array simulation code integration adjustments updates, developer.	कृपया आनुवंशिक अनुक्रम एरे सिमुलेशन कोड एकीकरण समायोजन अपडेटहरू कमिट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Can you update the renewable material structural degradation models, analyst?	के तपाईं नवीकरणीय सामग्री संरचनात्मक क्षयीकरण मोडेलहरू अपडेट गर्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please clean the cleanroom data switch connector assembly slots using cleaner, assistant.	कृपया क्लिनर प्रयोग गरेर क्लिनरुम डेटा स्विच कनेक्टर एसेम्बली स्लटहरू सफा गर्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Did you check the biofuel refinery cryogenic temperature control safety thresholds, teammate?	के तपाईंले बायोफ्युल रिफाइनरी क्रायोजेनिक तापक्रम नियन्त्रण सुरक्षा थ्रेसहोल्डहरू जाँच गर्नुभयो, साथी ?	SEMI-FORMAL
+Please run a local database genetic cryptography compliance auditing scan tool, technician.	कृपया स्थानीय डेटाबेस जेनेटिक क्रिप्टोग्राफी अनुपालन अडिटिङ स्क्यान टूल चलाउनुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you fix the broken code variables in tracking antenna grid control, programmer?	के तपाईं ट्र्याकिङ एन्टेना ग्रिड नियन्त्रणमा बिग्रेका कोड भेरिएबलहरू मिलाउन सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please verify the substation endpoint verification tokens before cloud system update, operator.	कृपया क्लाउड प्रणाली अपडेट गर्नु अघि उपकेन्द्र एन्डपोइन्ट प्रमाणीकरण टोकनहरू प्रमाणित गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you find the grid exploit signal pattern strings in receiver logs, analyst?	के तपाईंले रिसीभर लगहरूमा ग्रिड एक्स्प्लोइट सङ्केत ढाँचा स्ट्रिङहरू फेला पार्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please attach the high voltage biohazard signs to facility chamber doors, assistant.	कृपया केन्द्रको चेम्बर ढोकामा उच्च भोल्टेज जैविक खतराको सङ्केत टाँस्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you test the automatic solar axis tracker controller protection configuration, teammate?	के तपाईं स्वचालित सौर्य अक्ष ट्र्याकर नियन्त्रक सुरक्षा कन्फिगरेसन परीक्षण गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please configure the grid system network rules to block signal threat vectors, operator.	कृपया सङ्केत खतरा भेक्टरहरू रोक्न ग्रिड प्रणाली नेटवर्क नियमहरू कन्फिगर गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you download the biomaterial crystalline structure timeline tracking data charts, analyst?	के तपाईंले जैविक सामग्री क्रिस्टलीय संरचना टाइमलाइन ट्र्याकिङ तथ्याङ्क चार्टहरू डाउनलोड गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please measure the electricity current output of the smart grid solar inverter, technician.	कृपया स्मार्ट ग्रिड सौर्य इन्भर्टरको विद्युत प्रवाह आउटपुट मापन गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you debug the genetic token generation module timeout execution framework errors, programmer?	के तपाईं जेनेटिक टोकन उत्पादन मोड्युल टाइमआउट कार्यान्वयन ढाँचा त्रुटिहरू डिबग गर्न सक्नुहुन्छ, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please transfer the secure grid threat intelligence data files to local desktop, colleague.	कृपया सुरक्षित ग्रिड खतरा गुप्तचर तथ्याङ्क फाइलहरू स्थानीय डेस्कटपमा स्थानान्तरण गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you notice any unusual substation tracking signal power dips during simulation, operator?	के तपाईंले सिमुलेशनको क्रममा कुनै असामान्य उपकेन्द्र ट्र्याकिङ सङ्केत पावर गिरावट देख्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please change the cleanroom laboratory air purification system chemical filter sheets, assistant.	कृपया क्लिनरुम प्रयोगशालाको हावा शुद्धिकरण प्रणालीको रासायनिक फिल्टर पानाहरू परिवर्तन गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you code a custom monitoring graph interface for genetic sequence anomalies, developer?	के तपाईं आनुवंशिक अनुक्रम विसंगतिहरूका लागि अनुकूलन निगरानी ग्राफ इन्टरफेस कोड गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please double-check the geofenced biomass facility security camera tracking access lists, teammate.	कृपया जियोफेन्स्ड बायोमास केन्द्रको सुरक्षा क्याмера ट्र्याकिङ पहुँच सूचीहरू दुईपिच्छे जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you verify the file integrity hash values for the grid telemetry backup, analyst?	के तपाईंले ग्रिड टेलिमेट्री ब्याकअपका लागि फाइल अखण्डता ह्यास मानहरू प्रमाणित गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please check the substation receiver logs for failed tracking unit authentication, operator.	कृपया असफल ट्र्याकिङ एकाइ प्रमाणीकरणका लागि उपकेन्द्र रिसीभर लगहरू जाँच गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Can you replace the optical receiver substation patch interface cables inside box, technician?	के तपाईं बाकस भित्रका अप्टिकल रिसीभर उपकेन्द्र प्याच इन्टरफेस केबलहरू फेर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please optimize the script code runtime logic framework for genetic identity checks, programmer.	कृपया आनुवंशिक पहिचान जाँचका लागि स्क्रिप्ट कोड रनटाईम लजिक ढाँचा अनुकूलित गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Did you calculate the grid solar array power distribution efficiency losses today, colleague?	के तपाईंले आज ग्रिड सौर्य एरे शक्ति वितरण दक्षता ह्रासको गणना गर्नुभयो, साथी ?	SEMI-FORMAL
+Please change the liquid nitrogen tank fluid level indicator configuration chart variables, assistant.	कृपया तरल नाइट्रोजन ट्याङ्की तरल स्तर सूचक कन्फिगरेसन चार्ट भेरिएबलहरू परिवर्तन गर्नुहोस्, सहयोगी बहिनी ।	SEMI-FORMAL
+Can you build a hardware encryption layer module for genetic data storage units, developer?	के तपाईं आनुवंशिक तथ्याङ्क भण्डारण एकाइहरूका लागि हार्डवेयर इन्क्रिप्सन तह मोड्युल निर्माण गर्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please download the distributed grid simulation transaction tracking metric asset sheets, analyst.	कृपया वितरित ग्रिड सिमुलेशन कारोबार ट्र्याकिङ मापन सम्पत्ति पानाहरू डाउनलोड गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Did you isolate the substation tracking system firewall script failure logs from mainframe, operator?	के तपाईंले मेनफ्रेमबाट उपकेन्द्र ट्र्याकिङ प्रणाली फायरवाल स्क्रिप्ट विफलता लगहरू अलग गर्नुभयो, अपरेटर साथी ?	SEMI-FORMAL
+Please test the automated grid solar array connection tracker alignment parameters tool, technician.	कृपया स्वचालित ग्रिड सौर्य एरे जडान ट्र्याकर पङ्क्तिबद्धता मापदण्ड उपकरण परीक्षण गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you generate an export status validation matrix summary for grid security keys, analyst?	के तपाईं ग्रिड सुरक्षा साँचोका लागि निर्यात स्थिति प्रमाणीकरण म्याट्रिक्स सारांश तयार पार्न सक्नुहुन्छ, विश्लेषक साथी ?	SEMI-FORMAL
+Please upload the carbon biomaterial asset performance tracker monitoring metric matrix charts, assistant.	कृपया कार्बन जैविक सामग्री सम्पत्ति प्रदर्शन ट्र्याकर निगरानी मापन म्याट्रिक्स चार्टहरू अपलोड गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you complete the grid security firewall validation checking algorithm code execution, programmer?	के तपाईंले ग्रिड सुरक्षा फायरवाल प्रमाणीकरण जाँच एल्गोरिदम कोड कार्यान्वयन पूरा गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please verify the optical line connector tracking matching substation numbers alignment link, technician.	कृपया अप्टिकल लाइन कनेक्टर ट्र्याकिङ मिल्दो उपकेन्द्र नम्बर पङ्क्तिबद्धता लिङ्क प्रमाणित गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you check the smart grid network threat signatures mapping allocation table, teammate?	के तपाईं स्मार्ट ग्रिड नेटवर्क खतरा हस्ताक्षर म्यापिङ बाँडफाँड तालिका जाँच गर्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please update software configuration paths inside the secure grid tracking interface system, developer.	कृपया सुरक्षित ग्रिड ट्र्याकिङ इन्टरफेस प्रणाली भित्र सफ्टवेयर कन्फिगरेसन पाथहरू अपडेट गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Did you find any security validation bypass exploits in genetic circuit interface testing, analyst?	के तपाईंले आनुवंशिक सर्किट इन्टरफेस परीक्षणमा कुनै सुरक्षा प्रमाणीकरण बाइपास एक्स्प्लोइट फेला पार्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please recalibrate the biosensor solar cell monitoring charging current measurement tool, assistant.	कृपया बायोसेन्सर सौर्य सेल अनुगमन चार्जिङ करेन्ट मापन उपकरण पुन: क्यालिब्रेट गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you set up an offline grid data staging environment repository backup mirror, operator?	के तपाईं एउटा अफलाइन ग्रिड तथ्याङ्क स्टिजिङ वातावरण रिपोजिटरी ब्याकअप मिरर सेटअप गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please verify the biomass facility testing sub-station automated grid disconnect switch gear, technician.	कृपया बायोमास केन्द्र परीक्षण सब-स्टेशन स्वचालित ग्रिड विच्छेद स्विच गियर प्रमाणित गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Did you check the grid pipeline processing system data processing allocation memory constraints, programmer?	के तपाईंले ग्रिड पाइपलाइन प्रशोधन प्रणाली तथ्याङ्क प्रशोधन बाँडफाँड मेमोरी अवरोधहरू जाँच गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please organize the cloud account tracking software vulnerability framework mapping history charts, analyst.	कृपया क्लाउड खाता ट्र्याकिङ सफ्टवेयर संवेदनशीलता ढाँचा म्यापिङ इतिहास चार्टहरू व्यवस्थित गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Can you upgrade the substation terminal network intrusion firewall platform application release software, technician?	के तपाईं उपकेन्द्र नेटवर्क घुसपैठ फायरवाल प्लेटफर्म एप्लिकेसन रिलिज सफ्टवेयर अपग्रेड गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please change options configuration flags parameters to clear secure tracking grid histories, operator.	कृपया सुरक्षित ट्र्याकिङ ग्रिड इतिहास मेटाउन विकल्प कन्फिगरेसन फ्ल्याग मापदण्ड परिवर्तन गर्नुहोस्, अपरेटर भाइ ।	SEMI-FORMAL
+Did you complete the substation payload tracking quality monitoring framework checklist sheet, teammate?	के तपाईंले उपकेन्द्र पेलोड ट्र्याकिङ गुणस्तर निगरानी ढाँचा चेकलिस्ट पाना पूरा गर्नुभयो, साथी ?	SEMI-FORMAL
+Please clean the cleanroom facility monitoring hardware substation terminal input device frame, assistant.	कृपया क्लिनरुम सुविधा निगरानी हार्डवेयर उपकेन्द्र टर्मिनल इनपुट यन्त्र फ्रेम सफा गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Can you write security authentication wrapper code components for genetic cloud application platform, developer?	के तपाईं जेनेटिक क्लाउड एप्लिकेसन प्लेटफर्मका लागि सुरक्षा प्रमाणीकरण र्यापर कोड कम्पोनेन्टहरू लेख्न सक्नुहुन्छ, विकासकर्ता साथी ?	SEMI-FORMAL
+Please check the main substation tracking station antenna network alignment drive readings, teammate.	कृपया मुख्य उपकेन्द्र ट्र्याकिङ स्टेशन एन्टेना नेटवर्क पङ्क्तिबद्धता ड्राइभ रिडिङहरू जाँच गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you discover the core structural cause of grid network simulation encryption system lag, programmer?	के तपाईंले ग्रिड नेटवर्क सिमुलेशन इन्क्रिप्सन प्रणाली ढिलाइ हुनुको मुख्य संरचनात्मक कारण फेला पार्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
+Please mount the primary substation asset security monitoring tracking data storage directory volume, technician.	कृपया प्राथमिक उपकेन्द्र सम्पत्ति सुरक्षा निगरानी ट्र्याकिङ तथ्याङ्क भण्डारण डाइरेक्टरी भोल्युम माउन्ट गर्नुहोस्, प्राविधिक भाइ ।	SEMI-FORMAL
+Can you monitor database network data packet connection traffic loads during grid simulation, operator?	के तपाईं ग्रिड सिमुलेशनको क्रममा डेटाबेस नेटवर्क तथ्याङ्क प्याकेट जडान ट्राफिक लोडहरू निगरानी गर्न सक्नुहुन्छ, अपरेटर भाइ ?	SEMI-FORMAL
+Please review grid telemetry repository access authentication configuration settings asset data sheets, analyst.	कृपया ग्रिड टेलिमेट्री रिपोजिटरी पहुँच प्रमाणीकरण कन्फिगरेसन सेटिङ सम्पत्ति तथ्याङ्क पानाहरूको समीक्षा गर्नुहोस्, विश्लेषक साथी ।	SEMI-FORMAL
+Did you change the broken liquid helium coolant line supply connector of grid simulator, technician?	के तपाईंले ग्रिड सिमुलेटरको बिग्रेको तरल हिलियम कुल्यान्ट लाइन आपूर्ति कनेक्टर परिवर्तन गर्नुभयो, प्राविधिक भाइ ?	SEMI-FORMAL
+Please copy secure grid tracking algorithm interface configuration matrices to framework system drives, programmer.	कृपया सुरक्षित ग्रिड ट्र्याकिङ एल्गोरिदम इन्टरफेस कन्फिगरेसन म्याट्रिक्स ढाँचा प्रणाली ड्राइभहरूमा प्रतिलिपि गर्नुहोस्, प्रोग्रामर साथी ।	SEMI-FORMAL
+Can you extract substation tracking system data metadata attributes sheets for genetic asset assessment, teammate?	के तपाईं जेनेटिक सम्पत्ति मूल्याङ्कनका लागि उपकेन्द्र ट्र्याकिङ प्रणाली तथ्याङ्क मोटोडेटा विशेषता पानाहरू निकाल्न सक्नुहुन्छ, साथी ?	SEMI-FORMAL
+Please change cleanroom laboratory air purification system chemical organic filtering block pads safely, assistant.	कृपया क्लिनरुम प्रयोगशालाको हावा शुद्धिकरण प्रणालीको रासायनिक जैविक फिल्टरिङ ब्लक प्याडहरू सुरक्षित रूपमा परिवर्तन गर्नुहोस्, सहयोगी भाइ ।	SEMI-FORMAL
+Did you complete grid data logging protocol baseline calibration parameters software tracking integration sheet, analyst?	के तपाईंले ग्रिड तथ्याङ्क लगिङ प्रोटोकल बेसलाइन क्यालिब्रेसन मापदण्ड सफ्टवेयर ट्र्याकिङ एकीकरण पाना पूरा गर्नुभयो, विश्लेषक साथी ?	SEMI-FORMAL
+Please review genetic circuit state validation processing algorithm script file execution configuration settings blocks, developer.	कृपया आनुवंशिक सर्किट अवस्था प्रमाणीकरण प्रशोधन एल्गोरिदम स्क्रिप्ट फाइल कार्यान्वयन कन्फिगरेसन सेटिङ ब्लकहरूको समीक्षा गर्नुहोस्, विकासकर्ता साथी ।	SEMI-FORMAL
+Can you check internal liquid helium cryogenic coolant indicators of biotech computing unit stack, technician?	के तपाईं बायोटेक कम्प्युटिङ एकाई स्ट्याकको आन्तरिक तरल हिलियम क्रायोजेनिक कुल्यान्ट सूचकहरू जाँच गर्न सक्नुहुन्छ, प्राविधिक भाइ ?	SEMI-FORMAL
+Please upload grid trajectory telemetry diagnostic data logging sheet framework configuration script matrices, teammate.	कृपया ग्रिड मार्ग टेलिमेट्री डायग्नोस्टिक तथ्याङ्क लगिङ पाना ढाँचा कन्फिगरेसन स्क्रिप्ट म्याट्रिक्स अपलोड गर्नुहोस्, साथी ।	SEMI-FORMAL
+Did you complete the genetic cryptography asset authentication mapping script interface software framework updates, programmer?	के तपाईंले आनुवंशिक क्रिप्टोग्राफी सम्पत्ति प्रमाणीकरण म्यापिङ स्क्रिप्ट इन्टरफेस सफ्टवेयर ढाँचा अपडेटहरू पूरा गर्नुभयो, प्रोग्रामर साथी ?	SEMI-FORMAL
 Did you finish the task I assigned?	के तपाईंले मैले दिएको काम सक्नुभयो ?	SEMI-FORMAL
 Can you join the meeting at 10 AM?	के तपाईं बिहान १० बजेको बैठकमा आउन सक्नुहुन्छ ?	SEMI-FORMAL
 Please send me the email by evening.	कृपया मलाई बेलुकासम्म इमेल पठाउनुहोस् ।	SEMI-FORMAL

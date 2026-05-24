@@ -1,3 +1,503 @@
+Did you evaluate the nuclear fusion heat dissipation rate, minister?	के तपाईंले आणविक संलयनको ताप उत्सर्जन दरको मूल्याङ्कन गर्नुभयो, मन्त्रीज्यू ?	FORMAL
+Please authorize the smart grid infrastructure optimization protocol, director.	कृपया स्मार्ट ग्रिड पूर्वाधार अनुकूलन प्रोटोकललाई प्रमाणित गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you reviewed the firewall breach threat assessment, officer?	के तपाईंले फायरवाल भङ्ग भएको खतरा मूल्याङ्कन प्रतिवेदनको समीक्षा गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please present the photovoltaic cell efficiency metrics, professor.	कृपया फोटोभोल्टिक सेलको दक्षता मापन प्रस्तुत गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Did you detect any malware signatures in the mainframe, expert?	के तपाईंले मेनफ्रेममा कुनै मालवेयरको हस्ताक्षर पत्ता लगाउनुभयो, विशेषज्ञज्यू ?	FORMAL
+Please sign the international renewable energy treaty, secretary.	कृपया अन्तर्राष्ट्रिय नवीकरणीय ऊर्जा सन्धिमा हस्ताक्षर गर्नुहोस्, सचिवज्यू ।	FORMAL
+Have you verified the blockchain cryptographic signature integrity, chief?	के तपाईंले ब्लकचेन क्रिप्टोग्राफिक हस्ताक्षरको अखण्डता प्रमाणित गर्नुभयो, प्रमुखज्यू ?	FORMAL
+Please explain the ocean current turbine grid synchronization, engineer.	कृपया समुद्री बहाव टर्बाइनको ग्रिड समीकरण स्पष्ट पारिदिनुहोस्, इन्जिनियरज्यू ।	FORMAL
+Did the automated system mitigate the phishing algorithm attack, sir?	के स्वचालित प्रणालीले फिसिङ एल्गोरिदमको आक्रमणलाई कम गर्यो, सर ?	FORMAL
+Please double-check the carbon capture containment calculations, scientist.	कृपया कार्बन क्याप्चर नियन्त्रणको गणनालाई पुन: जाँच गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Have you received the geothermal reservoir telemetry, researcher?	के तपाईंले भू-तापीय भण्डारको टेलिमेट्री तथ्याङ्क प्राप्त गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please approve the funding for the dark web tracking software, director?	कृपया डार्क वेब ट्र्याकिङ सफ्टवेयरको लागि बजेट स्वीकृत गरिदिनुहोस्, निर्देशकज्यू ?	FORMAL
+Did you find any structural flaws in the wind turbine blades, inspector?	के तपाईंले वायु टर्बाइनको ब्लेडमा कुनै संरचनात्मक त्रुटि फेला पार्नुभयो, निरीक्षकज्यू ?	FORMAL
+Please address the multi-factor authentication vulnerabilities, expert.	कृपया बहु-कारक प्रमाणीकरणका संवेदनशीलताका बारेमा सम्बोधन गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you calibrated the hydrogen fuel cell pressure gauges, engineer?	के तपाईंले हाइड्रोजन इन्धन सेलको दबाब गेज क्यालिब्रेट गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please state your conclusion on the network infiltration simulation, officer.	कृपया नेटवर्क घुसपैठ सिमुलेशनमा आफ्नो निष्कर्ष व्यक्त गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did the hydroelectric plant handle the grid load surge, chief?	के जलविद्युत केन्द्रले ग्रिडको अत्यधिक भार वहन गर्न सक्यो, प्रमुखज्यू ?	FORMAL
+Please upgrade the national database decryption algorithm keys, director.	कृपया राष्ट्रिय डेटाबेस डिक्रिप्सन एल्गोरिदमको साँचोहरू अपग्रेड गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you observed the biomass reactor temperature fluctuations, scientist?	के तपाईंले बायोमास रिएक्टरको तापक्रम उतारचढाव अवलोकन गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please schedule the critical infrastructure security audit, manager.	कृपया महत्त्वपूर्ण पूर्वाधार सुरक्षा लेखापरीक्षणको तालिका निर्धारण गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you isolate the infected server during the ransomware attack, expert?	के तपाईंले र्यान्शमवेयर आक्रमणको बेला सङ्क्रमित सर्भरलाई अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please inspect the tidal energy converter hydraulic system, inspector.	कृपया ज्वारभाटा ऊर्जा रूपान्तरणको हाइड्रोलिक प्रणालीको निरीक्षण गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Have you resolved the smart grid data packet latency issue, engineer?	के तपाईंले स्मार्ट ग्रिडको तथ्याङ्क प्याकेट ढिलाइ हुने समस्या समाधान गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please guide the foreign diplomats through the solar park, officer.	कृपया विदेशी कूटनीतिज्ञहरूलाई सौर्य उद्यानको भ्रमण गराउनुहोस्, अधिकृतज्यू ।	FORMAL
+Did the firewall block the distributed denial of service attack, chief?	के फायरवालले डिस्ट्रिब्युटेड डिनायल अफ सर्भिस आक्रमणलाई रोक्यो, प्रमुखज्यू ?	FORMAL
+Please submit the environmental impact report for the fusion plant, professor.	कृपया संलयन केन्द्रको वातावरणीय प्रभाव प्रतिवेदन पेस गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you tested the zero-trust security architecture efficiency, expert?	के तपाईंले जिरो-ट्रस्ट सुरक्षा वास्तुकलाको दक्षता परीक्षण गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please inaugurate the off-grid rural electrification project, minister.	कृपया ग्रिड बाहिरको ग्रामीण विद्युतीकरण परियोजनाको उद्घाटन गर्नुहोस्, मन्त्रीज्यू ।	FORMAL
+Did you discover any malicious code in the firmware update, scientist?	के तपाईंले फर्मवेयर अपडेटमा कुनै मालिसियस कोड फेला पार्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please issue the operating license for the bio-gas facility, director.	कृपया बायो-ग्यास केन्द्रका लागि सञ्चालन अनुमति पत्र जारी गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you checked the data center backup battery water levels, manager?	के तपाईंले डेटा सेन्टरको ब्याकअप ब्याट्रीको पानीको स्तर जाँच गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please explain the advanced persistent threat mitigation strategy, officer.	कृपया उन्नत निरन्तर खतरा न्यूनीकरण रणनीतिको व्याख्या गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did the lithium-ion energy storage system overheat today, engineer?	के लिथियम-आयन ऊर्जा भण्डारण प्रणाली आज अत्यधिक तातियो, इन्जिनियरज्यू ?	FORMAL
+Please publish the data regarding cloud encryption standards, professor.	कृपया क्लाउड इन्क्रिप्सन मापदण्ड सम्बन्धी तथ्याङ्क प्रकाशित गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you analyzed the network traffic logs for anomalies, expert?	के तपाईंले विसंगतिहरूका लागि नेटवर्क ट्राफिक लगहरूको विश्लेषण गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please deploy the automated cyber defense response software, director.	कृपया स्वचालित साइबर रक्षा प्रतिक्रिया सफ्टवेयर लागू गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you calculate the carbon offset credits for the company, manager?	के तपाईंले कम्पनीको लागि कार्बन अफसेट क्रेडिटको गणना गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please verify the identity tokens before granting server access, officer.	कृपया सर्भर पहुँच अनुमति दिनु अघि पहिचान टोकनहरू प्रमाणित गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you tracked the efficiency loss in the thermal solar grid, scientist?	के तपाईंले थर्मल सौर्य ग्रिडको दक्षता ह्रास ट्र्याक गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please update the industrial control system safety protocols, director.	कृपया औद्योगिक नियन्त्रण प्रणालीको सुरक्षा प्रोटोकलहरू अपडेट गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you isolate the compromised digital wallet endpoint, expert?	के तपाईंले असुरक्षित डिजिटल वालेटको एन्डपोइन्टलाई अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please coordinate the offshore wind farm network deployment, manager.	कृपया अपतटीय वायु ऊर्जा केन्द्रको नेटवर्क स्थापनामा समन्वय गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Have you fixed the software vulnerability in the energy meter, engineer?	के तपाईंले ऊर्जा मिटरको सफ्टवेयर संवेदनशीलता समाधान गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please oversee the encryption key distribution process, officer.	कृपया इन्क्रिप्सन साँचो वितरण प्रक्रियाको रेखदेख गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did you map the power outage pattern across the province, director?	के तपाईंले प्रदेशभरिको विद्युत कटौतीको ढाँचाको नक्साङ्कन गर्नुभयो, निर्देशकज्यू ?	FORMAL
+Please review the penetration testing metrics for the grid, professor.	कृपया ग्रिडको पेनिट्रेसन परीक्षण मापनको समीक्षा गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you published the smart grid data privacy regulations, secretary?	के तपाईंले स्मार्ट ग्रिड तथ्याङ्क गोपनीयता नियमहरू प्रकाशित गर्नुभयो, सचिवज्यू ?	FORMAL
+Please explain the blockchain consensus mechanism vulnerabilities, expert.	कृपया ब्लकचेन आमसहमति संयन्त्रका कमजोरीहरू व्याख्या गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Did you encounter any server certificate validation errors, manager?	के तपाईंले सर्भर प्रमाणपत्र प्रमाणीकरण त्रुटिहरू सामना गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please oversee the installation of the high-voltage transformers, chief.	कृपया उच्च भोल्टेज ट्रान्सफर्मरहरूको स्थापनाको निरीक्षण गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Have you verified the integrity of the encrypted backup files, officer?	के तपाईंले इन्क्रिप्टेड ब्याकअप फाइलहरूको अखण्डता प्रमाणित गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please conduct a risk assessment for the hydrogen pipelines, inspector.	कृपया हाइड्रोजन पाइपलाइनहरूको लागि जोखिम मूल्याङ्कन सञ्चालन गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Did you confirm the decryption key authenticity logs, expert?	के तपाईंले डिक्रिप्सन साँचोको आधिकारिकता लगहरू पुष्टि गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please deploy the emergency grid isolation automated switch, engineer.	कृपया आपतकालीन ग्रिड अलगाव स्वचालित स्विच परिचालन गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Have you checked the network routers for backdoor exploits, officer?	के तपाईंले नेटवर्क राउटरहरूमा ब्याकडोर एक्स्प्लोइटहरू छन् कि जाँच गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please implement the advanced endpoint detection security framework, manager.	कृपया उन्नत एन्डपोइन्ट पहिचान सुरक्षा ढाँचा लागू गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you calculate the power output decay of the solar panels, scientist?	के तपाईंले सौर्य प्यानलको शक्ति उत्पादन ह्रासको गणना गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please secure the cryptocurrency asset transaction ledger database, director.	कृपया क्रिप्टोकरेन्सी सम्पत्ति कारोबार खाताको डेटाबेस सुरक्षित गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you tested the cyber warfare defensive barrier protocols, chief?	के तपाईंले साइबर युद्ध रक्षात्मक अवरोध प्रोटोकलहरूको परीक्षण गर्नुभयो, प्रमुखज्यू ?	FORMAL
+Please define the security architecture parameters for the cloud, expert.	कृपया क्लाउडका लागि सुरक्षा वास्तुकलाका मापदण्डहरू परिभाषित गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Did you detect any voltage imbalances in the microgrid, engineer?	के तपाईंले माइक्रोग्रिडमा कुनै भोल्टेज असन्तुलन पत्ता लगाउनुभयो, इन्जिनियरज्यू ?	FORMAL
+Please document the cyber attack source tracking methodology, professor.	कृपया साइबर आक्रमणको स्रोत ट्र्याकिङ पद्धतिको अभिलेखीकरण गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you optimized the wind farm turbine layout equations, scientist?	के तपाईंले वायु ऊर्जा केन्द्रको टर्बाइन रूपरेखाको समीकरण अनुकूलित गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please present the digital threat assessment simulation metrics, officer.	कृपया डिजिटल खतरा मूल्याङ्कन सिमुलेशनको मापन प्रस्तुत गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did you examine the breached database forensic logs today, expert?	के तपाईंले आज सुरक्षा भङ्ग भएको डेटाबेसको फरेन्सिक लगहरू जाँच्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please approve the integration of renewable energy into grid, director.	कृपया ग्रिडमा नवीकरणीय ऊर्जाको एकीकरण स्वीकृत गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you reviewed the critical security patch testing sheets, manager?	के तपाईंले महत्त्वपूर्ण सुरक्षा प्याच परीक्षण पानाहरूको समीक्षा गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please publish the handbook on global cybersecurity law standards, professor.	कृपया विश्वव्यापी साइबर सुरक्षा कानून मापदण्ड सम्बन्धी निर्देशिका प्रकाशित गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Did you discover any algorithmic exploits in the code, researcher?	के तपाईंले कोडमा कुनै एल्गोरिदम सम्बन्धी एक्स्प्लोइट फेला पार्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please enhance the wide area network security filtering capabilities, chief.	कृपया वाइड एरिया नेटवर्कको सुरक्षा फिल्टरिङ क्षमता बढाउनुहोस्, प्रमुखज्यू ।	FORMAL
+Have you calculated the efficiency metrics of the grid inverter, engineer?	के तपाईंले ग्रिड इन्भर्टरको दक्षता मापन गणना गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please lead the deep-sea thermal energy research deployment project, scientist.	कृपया गहिरो समुद्री थर्मल ऊर्जा अनुसन्धान परिचालन परियोजनाको नेतृत्व गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Did you isolate the malware code block during debugging, expert?	के तपाईंले डिबगिङको क्रममा मालवेयर कोड ब्लक अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please evaluate the cloud server identity theft prevention rules, officer.	कृपया क्लाउड सर्भर पहिचान चोरी रोकथाम नियमहरूको मूल्याङ्कन गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you verified the high-voltage direct current lines insulation, inspector?	के तपाईंले उच्च भोल्टेज डाइरेक्ट करेन्ट लाइनको इन्सुलेशन प्रमाणित गर्नुभयो, निरीक्षकज्यू ?	FORMAL
+Please host the cybersecurity incident command center response meeting, director.	कृपया साइबर सुरक्षा घटना कमान्ड सेन्टर प्रतिक्रिया बैठकको आयोजना गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you observe the smart grid switch failure behaviors, engineer?	के तपाईंले स्मार्ट ग्रिड स्विचको विफलता व्यवहारहरू अवलोकन गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please design the secure encrypted backup framework for banks, expert.	कृपया बैंकहरूका लागि सुरक्षित इन्क्रिप्टेड ब्याकअप ढाँचाको डिजाइन गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you tested the smart contract security vulnerabilities limits, researcher?	के तपाईंले स्मार्ट कन्ट्याक्ट सुरक्षा संवेदनशीलताको सीमा परीक्षण गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please check the identity logs for any unauthorized access, manager.	कृपया डेटाबेसमा कुनै अनाधिकृत पहुँच लगहरू छन् कि जाँच गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you locate the source of the radio frequency interference, scientist?	के तपाईंले रेडियो आवृत्ति अवरोधको स्रोत पत्ता लगाउनुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please schedule the solar farm network configuration verification test, chief.	कृपया सौर्य फार्म नेटवर्क कन्फिगरेसन प्रमाणीकरण परीक्षणको तालिका बनाउनुहोस्, प्रमुखज्यू ।	FORMAL
+Have you updated the emergency cyber incident response action manual, officer?	के तपाईंले आपतकालीन साइबर घटना प्रतिक्रिया कार्य निर्देशिका अपडेट गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please verify the wind turbine automated braking sequence metrics, engineer.	कृपया वायु टर्बाइनको स्वचालित ब्रेकिङ अनुक्रम मापन प्रमाणित गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Did you map the target parameters for penetration simulation, expert?	के तपाईंले पेनिट्रेसन सिमुलेशनका लागि लक्षित मापदण्डहरूको नक्साङ्कन गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please approve the smart grid substation protective relay replacement, director.	कृपया स्मार्ट ग्रिड सबस्टेशनको सुरक्षात्मक रिले प्रतिस्थापन स्वीकृत गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you confirmed the grid frequency stabilization capacitor bank rating, engineer?	के तपाईंले ग्रिड आवृत्ति स्थिरिकरण क्यापेसिटर बैंकको रेटिङ पुष्टि गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please upload the critical malware signature updates to mainframe, chief.	कृपया मेनफ्रेममा महत्त्वपूर्ण मालवेयर हस्ताक्षर अपडेटहरू अपलोड गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Did you trace the origin of the coordinated phishing domain, officer?	के तपाईंले समन्वित फिसिङ डोमेनको उत्पत्तिको खोजी गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please design the green data center thermal ventilation system, architect.	कृपया हरित डेटा सेन्टरको थर्मल भेन्टिलेसन प्रणालीको डिजाइन गर्नुहोस्, वास्तुकारज्यू ।	FORMAL
+Have you checked the smart grid meter software for loops, programmer?	के तपाईंले स्मार्ट ग्रिड मिटर सफ्टवेयरमा कुनै लुपहरू छन् कि भनेर जाँच गर्नुभयो, प्रोग्रामर अनुसन्धानकर्ताज्यू ?	FORMAL
+Please inspect the ocean thermal energy converter plant valves, inspector.	कृपया समुद्री थर्मल ऊर्जा रूपान्तरण केन्द्रको भल्भहरूको निरीक्षण गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Did you update the cloud security framework threat models, expert?	के तपाईंले क्लाउड सुरक्षा ढाँचाको खतरा मोडेलहरू अपडेट गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please supervise the smart grid network topology optimization script, professor.	कृपया स्मार्ट ग्रिड नेटवर्क टोपियोलोजी अनुकूलन स्क्रिप्टको सुपरिवेक्षण गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you finalized the clean energy microgrid emergency protocol sheets, director?	के तपाईंले स्वच्छ ऊर्जा माइक्रोग्रिड आपतकालीन प्रोटोकल पानाहरूलाई अन्तिम रूप दिनुभयो, निर्देशकज्यू ?	FORMAL
+Please deploy the endpoint containment defensive patch update immediately, manager.	कृपया एन्डपोइन्ट नियन्त्रण रक्षात्मक प्याच अपडेट तुरुन्तै लागू गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you identify the source of the industrial system exploit, officer?	के तपाईंले औद्योगिक प्रणाली एक्स्प्लोइटको स्रोत पहिचान गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please present the quantum encryption distribution link analysis graphs, scientist.	कृपया क्वान्टम इन्क्रिप्सन वितरण लिङ्क विश्लेषण ग्राफहरू प्रस्तुत गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Have you reviewed the renewable energy integration feasibility matrix sheets, expert?	के तपाईंले नवीकरणीय ऊर्जा एकीकरण सम्भाव्यता म्याट्रिक्स पानाहरूको समीक्षा गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please confirm the multi-factor authentication server hardware stack architecture, engineer.	कृपया बहु-कारक प्रमाणीकरण सर्भर हार्डवेयर स्ट्याक वास्तुकला पुष्टि गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Did you isolate the new mutated viral strain, professor?	के तपाईंले नयाँ उत्परिवर्तित भाइरसको प्रजातिलाई अलग गर्नुभयो, प्राध्यापकज्यू ?	FORMAL
+Please authorize the CRISPR gene editing safety protocol, director.	कृपया क्रिस्पर जीन सम्पादन सुरक्षा प्रोटोकललाई प्रमाणित गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you reviewed the earthquake early warning system logs, officer?	के तपाईंले भूकम्प पूर्वचेतावनी प्रणालीको लगहरूको समीक्षा गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please present the mRNA vaccine synthesis replication metrics, doctor?	कृपया एमआरएनए खोप संश्लेषणको प्रतिलिपि मापन प्रस्तुत गर्नुहोस्, डाक्टरसाब ?	FORMAL
+Did you detect any tectonic plate deformation anomalies, scientist?	के तपाईंले कुनै टेक्टोनिक प्लेट विरूपणको असामान्यता पत्ता लगाउनुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please sign the international bio-engineering ethics charter, secretary.	कृपया अन्तर्राष्ट्रिय जैव-इन्जिनियरिङ नैतिक बडापत्रमा हस्ताक्षर गर्नुहोस्, सचिवज्यू ।	FORMAL
+Have you verified the DNA sequencing database record integrity, expert?	के तपाईंले डीएनए अनुक्रमण डेटाबेस रेकर्डको अखण्डता प्रमाणित गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please explain the volcanic ash trajectory simulation models, researcher.	कृपया ज्वालामुखीको खरानी फैलने मार्गको सिमुलेशन मोडेल स्पष्ट पारिदिनुहोस्, अनुसन्धानकर्ताज्यू ।	FORMAL
+Did the core drilling sample reveal mantle boundaries, engineer?	के कोर ड्रिलिङ नमुनाले म्यान्टलको सिमाना पत्ता लगायो, इन्जिनियरज्यू ?	FORMAL
+Please double-check the agricultural bio-engineering catalyst equations, scientist.	कृपया कृषि जैव-इन्जिनियरिङ उत्प्रेरक समीकरणहरू पुन: जाँच गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Have you received the telemetry from the seismic wave gauges, chief?	के तपाईंले भूकम्पीय तरङ्ग गेजहरूबाट टेलिमेट्री तथ्याङ्क प्राप्त गर्नुभयो, प्रमुखज्यू ?	FORMAL
+Please approve the budget for the microbiology containment lab, director.	कृपया सूक्ष्मजीवविज्ञान नियन्त्रण प्रयोगशालाको बजेट स्वीकृत गरिदिनुहोस्, निर्देशकज्यू ।	FORMAL
+Did you find any pathogens in the subterranean bedrock, professor?	के तपाईंले भूमिगत चट्टानमा कुनै रोगजनकहरू फेला पार्नुभयो, प्राध्यापकज्यू ?	FORMAL
+Please address the ethical concerns of human cloning, expert.	कृपया मानव क्लोनिङको नैतिक चासोका बारेमा सम्बोधन गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you calibrated the mass spectrometer for protein extraction, researcher?	के तपाईंले प्रोटिन निष्कर्षणका लागि मास स्पेक्ट्रोमिटर क्यालिब्रेट गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please state your conclusion on the tsunami simulation topography, officer.	कृपया सुनामी सिमुलेशन टोपोग्राफीमा आफ्नो निष्कर्ष व्यक्त गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did the automated centrifuge isolate the chromosome pairs, doctor?	के स्वचालित सेन्ट्रीफ्यूजले क्रोमोजोम जोडीहरूलाई अलग गर्यो, डाक्टरसाब ?	FORMAL
+Please upgrade the national seismology network data center, director.	कृपया राष्ट्रिय भूकम्प विज्ञान नेटवर्क तथ्याङ्क केन्द्र अपग्रेड गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you observed the magma chamber pressure fluctuations, scientist?	के तपाईंले म्याग्मा चेम्बरको दबाब उतारचढाव अवलोकन गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please schedule the hazardous bio-waste disposal system audit, manager.	कृपया खतरनाक जैविक फोहोर विसर्जन प्रणाली लेखापरीक्षणको तालिका निर्धारण गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you isolate the crop pathogen during sequencing, expert?	के तपाईंले अनुक्रमणको क्रममा बाली रोगजनकलाई अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please inspect the fault line monitoring sensor alignment, inspector.	कृपया फल्ट लाइन अनुगमन सेन्सर पङ्क्तिबद्धताको निरीक्षण गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Have you resolved the genomic data parsing script latency, engineer?	के तपाईंले जीनोमिक तथ्याङ्क पार्सिङ स्क्रिप्टको ढिलाइ हुने समस्या समाधान गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please guide the geological survey delegation through the crater, officer.	कृपया भूवैज्ञानिक सर्वेक्षण प्रतिनिधिमण्डललाई ज्वालामुखीको खाडलको भ्रमण गराउनुहोस्, अधिकृतज्यू ।	FORMAL
+Did the vaccine catalyst trigger the targeted enzyme mutation, professor?	के खोप उत्प्रेरकले लक्षित इन्जाइम उत्परिवर्तनलाई सक्रिय गर्यो, प्राध्यापकज्यू ?	FORMAL
+Please submit the environmental impact report for drilling, chief.	कृपया ड्रिलिङको वातावरणीय प्रभाव प्रतिवेदन पेस गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Have you tested the synthetic DNA replication algorithm efficiency, expert?	के तपाईंले कृत्रिम डीएनए प्रतिलिपि एल्गोरिदमको दक्षता परीक्षण गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please inaugurate the advanced biotechnology research wing, minister.	कृपया उन्नत जैवप्रविधि अनुसन्धान शाखाको उद्घाटन गर्नुहोस्, मन्त्रीज्यू ।	FORMAL
+Did you discover any micro-fossil structures in the sediment, researcher?	के तपाईंले तलछटमा कुनै सूक्ष्म-जीवावशेष संरचनाहरू फेला पार्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please issue the safety clearance for the genetics laboratory, director.	कृपया आनुवंशिकी प्रयोगशालाका लागि सुरक्षा अनुमति जारी गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you checked the ocean floor pressure sensor batteries, manager?	के तपाईंले समुद्रको भुइँको दबाब सेन्サー ब्याट्रीहरू जाँच गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please explain the tectonic subduction zone friction metrics, professor.	कृपया टेक्टोनिक सबडक्सन क्षेत्रको घर्षण मापन व्याख्या गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Did the bio-engineered enzyme degrade the target plastic toxin, scientist?	के जैव-इन्जिनियरिङ गरिएको इन्जाइमले लक्षित प्लास्टिक विषाक्ततालाई नष्ट गर्यो, वैज्ञानिकज्यू ?	FORMAL
+Please publish the data regarding volcanic gas emission rates, director.	कृपया ज्वालामुखी ग्यास उत्सर्जन दर सम्बन्धी तथ्याङ्क प्रकाशित गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you analyzed the seismic wave frequency spectrum logs, expert?	के तपाईंले भूकम्पीय तरङ्ग आवृत्ति स्पेक्ट्रम लगहरूको विश्लेषण गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please deploy the automated tsunami warning broadcast framework, chief.	कृपया स्वचालित सुनामी चेतावनी प्रसारण ढाँचा लागू गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Did you calculate the viral mutation rate variations, doctor?	के तपाईंले भाइरस उत्परिवर्तन दरको भिन्नता गणना गर्नुभयो, डाक्टरसाब ?	FORMAL
+Please verify the tectonic plate shifting speed estimations, officer.	कृपया टेक्टोनिक प्लेट सर्ने गतिको अनुमान प्रमाणित गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you tracked the pathogen dispersion pattern in water, scientist?	के तपाईंले पानीमा रोगजनक फैलने ढाँचा ट्र्याक गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please update the biosafety cabinet operational training manuals, director.	कृपया जैविक सुरक्षा क्याबिनेट परिचालन तालिम निर्देशिकाहरू अपडेट गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you isolate the compromised sequencing data pipeline vectors, expert?	के तपाईंले असुरक्षित अनुक्रमण तथ्याङ्क पाइपलाइन भेक्टरहरूलाई अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please coordinate the deep mantle drilling research project, manager.	कृपया गहिरो म्यान्टल ड्रिलिङ अनुसन्धान परियोजनाको समन्वय गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Have you fixed the software bug in the seismograph, engineer?	के तपाईंले भूकम्पमापक यन्त्रको सफ्टवेयर त्रुटि समाधान गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please oversee the vaccine distribution logistics security protocols, officer.	कृपया खोप वितरण व्यवस्थापन सुरक्षा प्रोटोकलहरूको रेखदेख गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did you map the volcanic lava flow cooling rates, director?	के तपाईंले ज्वालामुखीको लाभा बहाव चिसो हुने दरको नक्साङ्कन गर्नुभयो, निर्देशकज्यू ?	FORMAL
+Please review the gene expression analysis system parameters, professor.	कृपया जीन अभिव्यक्ति विश्लेषण प्रणालीका मापदण्डहरूको समीक्षा गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you published the tectonic plate epicenter monitoring standards, chief?	के तपाईंले टेक्टोनिक प्लेट केन्द्रविन्दु अनुगमन मापदण्ड प्रकाशित गर्नुभयो, प्रमुखज्यू ?	FORMAL
+Please explain the agricultural cloning cell division constraints, expert.	कृपया कृषि क्लोनिङ कोशिका विभाजनका अवरोधहरू व्याख्या गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Did you encounter any sample contamination validation errors, manager?	के तपाईंले नमुना सङ्क्रमण प्रमाणीकरण त्रुटिहरू सामना गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please oversee the installation of the laboratory cleanroom, chief.	कृपया प्रयोगशालाको क्लिनरुम स्थापनाको निरीक्षण गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Have you verified the integrity of the genomic database backups, officer?	के तपाईंले जीनोमिक डेटाबेस ब्याकअपको अखण्डता प्रमाणित गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please conduct a risk assessment for the volcano slopes, inspector.	कृपया ज्वालामुखीको भिरालो क्षेत्रको लागि जोखिम मूल्याङ्कन सञ्चालन गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Did you confirm the enzyme synthesis pathway completion logs, expert?	के तपाईंले इन्जाइम संश्लेषण मार्ग पूरा भएको लगहरू पुष्टि गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please deploy the emergency seismic event network array, engineer.	कृपया आपतकालीन भूकम्पीय घटना नेटवर्क एरे परिचालन गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Have you checked the cell incubator for temperature variances, officer?	के तपाईंले कोशिका इन्क्युबेटरमा तापक्रमको भिन्नता जाँच गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please implement the advanced bioinformatics sequence analysis framework, manager.	कृपया उन्नत बायोइन्फर्मेटिक्स अनुक्रम विश्लेषण ढाँचा लागू गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you calculate the topography shift after the earthquake, scientist?	के तपाईंले भूकम्पपछिको टोपोग्राफी परिवर्तनको गणना गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please secure the pathogen strain genetic sequencing database, director.	कृपया रोगजनक प्रजाति आनुवंशिक अनुक्रमण डेटाबेस सुरक्षित गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you tested the volcanic ash filtration mask standards, chief?	के तपाईंले ज्वालामुखीको खरानी फिल्टर गर्ने मास्क मापदण्डको परीक्षण गर्नुभयो, प्रमुखज्यू ?	FORMAL
+Please define the biological safety containment layer parameters, expert.	कृपया जैविक सुरक्षा नियन्त्रण तहका मापदण्डहरू परिभाषित गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Did you detect any acoustic wave anomalies underground, engineer?	के तपाईंले भूमिगत रूपमा कुनै ध्वनि तरङ्गको असामान्यता पत्ता लगाउनुभयो, इन्जिनियरज्यू ?	FORMAL
+Please document the cell mutation observation tracking methodology, professor.	कृपया कोशिका उत्परिवर्तन अवलोकन ट्र्याकिङ पद्धतिको अभिलेखीकरण गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you optimized the geological drilling bits placement, scientist?	के तपाईंले भूवैज्ञानिक ड्रिलिङ बिट्स स्थापनाको स्थिति अनुकूलित गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please present the seismic event damage prediction simulation, officer.	कृपया भूकम्पीय घटना क्षति पूर्वानुमान सिमुलेशन प्रस्तुत गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did you examine the biohazard laboratory filtration safety logs, expert?	के तपाईंले जैविक खतरा प्रयोगशालाको फिल्टरेशन सुरक्षा लगहरू जाँच्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please approve the integration of seismology alert automation, director.	कृपया भूकम्प विज्ञान चेतावनी स्वचालनको एकीकरण स्वीकृत गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you reviewed the cell culture testing sheets, manager?	के तपाईंले कोशिका कल्चर परीक्षण पानाहरूको समीक्षा गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please publish the handbook on global biohazard protocols, professor.	कृपया विश्वव्यापी जैविक खतरा प्रोटोकल सम्बन्धी निर्देशिका प्रकाशित गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Did you discover any ancient viral components underground, researcher?	के तपाईंले भूमिगत रूपमा कुनै प्राचीन भाइरसका तत्वहरू फेला पार्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please enhance the early earthquake detection station capabilities, chief.	कृपया प्रारम्भिक भूकम्प पहिचान केन्द्रको क्षमता बढाउनुहोस्, प्रमुखज्यू ।	FORMAL
+Have you calculated the DNA sequencing processing speed, engineer?	के तपाईंले डीएनए अनुक्रमण प्रशोधन गतिको गणना गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please lead the deep core crust exploration project, scientist.	कृपया गहिरो भू-पर्पटी अन्वेषण परियोजनाको नेतृत्व गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Did you isolate the genome mutation during database analysis, expert?	के तपाईंले डेटाबेस विश्लेषणको क्रममा जीनोम उत्परिवर्तन अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please evaluate the volcanic lava trajectory tracking systems, officer.	कृपया ज्वालामुखीको लाभा मार्ग ट्र्याकिङ प्रणालीको मूल्याङ्कन गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you verified the cell division isolation capsule, inspector?	के तपाईंले कोशिका विभाजन अलगाव क्याप्सुल प्रमाणित गर्नुभयो, निरीक्षकज्यू ?	FORMAL
+Please host the international biotechnology safety standards summit, director.	कृपया अन्तर्राष्ट्रिय जैवप्रविधि सुरक्षा मापदण्ड शिखर सम्मेलनको आयोजना गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you observe the tectonic fault line micro-slips, engineer?	के तपाईंले टेक्टोनिक फल्ट लाइनको सूक्ष्म-चिराहरू अवलोकन गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please design the biological extraction facility baseline blueprint, expert.	कृपया जैविक निष्कर्षण केन्द्रको आधारभूत नीलोनक्सा डिजाइन गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you tested the seismic warning device network, researcher?	के तपाईंले भूकम्पीय चेतावनी यन्त्र नेटवर्कको परीक्षण गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please check the cell replication logs for variances, manager.	कृपया कोशिका प्रतिलिपि लगहरूमा कुनै भिन्नता छन् कि जाँच गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you locate the epicenter of the micro-earthquake, scientist?	के तपाईंले सूक्ष्म-भूकम्पको केन्द्रविन्दु पत्ता लगाउनुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please schedule the vaccine clinical phase validation trial, chief.	कृपया खोपको क्लिनिकल चरण प्रमाणीकरण परीक्षणको तालिका बनाउनुहोस्, प्रमुखज्यू ।	FORMAL
+Have you updated the volcanic crisis community evacuation manual, officer?	के तपाईंले ज्वालामुखी सङ्कट समुदाय स्थानान्तरण निर्देशिका अपडेट गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please verify the biological containment facility ventilation speed, engineer.	कृपया जैविक नियन्त्रण केन्द्रको भेन्टिलेसन गति प्रमाणित गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Did you map the fault line coordinates layout, expert?	के तपाईंले फल्ट लाइन निर्देशांकको रूपरेखाको नक्साङ्कन गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please approve the automated seismograph network platform extension, director.	कृपया स्वचालित भूकम्पमापक नेटवर्क प्लेटफर्म विस्तार स्वीकृत गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you confirmed the DNA sample testing machine metrics, engineer?	के तपाईंले डीएनए नमुना परीक्षण मेसिनको मापन पुष्टि गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please upload the critical seismic wave signature data, chief.	कृपया महत्त्वपूर्ण भूकम्पीय तरङ्ग हस्ताक्षर तथ्याङ्क अपलोड गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Did you trace the origin of the agricultural pathogen, officer?	के तपाईंले कृषि रोगजनकको उत्पत्तिको खोजी गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please design the seismology data center architecture layout, architect.	कृपया भूकम्प विज्ञान तथ्याङ्क केन्द्रको वास्तुकला रूपरेखा डिजाइन गर्नुहोस्, वास्तुकारज्यू ।	FORMAL
+Have you checked the genome sequencer interface software code, researcher?	के तपाईंले जीनोम सिक्वेन्सर इन्टरफेस सफ्टवेयर कोड जाँच गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please inspect the deep bedrock core drill stability, inspector.	कृपया गहिरो चट्टान कोर ड्रिलको स्थिरताको निरीक्षण गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Did you update the bioinformatics algorithm mapping arrays, expert?	के तपाईंले बायोइन्फर्मेटिक्स एल्गोरिदम म्यापिङ एरेहरू अपडेट गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please supervise the tectonic wave simulation velocity optimization, professor.	कृपया टेक्टोनिक तरङ्ग सिमुलेशन गति अनुकूलनको सुपरिवेक्षण गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you finalized the laboratory bio-containment emergency sheets, director?	के तपाईंले प्रयोगशाला जैविक नियन्त्रण आपतकालीन पानाहरूलाई अन्तिम रूप दिनुभयो, निर्देशकज्यू ?	FORMAL
+Please deploy the seismic database network validation update, manager.	कृपया भूकम्पीय डेटाबेस नेटवर्क प्रमाणीकरण अपडेट लागू गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you identify the mutation path of the virus, officer?	के तपाईंले भाइरसको उत्परिवर्तन मार्ग पहिचान गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please present the tectonic plate pressure sensor chart, scientist.	कृपया टेक्टोनिक प्लेट दबाब सेन्सर चार्ट प्रस्तुत गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Have you reviewed the bio-engineered catalyst testing logs, expert?	के तपाईंले जैव-इन्जिनियरिङ गरिएको उत्प्रेरक परीक्षण लगहरूको समीक्षा गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please confirm the laboratory automated cell extraction hardware, engineer.	कृपया प्रयोगशालाको स्वचालित कोशिका निष्कर्षण हार्डवेयर पुष्टि गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Did you evaluate the ion thruster thermal dissipation rate, director?	के तपाईंले आयन थ्रस्टरको ताप उत्सर्जन दरको मूल्याङ्कन गर्नुभयो, निर्देशकज्यू ?	FORMAL
+Please authorize the quantum teleportation routing protocol, professor.	कृपया क्वान्टम टेलिपोर्टेशन राउटिङ प्रोटोकललाई प्रमाणित गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you reviewed the satellite orbital decay threat assessment, officer?	के तपाईंले भूउपग्रहको कक्षीय क्षयीकरण खतरा मूल्याङ्कन प्रतिवेदनको समीक्षा गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please present the carbon nanotube tensile strength metrics, scientist.	कृपया कार्बन नानोट्युबको तन्य शक्ति मापन प्रस्तुत गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Did you detect any cryogenic leakage in the propulsion module, chief?	के तपाईंले प्रोपल्सन मोड्युलमा कुनै क्रायोजेनिक चुहावट पत्ता लगाउनुभयो, प्रमुखज्यू ?	FORMAL
+Please sign the international deep-space exploration treaty, secretary.	कृपया अन्तर्राष्ट्रिय गहिरो-अन्तरिक्ष अन्वेषण सन्धिमा हस्ताक्षर गर्नुहोस्, सचिवज्यू ।	FORMAL
+Have you verified the superconducting qubit coherence time integrity, expert?	के तपाईंले सुपरकन्डक्टिङ क्युबिट कोहेरेन्स समयको अखण्डता प्रमाणित गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please explain the dark matter gravitational lensing simulation, researcher.	कृपया डार्क म्याटर गुरुत्वाकर्षण लेन्सिङ सिमुलेशन स्पष्ट पारिदिनुहोस्, अनुसन्धानकर्ताज्यू ।	FORMAL
+Did the automated telemetry system mitigate the solar flare radiation, sir?	के स्वचालित टेलिमेट्री प्रणालीले सौर्य ज्वालाको विकिरणलाई कम गर्यो, सर ?	FORMAL
+Please double-check the graphene crystal lattice calculations, scientist.	कृपया ग्राफिन क्रिष्टल ल्याटिसको गणनालाई पुन: जाँच गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Have you received the exoplanet atmospheric spectroscopy data, researcher?	के तपाईंले बाह्यग्रहको वायुमण्डलीय स्पेक्ट्रोस्कोपी तथ्याङ्क प्राप्त गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please approve the funding for the quantum cryptography network, director.	कृपया क्वान्टम क्रिप्टोग्राफी नेटवर्कको लागि बजेट स्वीकृत गरिदिनुहोस्, निर्देशकज्यू ।	FORMAL
+Did you find any micro-meteoroid structural flaws in the hull, inspector?	के तपाईंले रकेटको मुख्य भागमा कुनै सूक्ष्म-उल्कापिण्ड संरचनात्मक त्रुटि फेला पार्नुभयो, निरीक्षकज्यू ?	FORMAL
+Please address the quantum error correction algorithm vulnerabilities, expert.	कृपया क्वान्टम त्रुटि सुधार एल्गोरिदमका संवेदनशीलताका बारेमा सम्बोधन गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you calibrated the hypersonic wind tunnel pressure gauges, engineer?	के तपाईंले हाइपरसोनिक विन्ड टनेलको दबाब गेज क्यालिब्रेट गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please state your conclusion on the black hole event horizon simulation, officer.	कृपया ब्लाक होलको इभेन्ट होराइजन सिमुलेशनमा आफ्नो निष्कर्ष व्यक्त गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did the lunar lander handle the descent trajectory velocity surge, chief?	के चन्द्र ल्यान्डरले अवतरण मार्गको गति वृद्धिलाई वहन गर्न सक्यो, प्रमुखज्यू ?	FORMAL
+Please upgrade the molecular beam epitaxy fabrication protocols, director.	कृपया मोलिक्युलर बीम एपिट्याक्सी फेब्रिकेसन प्रोटोकलहरू अपग्रेड गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you observed the cosmic microwave background fluctuations, scientist?	के तपाईंले ब्रह्माण्डीय माइक्रोवेभ पृष्ठभूमि उतारचढाव अवलोकन गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please schedule the rocket launch pad critical infrastructure safety audit, manager.	कृपया रकेट प्रक्षेपण प्याडको महत्त्वपूर्ण पूर्वाधार सुरक्षा लेखापरीक्षणको तालिका निर्धारण गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you isolate the noisy qubit during the quantum simulation run, expert?	के तपाईंले क्वान्टम सिमुलेशन रनको बेला अवरोध गर्ने क्युबिटलाई अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please inspect the Mars rover autonomous navigation system lidar, inspector.	कृपया मङ्गल रोभरको स्वायत्त नेभिगेसन प्रणालीको लिडार निरीक्षण गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Have you resolved the deep-space network data packet latency issue, engineer?	के तपाईंले गहिरो-अन्तरिक्ष नेटवर्कको तथ्याङ्क प्याकेट ढिलाइ हुने समस्या समाधान गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please guide the foreign aerospace delegation through the cleanroom, officer.	कृपया विदेशी एयरोस्पेस प्रतिनिधिमण्डललाई क्लिनरुमको भ्रमण गराउनुहोस्, अधिकृतज्यू ।	FORMAL
+Did the magnetic levitation system block the kinetic shock vibration, chief?	के चुम्बकीय लेभिटेसन प्रणालीले गतिशिल आघात कम्पनलाई रोक्यो, प्रमुखज्यू ?	FORMAL
+Please submit the environmental impact report for the asteroid mining project, professor.	कृपया क्षुद्रग्रह खानी परियोजनाको वातावरणीय प्रभाव प्रतिवेदन पेस गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you tested the topological insulator electron mobility efficiency, expert?	के तपाईंले टोपोलोजिकल इन्सुलेटर इलेक्ट्रोन गतिशीलता दक्षता परीक्षण गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please inaugurate the off-grid satellite tracking facility station, minister.	कृपया ग्रिड बाहिरको भूउपग्रह ट्र्याकिङ सुविधा केन्द्रको उद्घाटन गर्नुहोस्, मन्त्रीज्यू ।	FORMAL
+Did you discover any structural defects in the aerogel thermal shield, scientist?	के तपाईंले एरोजेल थर्मल शिल्डमा कुनै संरचनात्मक त्रुटि फेला पार्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please issue the operating license for the private aerospace facility, director.	कृपया निजी एयरोस्पेस केन्द्रका लागि सञ्चालन अनुमति पत्र जारी गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you checked the quantum dot solar cell energy decay levels, manager?	के तपाईंले क्वान्टम डट सौर्य सेलको ऊर्जा ह्रासको स्तर जाँच गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please explain the advanced magnetohydrodynamic propulsion strategy, officer.	कृपया उन्नत म्याग्नेटोहाइड्रोडायनामिक प्रोपल्सन रणनीतिको व्याख्या गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did the lithium-sulfur aerospace battery stack overheat today, engineer?	के लिथियम-सल्फर एयरोस्पेस ब्याट्री स्ट्याक आज अत्यधिक तातियो, इन्जिनियरज्यू ?	FORMAL
+Please publish the research data regarding quantum annealing standards, professor.	कृपया क्वान्टम एनिलिङ मापदण्ड सम्बन्धी अनुसन्धान तथ्याङ्क प्रकाशित गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you analyzed the pulsar radio frequency logs for anomalies, expert?	के तपाईंले पल्सार रेडियो आवृत्ति लगहरूको विसंगति विश्लेषण गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please deploy the automated orbital debris evasion trajectory software, director.	कृपया स्वचालित कक्षीय भग्नावशेष छल्ने मार्गको सफ्टवेयर लागू गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you calculate the payload mass budget for the Titan mission, manager?	के तपाईंले टाइटन मिसनका लागि पेलोड द्रव्यमान बजेटको गणना गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please verify the cryptographic token keys before granting telescope access, officer.	कृपया टेलिस्कोप पहुँच अनुमति दिनु अघि क्रिप्टोग्राफिक टोकन साँचोहरू प्रमाणित गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you tracked the efficiency loss in the photonics network grid, scientist?	के तपाईंले फोटोनिक्स नेटवर्क ग्रिडको दक्षता ह्रास ट्र्याक गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please update the international space station docking port safety protocols, director.	कृपया अन्तर्राष्ट्रिय अन्तरिक्ष स्टेशनको डकिङ पोर्ट सुरक्षा प्रोटोकलहरू अपडेट गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you isolate the compromised optical lattice laser endpoint, expert?	के तपाईंले असुरक्षित अप्टिकल ल्याटिस लेजर एन्डपोइन्टलाई अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please coordinate the offshore rocket launch platform network deployment, manager.	कृपया अपतटीय रकेट प्रक्षेपण प्लेटफर्मको नेटवर्क स्थापनामा समन्वय गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Have you fixed the software vulnerability in the guidance computer, engineer?	के तपाईंले गाइडन्स कम्प्युटरको सफ्टवेयर संवेदनशीलता समाधान गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please oversee the quantum key distribution synchronization process, officer.	कृपया क्वान्टम साँचो वितरण समीकरण प्रक्रियाको रेखदेख गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did you map the solar wind plasma density pattern across the sector, director?	के तपाईंले क्षेत्रभरिको सौर्य हावा प्लाज्मा घनत्व ढाँचाको नक्साङ्कन गर्नुभयो, निर्देशकज्यू ?	FORMAL
+Please review the stress testing metrics for the titanium alloy chassis, professor.	कृपया टाइटेनियम मिश्र धातु चेसिसको तनाव परीक्षण मापनको समीक्षा गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you published the commercial spaceflight passenger safety regulations, secretary?	के तपाईंले व्यावसायिक अन्तरिक्ष उडान यात्री सुरक्षा नियमहरू प्रकाशित गर्नुभयो, सचिवज्यू ?	FORMAL
+Please explain the quantum entanglement non-locality paradox mechanics, expert.	कृपया क्वान्टम इन्ट्याङ्गलमेन्ट नन-लोकालिटी विरोधाभासको संयन्त्र व्याख्या गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Did you encounter any star tracker sensor matrix validation errors, manager?	के तपाईंले स्टार ट्र्याकर सेन्सर म्याट्रिक्स प्रमाणीकरण त्रुटिहरू सामना गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please oversee the installation of the high-vacuum test chambers, chief.	कृपया उच्च-भ्याकुम परीक्षण चेम्बरहरूको स्थापनाको निरीक्षण गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Have you verified the integrity of the telemetric encrypted backup files, officer?	के तपाईंले टेलिमेट्रिक इन्क्रिप्टेड ब्याकअप फाइलहरूको अखण्डता प्रमाणित गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please conduct a risk assessment for the asteroid interception system, inspector.	कृपया क्षुद्रग्रह अवरोध प्रणालीको लागि जोखिम मूल्याङ्कन सञ्चालन गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Did you confirm the quantum algorithm execution gate log authenticity, expert?	के तपाईंले क्वान्टम एल्गोरिदम कार्यान्वयन गेट लगको आधिकारिकता पुष्टि गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please deploy the emergency rocket booster isolation automated switch, engineer.	कृपया आपतकालीन रकेट बुस्टर अलगाव स्वचालित स्विच परिचालन गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Have you checked the optical transceivers for wavelength drift exploits, officer?	के तपाईंले अप्टिकल ट्रान्सीभरहरूमा तरङ्गदैर्ध्य विचलन त्रुटिहरू छन् कि जाँच गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please implement the advanced nanoscale semiconductor security engineering framework, manager.	कृपया उन्नत नानोस्केल सेमीकन्डक्टर सुरक्षा इन्जिनियरिङ ढाँचा लागू गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you calculate the thermal degradation of the spacecraft radiator panels, scientist?	के तपाईंले अन्तरिक्ष यान रेडिएटर प्यानलको थर्मल क्षयीकरण गणना गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please secure the quantum asset transaction ledger database cloud system, director.	कृपया क्वान्टम सम्पत्ति कारोबार खाताको डेटाबेस क्लाउड प्रणाली सुरक्षित गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you tested the anti-satellite kinetic warfare defensive barrier protocols, chief?	के तपाईंले एन्टी-स्याटेलाइट काइनेटिक युद्ध रक्षात्मक अवरोध प्रोटोकलहरूको परीक्षण गर्नुभयो, प्रमुखज्यू ?	FORMAL
+Please define the security architecture parameters for the quantum cloud, expert.	कृपया क्वान्टम क्लाउडका लागि सुरक्षा वास्तुकलाका मापदण्डहरू परिभाषित गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Did you detect any magnetic field imbalances in the plasma chamber, engineer?	के तपाईंले प्लाज्मा चेम्बरमा कुनै चुम्बकीय क्षेत्र असन्तुलन पत्ता लगाउनुभयो, इन्जिनियरज्यू ?	FORMAL
+Please document the deep space signal source tracking methodology analytics, professor.	कृपया गहिरो अन्तरिक्ष सङ्केत स्रोत ट्र्याकिङ पद्धतिको विश्लेषण अभिलेखीकरण गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you optimized the rocket trajectory aero-thermal drag equations grid, scientist?	के तपाईंले रकेट मार्गको एरो-थर्मल ड्रग समीकरण ग्रिड अनुकूलित गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please present the quantum supremacy simulation benchmark execution metrics graph, officer.	कृपया क्वान्टम सुप्रिमेसी सिमुलेशन बेन्चमार्क कार्यान्वयन मापन ग्राफ प्रस्तुत गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did you examine the space debris tracking sensor forensic logs today, expert?	के तपाईंले आज अन्तरिक्ष भग्नावशेष ट्र्याकिङ सेन्सरको फरेन्सिक लगहरू जाँच्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please approve the integration of commercial payloads into launch vehicles, director.	कृपया प्रक्षेपण वाहनहरूमा व्यावसायिक पेलोडहरूको एकीकरण स्वीकृत गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you reviewed the critical space radiation shielding test data sheets, manager?	के तपाईंले महत्त्वपूर्ण अन्तरिक्ष विकिरण शिल्डिङ परीक्षण तथ्याङ्क पानाहरूको समीक्षा गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please publish the handbook on global outer space legal safety standards, professor.	कृपया विश्वव्यापी बाह्य अन्तरिक्ष कानूनी सुरक्षा मापदण्ड सम्बन्धी निर्देशिका प्रकाशित गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Did you discover any nano-structural anomalies in the carbon composite lattice, researcher?	के तपाईंले कार्बन कम्पोजिट ल्याटिसमा कुनै नानो-संरचनात्मक विसंगति फेला पार्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please enhance the wide area satellite radar scanning transmission capabilities, chief.	कृपया वाइड एरिया भूउपग्रह राडार स्क्यानिङ प्रसारण क्षमता बढाउनुहोस्, प्रमुखज्यू ।	FORMAL
+Have you calculated the efficiency metrics of the satellite power inverter, engineer?	के तपाईंले भूउपग्रह पावर इन्भर्टरको दक्षता मापन गणना गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please lead the deep-space optical communication transceiver development project, scientist.	कृपया गहिरो-अन्तरिक्ष अप्टिकल सञ्चार ट्रान्सीभर विकास परियोजनाको नेतृत्व गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Did you isolate the faulty quantum gate code block during debugging, expert?	के तपाईंले डिबगिङको क्रममा त्रुटिपूर्ण क्वान्टम गेट कोड ब्लक अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please evaluate the space network cloud identity theft prevention security rules, officer.	कृपया अन्तरिक्ष नेटवर्क क्लाउड पहिचान चोरी रोकथाम सुरक्षा नियमहरूको मूल्याङ्कन गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you verified the spacecraft high-voltage distribution direct current line insulation, inspector?	के तपाईंले अन्तरिक्ष यानको उच्च-भोल्टेज वितरण डाइरेक्ट करेन्ट लाइन इन्सुलेशन प्रमाणित गर्नुभयो, निरीक्षकज्यू ?	FORMAL
+Please host the spaceflight operations incident command center response meeting, director.	कृपया अन्तरिक्ष उडान सञ्चालन घटना कमान्ड सेन्टर प्रतिक्रिया बैठकको आयोजना गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you observe the automated rocket separation switch system failure behaviors, engineer?	के तपाईंले स्वचालित रकेट छुट्टिने स्विच प्रणालीको विफलता व्यवहारहरू अवलोकन गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please design the secure encrypted telemetry backup framework architecture, expert.	कृपया सुरक्षित इन्क्रिप्टेड टेलिमेट्री ब्याकअप ढाँचा वास्तुकलाको डिजाइन गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you tested the quantum smart contract verification processing limits, researcher?	के तपाईंले क्वान्टम स्मार्ट कन्ट्याक्ट प्रमाणीकरण प्रशोधन सीमा परीक्षण गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please check the satellite ground station identity data logs for access, manager.	कृपया भूउपग्रह भू-केन्द्र पहिचान तथ्याङ्क लगमा पहुँच जाँच गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you locate the source of the deep space radio frequency interference, scientist?	के तपाईंले गहिरो अन्तरिक्ष रेडियो आवृत्ति अवरोधको स्रोत पत्ता लगाउनुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please schedule the solar array tracking drive configuration verification alignment test, chief.	कृपया सौर्य एरे ट्र्याकिङ ड्राइभ कन्फिगरेसन प्रमाणीकरण पङ्क्तिबद्धता परीक्षणको तालिका बनाउनुहोस्, प्रमुखज्यू ।	FORMAL
+Have you updated the emergency orbital incident contingency response action manual, officer?	के तपाईंले आपतकालीन कक्षीय घटना आकस्मिक प्रतिक्रिया कार्य निर्देशिका अपडेट गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please verify the rocket engine gimbal automated steering calibration metrics, engineer.	कृपया रकेट इन्जिन गिम्बल स्वचालित स्टेयरिङ क्यालिब्रेसन मापन प्रमाणित गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Did you map the target parameters for atmospheric entry thermal simulation, expert?	के तपाईंले वायुमण्डलीय प्रवेश थर्मल सिमुलेशनका लागि लक्षित मापदण्डहरूको नक्साङ्कन गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please approve the space telescope assembly protective optical mirror replacement, director.	कृपया अन्तरिक्ष टेलिस्कोप एसेम्बलीको सुरक्षात्मक अप्टिकल ऐना प्रतिस्थापन स्वीकृत गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you confirmed the spacecraft bus voltage stabilization capacitor bank rating, engineer?	के तपाईंले अन्तरिक्ष यान बस भोल्टेज स्थिरिकरण क्यापेसिटर बैंकको रेटिङ पुष्टि गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please upload the critical quantum compiler instruction signature updates to mainframe, chief.	कृपया मेनफ्रेममा महत्त्वपूर्ण क्वान्टम कम्पाइलर निर्देशन हस्ताक्षर अपडेटहरू अपलोड गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Did you trace the origin of the coordinated telemetry spoofing domain, officer?	के तपाईंले समन्वित टेलिमेट्री स्पुफिङ डोमेनको उत्पत्तिको खोजी गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please design the aerospace facility cleanroom thermal matrix ventilation system, architect.	कृपया एयरोस्पेस केन्द्रको क्लिनरुम थर्मल म्याट्रिक्स भेन्टिलेसन प्रणालीको डिजाइन गर्नुहोस्, वास्तुकारज्यू ।	FORMAL
+Have you checked the satellite attitude controller software framework for loops, programmer?	के तपाईंले भूउपग्रह एटिट्युड नियन्त्रक सफ्टवेयर ढाँचामा कुनै लुपहरू छन् कि जाँच गर्नुभयो, प्रोग्रामर अनुसन्धानकर्ताज्यू ?	FORMAL
+Please inspect the deep space optical transceiver nitrogen containment tank valves, inspector.	कृपया गहिरो अन्तरिक्ष अप्टिकल ट्रान्सीभर नाइट्रोजन नियन्त्रण ट्याङ्की भल्भहरूको निरीक्षण गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Did you update the quantum cloud security framework multi-tenant threat models, expert?	के तपाईंले क्वान्टम क्लाउड सुरक्षा ढाँचाको बहु-टेनेन्ट खतरा मोडेलहरू अपडेट गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please supervise the satellite network topology constellation footprint optimization script, professor.	कृपया भूउपग्रह नेटवर्क टोपियोलोजी कन्स्टिलेसन फुटप्रिन्ट अनुकूलन स्क्रिप्टको सुपरिवेक्षण गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you finalized the cleanroom fabrication nanotech laboratory emergency protocol sheets, director?	के तपाईंले क्लिनरुम फेब्रिकेसन नानोटेक प्रयोगशाला आपतकालीन पानाहरूलाई अन्तिम रूप दिनुभयो, निर्देशकज्यू ?	FORMAL
+Please deploy the spacecraft endpoint containment software security patch update immediately, manager.	कृपया अन्तरिक्ष यान एन्डपोइन्ट नियन्त्रण सफ्टवेयर सुरक्षा प्याच अपडेट तुरुन्तै लागू गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you identify the source of the quantum simulation matrix exploit, officer?	के तपाईंले क्वान्टम सिमुलेशन म्याट्रिक्स एक्स्प्लोइटको स्रोत पहिचान गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please present the quantum entanglement key distribution analysis data link graphs, scientist.	कृपया क्वान्टम इन्ट्याङ्गलमेन्ट साँचो वितरण विश्लेषण तथ्याङ्क लिङ्क ग्राफहरू प्रस्तुत गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Have you reviewed the aerospace material integration composite feasibility matrix sheets, expert?	के तपाईंले एयरोस्पेस सामग्री एकीकरण कम्पोजिट सम्भाव्यता म्याट्रिक्स पानाहरूको समीक्षा गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please confirm the multi-factor authentication telescope control hardware stack architecture, engineer.	कृपया बहु-कारक प्रमाणीकरण टेलिस्कोप नियन्त्रण हार्डवेयर स्ट्याक वास्तुकला पुष्टि गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Did you activate the AI model, director?	के तपाईंले एआई मोडेल सक्रिय गर्नुभयो, निर्देशकज्यू ?	FORMAL
+Please review the coral reef data, professor.	कृपया मुगा भित्ती तथ्याङ्कको समीक्षा गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you verified the drone radar, officer?	के तपाईंले ड्रोन राडार प्रमाणित गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please sign the marine protection treaty, secretary.	कृपया समुद्री संरक्षण सन्धिमा हस्ताक्षर गर्नुहोस्, सचिवज्यू ।	FORMAL
+Did you detect any deep-sea anomalies, scientist?	के तपाईंले गहिरो समुद्री असामान्यता पत्ता लगाउनुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please approve the quantum robotics budget, chief.	कृपया क्वान्टम रोबोटिक्स बजेट स्वीकृत गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Have you calibrated the sonar array, expert?	के तपाईंले सोनार एरे क्यालिब्रेट गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please explain the neural network training, researcher.	कृपया न्यूरल नेटवर्क तालिम स्पष्ट पारिदिनुहोस्, अनुसन्धानकर्ताज्यू ।	FORMAL
+Did the automated submarine return safely, engineer?	के स्वचालित पनडुब्बी सुरक्षित रूपमा फर्कियो, इन्जिनियरज्यू ?	FORMAL
+Please check the marine toxin equations, scientist.	कृपया समुद्री विषाक्तता समीकरणहरू जाँच गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Have you received the oceanic telemetry, chief?	के तपाईंले समुद्री टेलिमेट्री प्राप्त गर्नुभयो, प्रमुखज्यू ?	FORMAL
+Please authorize the automated navigation, director.	कृपया स्वचालित नेभिगेसन प्रमाणित गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you find plastic in the trench, professor?	के तपाईंले खाडलमा प्लास्टिक फेला पार्नुभयो, प्राध्यापकज्यू ?	FORMAL
+Please address the AI ethics concerns, expert.	कृपया एआई नैतिक चासोका बारेमा सम्बोधन गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you tested the underwater camera, researcher?	के तपाईंले पानीमुनिको क्यामेरा परीक्षण गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please state your conclusion on tides, officer.	कृपया ज्वारभाटामा आफ्नो निष्कर्ष व्यक्त गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did the server process the algorithm, doctor?	के सर्भरले एल्गोरिदम प्रशोधन गर्यो, डाक्टरसाब ?	FORMAL
+Please upgrade the ocean tracking network, director.	कृपया समुद्री ट्र्याकिङ नेटवर्क अपग्रेड गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you observed the whale migration, scientist?	के तपाईंले ह्वेल बसाइँसराइ अवलोकन गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please schedule the laboratory safety audit, manager.	कृपया प्रयोगशाला सुरक्षा लेखापरीक्षणको तालिका बनाउनुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you isolate the shark pathogen, expert?	के तपाईंले शार्क रोगजनकलाई अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please inspect the robotic arm alignment, inspector.	कृपया रोबोटिक हात पङ्क्तिबद्धताको निरीक्षण गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Have you resolved the computer latency, engineer?	के तपाईंले कम्प्युटरको ढिलाइ हुने समस्या समाधान गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please guide the maritime research delegation, officer.	कृपया समुद्री अनुसन्धान प्रतिनिधिमण्डललाई मार्गदर्शन गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did the machine learning system crash, chief?	के मेशिन लर्निङ प्रणाली क्र्यास भयो, प्रमुखज्यू ?	FORMAL
+Please submit the whale acoustic report, professor.	कृपया ह्वेलको ध्वनि सम्बन्धी प्रतिवेदन पेस गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you tested the synthetic neural code, expert?	के तपाईंले कृत्रिम न्यूरल कोड परीक्षण गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please inaugurate the oceanographic center, minister.	कृपया समुद्र विज्ञान केन्द्रको उद्घाटन गर्नुहोस्, मन्त्रीज्यू ।	FORMAL
+Did you discover new aquatic species, researcher?	के तपाईंले नयाँ जलचर प्रजाति पत्ता लगाउनुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please issue the software safety license, director.	कृपया सफ्टवेयर सुरक्षा अनुमति पत्र जारी गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you checked the submarine batteries, manager?	के तपाईंले पनडुब्बीको ब्याट्रीहरू जाँच गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please explain the ocean current metrics, professor.	कृपया समुद्री बहाव मापनको व्याख्या गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Did the robotic boat clear obstacles, scientist?	के रोबोटिक डुङ्गाले अवरोधहरू पार गर्यो, वैज्ञानिकज्यू ?	FORMAL
+Please publish the marine temperature charts, director.	कृपया समुद्री तापक्रम चार्टहरू प्रकाशित गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you analyzed the sonar frequency logs, expert?	के तपाईंले सोनार आवृत्ति लगहरूको विश्लेषण गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please deploy the coastal flood warning, chief.	कृपया तटीय बाढीको चेतावनी लागू गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Did you calculate the neural decay rate, doctor?	के तपाईंले न्यूरल ह्रास दर गणना गर्नुभयो, डाक्टरसाब ?	FORMAL
+Please verify the deep ocean pressure estimation, officer.	कृपया गहिरो समुद्री दबाबको अनुमान प्रमाणित गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you tracked the toxic algae bloom, scientist?	के तपाईंले विषाक्त लेउ पलाएको ट्र्याक गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please update the robotics safety manuals, director.	कृपया रोबोटिक्स सुरक्षा निर्देशिकाहरू अपडेट गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you isolate the corrupted data file, expert?	के तपाईंले भ्रष्ट तथ्याङ्क फाइल अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please coordinate the Arctic exploration crew, manager.	कृपया आर्क्टिक अन्वेषण टोलीको समन्वय गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Have you fixed the autonomous drone bug, engineer?	के तपाईंले स्वायत्त ड्रोनको त्रुटि समाधान गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please oversee the submarine transit safety, officer.	कृपया पनडुब्बी परिवहन सुरक्षाको रेखदेख गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did you map the volcanic sea floor, director?	के तपाईंले ज्वालामुखी समुद्री भुइँको नक्साङ्कन गर्नुभयो, निर्देशकज्यू ?	FORMAL
+Please review the language processing system, professor.	कृपया भाषा प्रशोधन प्रणालीको समीक्षा गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you published the marine biology standards, chief?	के तपाईंले समुद्री जीवविज्ञान मापदण्ड प्रकाशित गर्नुभयो, प्रमुखज्यू ?	FORMAL
+Please explain the robotic limb constraints, expert.	कृपया रोबोटिक अङ्गका अवरोधहरू व्याख्या गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Did you encounter data integration errors, manager?	के तपाईंले तथ्याङ्क एकीकरण त्रुटिहरू सामना गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please oversee the cleanroom hardware installation, chief.	कृपया क्लिनरुम हार्डवेयर स्थापनाको निरीक्षण गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Have you verified the server cloud backup, officer?	के तपाईंले सर्भर क्लाउड ब्याकअप प्रमाणित गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please conduct a marine risk assessment, inspector.	कृपया समुद्री जोखिम मूल्याङ्कन सञ्चालन गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Did you confirm the training completion logs, expert?	के तपाईंले तालिम पूरा भएको लगहरू पुष्टि गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please deploy the autonomous drone array, engineer.	कृपया स्वायत्त ड्रोन एरे परिचालन गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Have you checked the fish incubator temperature, officer?	के तपाईंले माछा इन्क्युबेटरको तापक्रम जाँच गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please implement the advanced computer framework, manager.	कृपया उन्नत कम्प्युटर ढाँचा लागू गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you calculate the coastal erosion shift, scientist?	के तपाईंले तटीय कटान परिवर्तनको गणना गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please secure the main database facility, director.	कृपया मुख्य डेटाबेस केन्द्र सुरक्षित गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you tested the marine diving equipment, chief?	के तपाईंले समुद्री डाइभिङ उपकरण परीक्षण गर्नुभयो, प्रमुखज्यू ?	FORMAL
+Please define the AI logic parameters, expert.	कृपया एआई लजिकका मापदण्डहरू परिभाषित गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Did you detect any micro-plastic particles, engineer?	के तपाईंले कुनै सूक्ष्म-प्लास्टिक कण पत्ता लगाउनुभयो, इन्जिनियरज्यू ?	FORMAL
+Please document the whale behavior observations, professor.	कृपया ह्वेलको व्यवहार अवलोकन अभिलेखीकरण गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you optimized the marine radar placement, scientist?	के तपाईंले समुद्री राडार स्थापनाको स्थिति अनुकूलित गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please present the drone tracking simulation, officer.	कृपया ड्रोन ट्र्याकिङ सिमुलेशन प्रस्तुत गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did you examine the hazardous laboratory logs, expert?	के तपाईंले खतरनाक प्रयोगशाला लगहरू जाँच्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please approve the automated database system, director.	कृपया स्वचालित डेटाबेस प्रणाली स्वीकृत गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you reviewed the jellyfish tank sheets, manager?	के तपाईंले जेलीफिस ट्याङ्की पानाहरूको समीक्षा गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please publish the ocean conversation handbook, professor.	कृपया समुद्री संरक्षण निर्देशिका प्रकाशित गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Did you discover ancient deep-sea fossils, researcher?	के तपाईंले प्राचीन गहिरो समुद्री जीवावशेष फेला पार्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please enhance the automated radar capability, chief.	कृपया स्वचालित राडारको क्षमता बढाउनुहोस्, प्रमुखज्यू ।	FORMAL
+Have you calculated the data rendering speed, engineer?	के तपाईंले तथ्याङ्क रेन्डरिङ गतिको गणना गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please lead the oceanic trench exploration, scientist.	कृपया समुद्री खाडल अन्वेषणको नेतृत्व गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Did you isolate the network virus, expert?	के तपाईंले नेटवर्क भाइरस अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please evaluate the drone launch platform, officer.	कृपया ड्रोन प्रक्षेपण प्लेटफर्मको मूल्याङ्कन गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you verified the fish containment tank, inspector?	के तपाईंले माछा नियन्त्रण ट्याङ्की प्रमाणित गर्नुभयो, निरीक्षकज्यू ?	FORMAL
+Please host the artificial intelligence summit, director.	कृपया आर्टिफिसियल इन्टेलिजेन्स शिखर सम्मेलनको आयोजना गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you observe the robotic chassis vibrations, engineer?	के तपाईंले रोबोटिक चेसिसको कम्पन अवलोकन गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please design the biological laboratory layout, expert.	कृपया जैविक प्रयोगशालाको रूपरेखा डिजाइन गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you tested the underwater radar network, researcher?	के तपाईंले पानीमुनिको राडार नेटवर्क परीक्षण गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please check the computer server logs, manager.	कृपया कम्प्युटर सर्भर लगहरू जाँच गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you locate the deep-sea shipwreck, scientist?	के तपाईंले गहिरो समुद्री जहाजको भग्नावशेष पत्ता लगाउनुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please schedule the drone flight verification, chief.	कृपया ड्रोन उडान प्रमाणीकरणको तालिका बनाउनुहोस्, प्रमुखज्यू ।	FORMAL
+Have you updated the ocean rescue manual, officer?	के तपाईंले समुद्री उद्धार निर्देशिका अपडेट गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please verify the lab cleanroom ventilation, engineer.	कृपया प्रयोगशालाको क्लिनरुम भेन्टिलेसन प्रमाणित गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Did you map the coral island coordinates, expert?	के तपाईंले मुगा टापुको निर्देशांक नक्साङ्कन गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please approve the software network extension, director.	कृपया सफ्टवेयर नेटवर्क विस्तार स्वीकृत गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you confirmed the drone engine metrics, engineer?	के तपाईंले ड्रोन इन्जिनको मापन पुष्टि गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please upload the deep-sea sound data, chief.	कृपया गहिरो समुद्री ध्वनिको तथ्याङ्क अपलोड गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Did you trace the aquatic toxin origin, officer?	के तपाईंले जलीय विषाक्तताको उत्पत्तिको खोजी गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please design the computer facility architecture, architect.	कृपया कम्प्युटर केन्द्रको वास्तुकला रूपरेखा डिजाइन गर्नुहोस्, वास्तुकारज्यू ।	FORMAL
+Have you checked the robot processor code, researcher?	के तपाईंले रोबोट प्रोसेसरको कोड जाँच गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please inspect the submarine hull stability, inspector.	कृपया पनडुब्बीको मुख्य भागको स्थिरताको निरीक्षण गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Did you update the marine database arrays, expert?	के तपाईंले समुद्री डेटाबेस एरेहरू अपडेट गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please supervise the drone speed optimization, professor.	कृपया ड्रोन गति अनुकूलनको सुपरिवेक्षण गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you finalized the bio-safety emergency sheets, director?	के तपाईंले जैविक सुरक्षा आपतकालीन पानाहरूलाई अन्तिम रूप दिनुभयो, निर्देशकज्यू ?	FORMAL
+Please deploy the software platform update, manager.	कृपया सफ्टवेयर प्लेटफर्म अपडेट लागू गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you identify the algorithm logic error, officer?	के तपाईंले एल्गोरिदम लजिकको त्रुटि पहिचान गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please present the sea current chart, scientist.	कृपया समुद्री बहावको चार्ट प्रस्तुत गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Have you reviewed the machine testing logs, expert?	के तपाईंले मेसिनरी परीक्षण लगहरूको समीक्षा गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please confirm the laboratory automation hardware, engineer.	कृपया प्रयोगशाला स्वचालन हार्डवेयर पुष्टि गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Did you evaluate the wind turbine blade aerodynamic efficiency, director?	के तपाईंले वायु ऊर्जा टर्बाइन ब्लेडको वायुगतिकीय दक्षताको मूल्याङ्कन गर्नुभयो, निर्देशकज्यू ?	FORMAL
+Please authorize the CRISPR gene-editing sequence routing protocol, professor.	कृपया क्रिस्पर जीन-एडिटिङ अनुक्रम मार्ग प्रोटोकललाई प्रमाणित गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you reviewed the smart grid voltage fluctuation threat assessment, officer?	के तपाईंले स्मार्ट ग्रिड भोल्टेज उतारचढाव खतरा मूल्याङ्कन प्रतिवेदनको समीक्षा गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please present the recombinant DNA strand tensile stability metrics, scientist.	कृपया पुनर्संयोजन डीएनए त्यान्द्रोको तन्य स्थिरता मापन प्रस्तुत गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Did you detect any electrolyte leakage in the hydrogen fuel cell, chief?	के तपाईंले हाइड्रोजन फ्युज सेलमा कुनै इलेक्ट्रोलाइट चुहावट पत्ता लगाउनुभयो, प्रमुखज्यू ?	FORMAL
+Please sign the international biosafety and genetic data protection treaty, secretary.	कृपया अन्तर्राष्ट्रिय जैवसुरक्षा तथा आनुवंशिक तथ्याङ्क संरक्षण सन्धिमा हस्ताक्षर गर्नुहोस्, सचिवज्यू ।	FORMAL
+Have you verified the solid-state battery thermal management integrity, expert?	के तपाईंले सोलिड-स्टेट ब्याट्री थर्मल व्यवस्थापनको अखण्डता प्रमाणित गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please explain the microgrid islanding simulation and load-shedding models, researcher.	कृपया माइक्रोग्रिड आइल्यान्डिङ सिमुलेशन र लोड-सेडिङ मोडेलहरू स्पष्ट पारिदिनुहोस्, अनुसन्धानकर्ताज्यू ।	FORMAL
+Did the automated biogas digester mitigate the methane emission surge, sir?	के स्वचालित बायोग्यास डाइजेस्टर प्रणालीले मिथेन उत्सर्जनको वृद्धिलाई कम गर्यो, सर ?	FORMAL
+Please double-check the agricultural crop genetic mutation calculations, scientist.	कृपया कृषिको बाली आनुवंशिक उत्परिवर्तन गणनालाई पुन: जाँच गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Have you received the offshore wave energy converter telemetry data, researcher?	के तपाईंले अपतटीय छाल ऊर्जा रूपान्तरण टेलिमेट्री तथ्याङ्क प्राप्त गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please approve the funding for the regional synthetic biology network, director.	कृपया क्षेत्रीय सिन्थेटिक जीवविज्ञान नेटवर्कको लागि बजेट स्वीकृत गरिदिनुहोस्, निर्देशकज्यू ।	FORMAL
+Did you find any structural flaws in the photovoltaic cell crystal lattice, inspector?	के तपाईंले फोटोभोल्टिक सेल क्रिष्टल ल्याटिसमा कुनै संरचनात्मक त्रुटि फेला पार्नुभयो, निरीक्षकज्यू ?	FORMAL
+Please address the genetic vector delivery mechanism vulnerabilities, expert.	कृपया आनुवंशिक भेक्टर डेलिभरी संयन्त्रका संवेदनशीलताका बारेमा सम्बोधन गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you calibrated the high-voltage direct current transmission lines, engineer?	के तपाईंले उच्च-भोल्टेज डाइरेक्ट करेन्ट प्रसारण लाइनहरू क्यालिब्रेट गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please state your conclusion on the enzyme catalyst reaction speed simulation, officer.	कृपया एन्जाइम उत्प्रेरक प्रतिक्रिया गति सिमुलेशनमा आफ्नो निष्कर्ष व्यक्त गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did the solar inverter handle the peak distribution grid voltage surge, chief?	के सौर्य इन्भर्टरले पिक वितरण ग्रिड भोल्टेज वृद्धिलाई वहन गर्न सक्यो, प्रमुखज्यू ?	FORMAL
+Please upgrade the automated DNA sequencing transcription fabrication protocols, director.	कृपया स्वचालित डीएनए सिक्वेन्सिङ ट्रान्सक्रिप्सन फेब्रिकेसन प्रोटोकलहरू अपग्रेड गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you observed the geothermal extraction well pressure fluctuations, scientist?	के तपाईंले भू-तापीय निष्कर्षण इनारको दबाब उतारचढाव अवलोकन गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please schedule the smart grid distribution sub-station critical infrastructure safety audit, manager.	कृपया स्मार्ट ग्रिड वितरण उप-केन्द्रको महत्त्वपूर्ण पूर्वाधार सुरक्षा लेखापरीक्षणको तालिका निर्धारण गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you isolate the modified cell line during the cellular replication run, expert?	के तपाईंले कोषिका प्रतिकृति रनको बेला परिमार्जित कोषिका रेखालाई अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please inspect the wind farm supervisory control and data acquisition system, inspector.	कृपया वायु ऊर्जा केन्द्रको सुपरभाइजरी कन्ट्रोल र डाटा एक्विजिसन प्रणाली निरीक्षण गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Have you resolved the smart meter mesh network data packet latency issue, engineer?	के तपाईंले स्मार्ट मिटर मेश नेटवर्कको तथ्याङ्क प्याकेट ढिलाइ हुने समस्या समाधान गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please guide the foreign biomass energy delegation through the cleanroom, officer.	कृपया विदेशी बायोमास ऊर्जा प्रतिनिधिमण्डललाई क्लिनरुमको भ्रमण गराउनुहोस्, अधिकृतज्यू ।	FORMAL
+Did the flywheel energy storage system block the sudden kinetic vibration, chief?	के फ्लाईह्विल ऊर्जा भण्डारण प्रणालीले अचानक उत्पन्न गतिशिल कम्पनलाई रोक्यो, प्रमुखज्यू ?	FORMAL
+Please submit the environmental impact report for the tidal barrage project, professor.	कृपया ज्वारभाटा ब्यारेज परियोजनाको वातावरणीय प्रभाव प्रतिवेदन पेस गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you tested the somatic gene therapy in vivo distribution efficiency, expert?	के तपाईंले सोमाटिक जीन थेरापीको इन भिभो वितरण दक्षता परीक्षण गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please inaugurate the ultra-large floating solar power tracking station, minister.	कृपया विशाल तैरने सौर्य ऊर्जा ट्र्याकिङ केन्द्रको उद्घाटन गर्नुहोस्, मन्त्रीज्यू ।	FORMAL
+Did you discover any cellular sequencing mutations in the stem cell culture, scientist?	के तपाईंले स्टेम सेल कल्चरमा कुनै कोषिका अनुक्रमणिका उत्परिवर्तन फेला पार्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please issue the operating license for the private commercial bioreactor facility, director.	कृपया निजी व्यावसायिक बायोरिएक्टर केन्द्रका लागि सञ्चालन अनुमति पत्र जारी गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you checked the lithium-ion battery cathode degradation levels, manager?	के तपाईंले लिथियम-आयन ब्याट्री क्याथोड क्षयीकरणको स्तर जाँच गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please explain the advanced dynamic line rating capacity transmission strategy, officer.	कृपया उन्नत डाइनामिक लाइन रेटिङ क्षमता प्रसारण रणनीतिको व्याख्या गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did the hydro-electric turbine regulation governor valve overheat today, engineer?	के जलविद्युत टर्बाइन नियमन गभर्नर भल्भ आज अत्यधिक तातियो, इन्जिनियरज्यू ?	FORMAL
+Please publish the research data regarding genome editing regulatory standards, professor.	कृपया जीनोम सम्पादन नियामक मापदण्ड सम्बन्धी अनुसन्धान तथ्याङ्क प्रकाशित गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you analyzed the smart grid power quality logs for harmonic anomalies, expert?	के तपाईंले स्मार्ट ग्रिड पावर गुणस्तर लगहरूको हार्मोनिक विसंगति विश्लेषण गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please deploy the automated wind turbine storm survival brakes software, director.	कृपया स्वचालित वायु टर्बाइन आँधी बचाउ ब्रेक सफ्टवेयर लागू गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you calculate the enzyme payload mass budget for the bio-refinery mission, manager?	के तपाईंले बायो-रिफाइनरी मिसनका लागि एन्जाइम पेलोड द्रव्यमान बजेटको गणना गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please verify the cryptographic token keys before granting grid network access, officer.	कृपया ग्रिड नेटवर्क पहुँच अनुमति दिनु अघि क्रिप्टोग्राफिक टोकन साँचोहरू प्रमाणित गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you tracked the genetic sequence processing efficiency loss in the cloud grid, scientist?	के तपाईंले क्लाउड ग्रिडमा आनुवंशिक अनुक्रम प्रशोधन दक्षता ह्रास ट्र्याक गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please update the high-voltage transmission substation safety grounding protocols, director.	कृपया उच्च-भोल्टेज प्रसारण उपकेन्द्रको सुरक्षा ग्राउन्डिङ प्रोटोकलहरू अपडेट गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you isolate the compromised industrial bioreactor automation endpoint, expert?	के तपाईंले असुरक्षित औद्योगिक बायोरिएक्टर स्वचालन एन्डपोइन्टलाई अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please coordinate the offshore wind platform power transmission network deployment, manager.	कृपया अपतटीय वायु ऊर्जा प्लेटफर्मको विद्युत प्रसारण नेटवर्क स्थापनामा समन्वय गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Have you fixed the software vulnerability in the battery energy management system, engineer?	के तपाईंले ब्याट्री ऊर्जा व्यवस्थापन प्रणालीको सफ्टवेयर संवेदनशीलता समाधान गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please oversee the DNA data storage system cryptographic synchronization process, officer.	कृपया डीएनए डाटा भण्डारण प्रणालीको क्रिप्टोग्राफिक समीकरण प्रक्रियाको रेखदेख गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did you map the solar irradiance density pattern across the southern sector, director?	के तपाईंले दक्षिणी क्षेत्रभरिको सौर्य विकिरण घनत्व ढाँचाको नक्साङ्कन गर्नुभयो, निर्देशकज्यू ?	FORMAL
+Please review the stress testing metrics for the composite polymer separator, professor.	कृपया कम्पोजिट पोलिमर सेपरेटरको तनाव परीक्षण मापनको समीक्षा गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you published the commercial genetic modification facility safety regulations, secretary?	के तपाईंले व्यावसायिक आनुवंशिक परिमार्जन केन्द्र सुरक्षा नियमहरू प्रकाशित गर्नुभयो, सचिवज्यू ?	FORMAL
+Please explain the CRISPR-Cas9 off-target cleavage paradox mechanics, expert.	कृपया क्रिस्पर-क्यास९ अफ-टार्गेट क्लिभेज विरोधाभासको संयन्त्र व्याख्या गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Did you encounter any inverter phase synchronization sensor matrix validation errors, manager?	के तपाईंले इन्भर्टर फेज सिङ्क्रोनाइजेसन सेन्सर म्याट्रिक्स प्रमाणीकरण त्रुटिहरू सामना गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please oversee the installation of the anaerobic digester high-vacuum chambers, chief.	कृपया एनारोबिक डाइजेस्टर उच्च-भ्याकुम परीक्षण चेम्बरहरूको स्थापनाको निरीक्षण गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Have you verified the integrity of the genetic sequence telemetric backup files, officer?	के तपाईंले आनुवंशिक अनुक्रम टेलिमेट्रिक इन्क्रिप्टेड ब्याकअप फाइलहरूको अखण्डता प्रमाणित गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please conduct a risk assessment for the high-voltage grid interconnection system, inspector.	कृपया उच्च-भोल्टेज ग्रिड अन्तरजडान प्रणालीको लागि जोखिम मूल्याङ्कन सञ्चालन गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Did you confirm the automated gene expression assay gate log authenticity, expert?	के तपाईंले स्वचालित जीन अभिव्यक्ति एसे गेट लगको आधिकारिकता पुष्टि गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please deploy the emergency wind turbine generator isolation automated switch, engineer.	कृपया आपतकालीन वायु टर्बाइन जेनेरेटर अलगाव स्वचालित स्विच परिचालन गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Have you checked the grid optical transceivers for wavelength drift exploits, officer?	के तपाईंले ग्रिड अप्टिकल ट्रान्सीभरहरूमा तरङ्गदैर्ध्य विचलन त्रुटिहरू छन् कि जाँच गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please implement the advanced nanoscale bio-sensor security engineering framework, manager.	कृपया उन्नत नानोस्केल बायो-सेन्सर सुरक्षा इन्जिनियरिङ ढाँचा लागू गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you calculate the thermal degradation of the photovoltaic inverter radiator panels, scientist?	के तपाईंले फोटोभोल्टिक इन्भर्टर रेडिएटर प्यानलको थर्मल क्षयीकरण गणना गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please secure the agricultural genetic asset transaction ledger database cloud system, director.	कृपया कृषि आनुवंशिक सम्पत्ति कारोबार खाताको डेटाबेस क्लाउड प्रणाली सुरक्षित गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you tested the anti-islanding microgrid cyber warfare defensive barrier protocols, chief?	के तपाईंले एन्टी-आइल्यान्डिङ माइक्रोग्रिड साइबर युद्ध रक्षात्मक अवरोध प्रोटोकलहरूको परीक्षण गर्नुभयो, प्रमुखज्यू ?	FORMAL
+Please define the security architecture parameters for the smart grid cloud, expert.	कृपया स्मार्ट ग्रिड क्लाउडका लागि सुरक्षा वास्तुकलाका मापदण्डहरू परिभाषित गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Did you detect any magnetic field imbalances in the plasma gasification chamber, engineer?	के तपाईंले प्लाज्मा ग्यासिफिकेशन चेम्बरमा कुनै चुम्बकीय क्षेत्र असन्तुलन पत्ता लगाउनुभयो, इन्जिनियरज्यू ?	FORMAL
+Please document the cell culture fluorescent tracking methodology analytics, professor.	कृपया कोषिका संवर्द्धन फ्लोरेसेन्ट ट्र्याकिङ पद्धतिको विश्लेषण अभिलेखीकरण गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you optimized the wind turbine blade aero-thermal drag equations grid, scientist?	के तपाईंले वायु टर्बाइन ब्लेडको एरो-थर्मल ड्रग समीकरण ग्रिड अनुकूलित गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please present the gene expression simulation benchmark execution metrics graph, officer.	कृपया जीन अभिव्यक्ति सिमुलेशन बेन्चमार्क कार्यान्वयन मापन ग्राफ प्रस्तुत गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did you examine the smart grid network data logger forensic logs today, expert?	के तपाईंले आज स्मार्ट ग्रिड नेटवर्क डाटा लगरको फरेन्सिक लगहरू जाँच्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please approve the integration of commercial renewable sources into regional grids, director.	कृपया क्षेत्रीय ग्रिडहरूमा व्यावसायिक नवीकरणीय स्रोतहरूको एकीकरण स्वीकृत गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you reviewed the critical radioactive waste containment material test data sheets, manager?	के तपाईंले महत्त्वपूर्ण रेडियोधर्मी फोहोर नियन्त्रण सामग्री परीक्षण तथ्याङ्क पानाहरूको समीक्षा गर्नुहोस्, प्रबन्धकज्यू ?	FORMAL
+Please publish the handbook on global genetic engineering legal safety standards, professor.	कृपया विश्वव्यापी आनुवंशिक इन्जिनियरिङ कानूनी सुरक्षा मापदण्ड सम्बन्धी निर्देशिका प्रकाशित गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Did you discover any nano-structural anomalies in the enzyme carrier lattice, researcher?	के तपाईंले एन्जाइम वाहक ल्याटिसमा कुनै नानो-संरचनात्मक विसंगति फेला पार्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please enhance the wide area substation radar scanning transmission capabilities, chief.	कृपया वाइड एरिया उपकेन्द्र राडार स्क्यानिङ प्रसारण क्षमता बढाउनुहोस्, प्रमुखज्यू ।	FORMAL
+Have you calculated the efficiency metrics of the grid power inverter, engineer?	के तपाईंले ग्रिड पावर इन्भर्टरको दक्षता मापन गणना गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please lead the deep-well geothermal temperature sensor transceiver development project, scientist.	कृपया गहिरो-इनार भू-तापीय तापक्रम सेन्सर ट्रान्सीभर विकास परियोजनाको नेतृत्व गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Did you isolate the faulty automated gene splicing code block during debugging, expert?	के तपाईंले डिबगिङको क्रममा त्रुटिपूर्ण स्वचालित जीन स्प्लिसिङ कोड ब्लक अलग गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please evaluate the smart grid cloud identity theft prevention security rules, officer.	कृपया स्मार्ट ग्रिड क्लाउड पहिचान चोरी रोकथाम सुरक्षा नियमहरूको मूल्याङ्कन गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you verified the biomass facility high-voltage distribution direct current line insulation, inspector?	के तपाईंले बायोमास केन्द्रको उच्च-भोल्टेज वितरण डाइरेक्ट करेन्ट लाइन इन्सुलेशन प्रमाणित गर्नुभयो, निरीक्षकज्यू ?	FORMAL
+Please host the smart grid operations incident command center response meeting, director.	कृपया स्मार्ट ग्रिड सञ्चालन घटना कमान्ड सेन्टर प्रतिक्रिया बैठकको आयोजना गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you observe the automated solar tracker steering switch system failure behaviors, engineer?	के तपाईंले स्वचालित सौर्य ट्र्याकर स्टेयरिङ स्विच प्रणालीको विफलता व्यवहारहरू अवलोकन गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please design the secure encrypted bioreactor telemetry backup framework architecture, expert.	कृपया सुरक्षित इन्क्रिप्टेड बायोरिएक्टर टेलिमेट्री ब्याकअप ढाँचा वास्तुकलाको डिजाइन गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you tested the CRISPR smart contract verification processing limits, researcher?	के तपाईंले क्रिस्पर स्मार्ट कन्ट्याक्ट प्रमाणीकरण प्रशोधन सीमा परीक्षण गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please check the substation ground terminal identity data logs for access, manager.	कृपया उपकेन्द्र भू-केन्द्र पहिचान तथ्याङ्क लगमा पहुँच जाँच गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you locate the source of the smart grid radio frequency interference, scientist?	के तपाईंले स्मार्ट ग्रिड रेडियो आवृत्ति अवरोधको स्रोत पत्ता लगाउनुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please schedule the solar array tracking drive configuration verification alignment test, chief.	कृपया सौर्य एरे ट्र्याकिङ ड्राइभ कन्फिगरेसन प्रमाणीकरण पङ्क्तिबद्धता परीक्षणको तालिका बनाउनुहोस्, प्रमुखज्यू ।	FORMAL
+Have you updated the emergency grid incident contingency response action manual, officer?	के तपाईंले आपतकालीन ग्रिड घटना आकस्मिक प्रतिक्रिया कार्य निर्देशिका अपडेट गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please verify the wind turbine blade pitch automated steering calibration metrics, engineer.	कृपया वायु टर्बाइन ब्लेड पिच स्वचालित स्टेयरिङ क्यालिब्रेसन मापन प्रमाणित गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Did you map the target parameters for bioreactor fluid entry thermal simulation, expert?	के तपाईंले बायोरिएक्टर तरल प्रवेश थर्मल सिमुलेशनका लागि लक्षित मापदण्डहरूको नक्साङ्कन गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please approve the solar plant assembly protective optical mirror replacement, director.	कृपया सौर्य प्लान्ट एसेम्बलीको सुरक्षात्मक अप्टिकल ऐना प्रतिस्थापन स्वीकृत गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you confirmed the microgrid bus voltage stabilization capacitor bank rating, engineer?	के तपाईंले माइक्रोग्रिड बस भोल्टेज स्थिरिकरण क्यापेसिटर बैंकको रेटिङ पुष्टि गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please upload the critical enzyme compiler instruction signature updates to mainframe, chief.	कृपया मेनफ्रेममा महत्त्वपूर्ण एन्जाइम कम्पाइलर निर्देशन हस्ताक्षर अपडेटहरू अपलोड गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Did you trace the origin of the coordinated grid telemetry spoofing domain, officer?	के तपाईंले समन्वित ग्रिड टेलिमेट्री स्पुफिङ डोमेनको उत्पत्तिको खोजी गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please design the biomass facility cleanroom thermal matrix ventilation system, architect.	कृपया बायोमास केन्द्रको क्लिनरुम थर्मल म्याट्रिक्स भेन्टिलेसन प्रणालीको डिजाइन गर्नुहोस्, वास्तुकारज्यू ।	FORMAL
+Have you checked the wind farm turbine controller software framework for loops, programmer?	के तपाईंले वायु ऊर्जा केन्द्र टर्बाइन नियन्त्रक सफ्टवेयर ढाँचामा कुनै लुपहरू छन् कि जाँच गर्नुभयो, प्रोग्रामर अनुसन्धानकर्ताज्यू ?	FORMAL
+Please inspect the deep-well geothermal transceiver nitrogen containment tank valves, inspector.	कृपया गहिरो-इनार भू-तापीय ट्रान्सीभर नाइट्रोजन नियन्त्रण ट्याङ्की भल्भहरूको निरीक्षण गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Did you update the smart grid cloud security framework multi-tenant threat models, expert?	के तपाईंले स्मार्ट ग्रिड क्लाउड सुरक्षा ढाँचाको बहु-टेनेन्ट खतरा मोडेलहरू अपडेट गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please supervise the grid network topology constellation footprint optimization script, professor.	कृपया ग्रिड नेटवर्क टोपियोलोजी कन्stिलेसन फुटप्रिन्ट अनुकूलन स्क्रिप्टको सुपरिवेक्षण गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you finalized the cleanroom fabrication biotech laboratory emergency protocol sheets, director?	के तपाईंले क्लिनरुम फेब्रिकेसन बायोटेक प्रयोगशाला आपतकालीन पानाहरूलाई अन्तिम रूप दिनुभयो, निर्देशकज्यू ?	FORMAL
+Please deploy the substation endpoint containment software security patch update immediately, manager.	कृपया उपकेन्द्र एन्डपोइन्ट नियन्त्रण सफ्टवेयर सुरक्षा प्याच अपडेट तुरुन्तै लागू गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you identify the source of the gene expression simulation matrix exploit, officer?	के तपाईंले जीन अभिव्यक्ति सिमुलेशन म्याट्रिक्स एक्स्प्लोइटको स्रोत पहिचान गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please present the genetic linkage distribution analysis data link graphs, scientist.	कृपया आनुवंशिक लिङ्केज वितरण विश्लेषण तथ्याङ्क लिङ्क ग्राफहरू प्रस्तुत गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Have you reviewed the renewable material integration composite feasibility matrix sheets, expert?	के तपाईंले नवीकरणीय सामग्री एकीकरण कम्पोजिट सम्भाव्यता म्याट्रिक्स पानाहरूको समीक्षा गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please confirm the multi-factor authentication substation control hardware stack architecture, engineer.	कृपया बहु-कारक प्रमाणीकरण उपकेन्द्र नियन्त्रण हार्डवेयर स्ट्याक वास्तुकला पुष्टि गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
 Please have a seat, sir.	कृपया बस्नुहोस्, सर ।	FORMAL
 How are you today, doctor?	डाक्टर साहब, आज तपाईंलाई कस्तो छ ?	FORMAL
 Would you like some tea, ma'am?	मेडम, के तपाईं चिया खानुहुन्छ ?	FORMAL
@@ -8437,3 +8937,103 @@ Honorable Chairperson, when will the findings on the bank fraud be public?	म�
 Senior police officials have announced a new hotline for public safety.	वरिष्ठ प्रहरी अधिकारीहरूले जनसुरक्षाका लागि नयाँ हटलाइनको घोषणा गर्नुभएको छ ।	FORMAL
 Honorable Minister, how will the government improve primary healthcare?	माननीय मन्त्रीज्यू, सरकारले प्राथमिक स्वास्थ्य सेवामा कसरी सुधार ल्याउनेछ ?	FORMAL
 Respected elder, we thank you for your valuable contribution today.	आदरणीय अभिभावकज्यू, आजको यहाँको महत्त्वपूर्ण योगदानका लागि धन्यवाद ।	FORMAL
+Did you finalize the satellite trajectory data, scientist?	के तपाईंले उपग्रहको प्रक्षेपण मार्गको तथ्याङ्कलाई अन्तिम रूप दिनुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please present the neural network training results, professor.	कृपया न्युरल नेटवर्क तालिमको नतिजा प्रस्तुत गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you reviewed the CRISPR gene editing report, director?	के तपाईंले क्रिस्पर जीन सम्पादन प्रतिवेदनको समीक्षा गर्नुभयो, निर्देशकज्यू ?	FORMAL
+Please authorize the Mars rover deployment sequence, chief.	कृपया मङ्गल ग्रहको रोभर परिचालन क्रमलाई प्रमाणित गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Did you detect any gravitational wave anomalies, astronomer?	के तपाईंले कुनै गुरुत्वाकर्षण तरङ्गको असामान्यता पत्ता लगाउनुभयो, खगोलशास्त्रीज्यू ?	FORMAL
+Please explain the quantum cryptography algorithm, expert.	कृपया क्वान्टम क्रिप्टोग्राफी एल्गोरिदम स्पष्ट पारिदिनुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you verified the vaccine synthesis parameters, doctor?	के तपाईंले खोप संश्लेषणका मापदण्डहरू प्रमाणित गर्नुभयो, डाक्टरसाब ?	FORMAL
+Please sign the deep space exploration charter, minister.	कृपया गहिरो अन्तरिक्ष अन्वेषण बडापत्रमा हस्ताक्षर गर्नुहोस्, मन्त्रीज्यू ।	FORMAL
+Did the supercomputer successfully simulate the climate model, sir?	के सुपरकम्प्युटरले जलवायु मोडेलको सफलतापूर्वक सिमुलेशन गर्यो, सर ?	FORMAL
+Please double-check the orbital mechanics calculations, engineer.	कृपया कक्षीय मेकानिक्सको गणनालाई पुन: जाँच गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Have you received the telemetry data from the exoplanet, scientist?	के तपाईंले बहिर्ग्रहबाट टेलिमेट्री तथ्याङ्क प्राप्त गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please approve the budget for the biotechnology laboratory, director?	कृपया जैवप्रविधि प्रयोगशालाको बजेट स्वीकृत गरिदिनुहोस्, निर्देशकज्यू ?	FORMAL
+Did you find any signs of microbial life, professor?	के तपाईंले माइक्रोबियल जीवनको कुनै सङ्केत फेला पार्नुभयो, प्राध्यापकज्यू ?	FORMAL
+Please address the ethical concerns of human cloning, expert.	कृपया मानव क्लोनिङको नैतिक चासोका बारेमा सम्बोधन गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you calibrated the deep space telescope, astronomer?	के तपाईंले गहिरो अन्तरिक्ष दूरबीनलाई क्यालिब्रेट गर्नुभयो, खगोलशास्त्रीज्यू ?	FORMAL
+Please state your conclusion on the data bias, researcher.	कृपया तथ्याङ्क पूर्वाग्रहमा आफ्नो निष्कर्ष व्यक्त गर्नुहोस्, अनुसन्धानकर्ताज्यू ।	FORMAL
+Did the autonomous rocket land safely, chief?	के स्वचालित रकेट सुरक्षित रूपमा अवतरण भयो, प्रमुखज्यू ?	FORMAL
+Please upgrade the national cybersecurity firewall, officer.	कृपया राष्ट्रिय साइबर सुरक्षा फायरवाल अपग्रेड गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you observed the solar flare radiation levels, scientist?	के तपाईंले सौर्य ज्वालाको विकिरण स्तर अवलोकन गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please schedule the DNA sequencing database backup, manager.	कृपया डीएनए अनुक्रमण डेटाबेस ब्याकअपको तालिका निर्धारण गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you isolate the new mutated viral strain, doctor?	के तपाईंले नयाँ उत्परिवर्तित भाइरसको प्रजातिलाई अलग गर्नुभयो, डाक्टरसाब ?	FORMAL
+Please inspect the rocket propulsion system, inspector.	कृपया रकेटको प्रणोदन प्रणालीको निरीक्षण गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Have you resolved the algorithmic latency issue, engineer?	के तपाईंले एल्गोरिदमको ढिलाइ हुने समस्या समाधान गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please guide the delegation through the space center, officer.	कृपया प्रतिनिधिमण्डललाई अन्तरिक्ष केन्द्रको भ्रमण गराउनुहोस्, अधिकृतज्यू ।	FORMAL
+Did the telescope capture the black hole horizon, astronomer?	के दूरबीनले ब्ल्याक होलको क्षितिजलाई कैद गर्यो, खगोलशास्त्रीज्यू ?	FORMAL
+Please submit the mRNA vaccine test documentation, professor.	कृपया एमआरएनए खोप परीक्षणको कागजात पेस गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you tested the quantum compiler efficiency, expert?	के तपाईंले क्वान्टम कम्पाइलरको दक्षता परीक्षण गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please inaugurate the renewable energy research wing, minister.	कृपया नवीकरणीय ऊर्जा अनुसन्धान शाखाको उद्घाटन गर्नुहोस्, मन्त्रीज्यू ।	FORMAL
+Did you discover any heavy elements in the asteroid, scientist?	के तपाईंले क्षुद्रग्रहमा कुनै भारी तत्वहरू फेला पार्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please issue the safety clearance for the nuclear plant, director.	कृपया आणविक केन्द्रका लागि सुरक्षा अनुमति जारी गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you checked the communication link with the space station, chief?	के तपाईंले अन्तरिक्ष केन्द्रसँगको सञ्चार कडी जाँच गर्नुभयो, प्रमुखज्यू ?	FORMAL
+Please explain the machine learning model architecture, researcher.	कृपया मेशिन लर्निङ मोडेलको वास्तुकला व्याख्या गर्नुहोस्, अनुसन्धानकर्ताज्यू ।	FORMAL
+Did the geological drill reach the Earth's mantle, engineer?	के भूवैज्ञानिक ड्रिल पृथ्वीको म्यान्टलसम्म पुग्यो, इन्जिनियरज्यू ?	FORMAL
+Please issue the tsunami simulation warning system protocol, officer.	कृपया सुनामी सिमुलेशन चेतावनी प्रणालीको प्रोटोकल जारी गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you analyzed the enzyme catalyst reactions, professor?	के तपाईंले इन्जाइम उत्प्रेरक प्रतिक्रियाहरूको विश्लेषण गर्नुभयो, प्राध्यापकज्यू ।	FORMAL
+Please activate the emergency antimatter containment shields, director.	कृपया आपतकालीन एन्टीम्याटर नियन्त्रण ढालहरू सक्रिय गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you complete the algorithmic efficiency audit, expert?	के तपाईंले एल्गोरिदम दक्षताको लेखापरीक्षण पूरा गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please present the digital wallet transaction security logs, manager.	कृपया डिजिटल वालेट कारोबार सुरक्षाको लगहरू प्रस्तुत गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Have you tracked the tectonic plate shifting speed, scientist?	के तपाईंले टेक्टोनिक प्लेट सर्ने गतिको खोजी गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please update the blockchain verification cryptographic keys, officer.	कृपया ब्लकचेन प्रमाणीकरणको क्रिप्टोग्राफिक साँचोहरू अपडेट गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did you isolate the crop bio-engineering pathogen, professor?	के तपाईंले बाली जैविक इन्जिनियरिङको रोगजनकलाई अलग गर्नुभयो, प्राध्यापकज्यू ?	FORMAL
+Please initiate the lunar base terraforming simulation, chief.	कृपया चन्द्रमाको आधारशिला टेराफर्मिङ सिमुलेशन सुरु गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Have you fixed the supercomputer memory leak, engineer?	के तपाईंले सुपरकम्प्युटरको मेमोरी चुहावट समाधान गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please coordinate the international space telescope assembly, director.	कृपया अन्तर्राष्ट्रिय अन्तरिक्ष दूरबीनको संयोजनमा समन्वय गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you map the volcanic ash dispersion trajectory, scientist?	के तपाईंले ज्वालामुखीको खरानी फैलने मार्गको नक्साङ्कन गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please review the quantum computing processing speed, expert.	कृपया क्वान्टम कम्प्युटिङको प्रशोधन गतिको समीक्षा गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Have you published the autonomous driving safety standard, manager?	के तपाईंले स्वचालित ड्राइभिङ सुरक्षा मापदण्ड प्रकाशित गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please explain the natural language processing data parsing, professor.	कृपया प्राकृतिक भाषा प्रशोधनको तथ्याङ्क पार्सिङबारे स्पष्ट पार्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Did you encounter any encryption key vulnerabilities, officer?	के तपाईंले इन्क्रिप्सन साँचोमा कुनै संवेदनशीलता फेला पार्नुभयो, अधिकृतज्यू ?	FORMAL
+Please oversee the advanced robotics production line, director.	कृपया उन्नत रोबोटिक्स उत्पादन लाइनको निरीक्षण गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you verified the satellite communication ground signals, engineer?	के तपाईंले उपग्रह सञ्चारको जमिनको सङ्केत प्रमाणित गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please conduct the deep core drilling safety audit, inspector.	कृपया गहिरो कोर ड्रिलिङको सुरक्षा लेखापरीक्षण सञ्चालन गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Did you confirm the exoplanet atmospheric thickness, astronomer?	के तपाईंले बहिर्ग्रहको वायुमण्डलीय गहिराई पुष्टि गर्नुभयो, खगोलशास्त्रीज्यू ?	FORMAL
+Please deploy the autonomous drone for geographic mapping, chief.	कृपया भौगोलिक नक्साङ्कनका लागि स्वचालित ड्रोन परिचालन गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Have you checked the CRISPR sequence for mutations, professor?	के तपाईंले उत्परिवर्तनका लागि क्रिस्पर अनुक्रम जाँच गर्नुभयो, प्राध्यापकज्यू ?	FORMAL
+Please implement the multi-factor authentication systems, manager.	कृपया बहु-कारक प्रमाणीकरण प्रणाली लागू गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you calculate the rocket escape velocity requirements, scientist?	के तपाईंले रकेटको पलायन वेगको आवश्यकता गणना गर्नुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please secure the dark web tracking operational data, officer.	कृपया डार्क वेब ट्र्याकिङको परिचालन तथ्याङ्क सुरक्षित गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you tested the mRNA vaccine durability levels, doctor?	के तपाईंले एमआरएनए खोपको स्थायित्व स्तर परीक्षण गर्नुभयो, डाक्टरसाब ?	FORMAL
+Please define the parameters for the AI model, expert.	कृपया एआई मोडेलका लागि मापदण्डहरू परिभाषित गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Did you detect any changes in seismic wave frequencies, professor?	के तपाईंले भूकम्पीय तरङ्गको आवृत्तिमा कुनै परिवर्तन भेट्नुभयो, प्राध्यापकज्यू ?	FORMAL
+Please document the nuclear fusion heat dissipation rate, engineer.	कृपया आणविक संलयनको ताप उत्सर्जन दरको अभिलेखीकरण गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL
+Have you optimized the smart grid electricity routing, manager?	के तपाईंले स्मार्ट ग्रिडको विद्युत मार्गलाई अनुकूलित गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please present the drone delivery navigation software logs, officer.	कृपया ड्रोन डेलिभरी नेभिगेसन सफ्टवेयरको लगहरू प्रस्तुत गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Did you examine the viral strain genetic sequencing data, doctor?	के तपाईंले भाइरस प्रजातिको आनुवंशिक अनुक्रमण तथ्याङ्क जाँच्नुभयो, डाक्टरसाब ?	FORMAL
+Please approve the automated factory safety mechanism, director.	कृपया स्वचालित कारखाना सुरक्षा संयन्त्र स्वीकृत गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you reviewed the satellite sensor calibration charts, chief?	के तपाईंले उपग्रह सेन्सर क्यालिब्रेसन चार्टको समीक्षा गर्नुभयो, प्रमुखज्यू ?	FORMAL
+Please publish the research on carbon capture technology, professor.	कृपया कार्बन क्याप्चर प्रविधिको अनुसन्धान प्रकाशित गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Did you discover any software vulnerabilities in the system, expert?	के तपाईंले प्रणालीमा कुनै सफ्टवेयर संवेदनशीलता पत्ता लगाउनुभयो, विशेषज्ञज्यू ?	FORMAL
+Please enhance the cloud server processing bandwidth, manager.	कृपया क्लाउड सर्भरको प्रशोधन ब्यान्डविथ बढाउनुहोस्, प्रबन्धकज्यू ।	FORMAL
+Have you calculated the satellite orbital decay rate, astronomer?	के तपाईंले उपग्रहको कक्षीय क्षय दर गणना गर्नुभयो, खगोलशास्त्रीज्यू ?	FORMAL
+Please lead the deep space radio telescope project, scientist.	कृपया गहिरो अन्तरिक्ष रेडियो दूरबीन परियोजनाको नेतृत्व गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Did you isolate the mutated gene during sequencing, researcher?	के तपाईंले अनुक्रमणको क्रममा उत्परिवर्तित जीन अलग गर्नुभयो, अनुसन्धानकर्ताज्यू ?	FORMAL
+Please evaluate the quantum encryption threat assessment, officer.	कृपया क्वान्टम इन्क्रिप्सनको खतरा मूल्याङ्कनको मूल्याङ्कन गर्नुहोस्, अधिकृतज्यू ।	FORMAL
+Have you verified the solar cell efficiency records, engineer?	के तपाईंले सौर्य सेलको दक्षता रेकर्ड प्रमाणित गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please host the global AI safety standards summit, director.	कृपया विश्वव्यापी एआई सुरक्षा मापदण्ड शिखर सम्मेलनको आयोजना गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Did you observe the tectonic plate deformation changes, professor?	के तपाईंले टेक्टोनिक प्लेटको विरूपण परिवर्तनहरू अवलोकन गर्नुभयो, प्राध्यापकज्यू ?	FORMAL
+Please design the hydrogen fuel cell battery layout, chief.	कृपया हाइड्रोजन इन्धन सेल ब्याट्रीको रूपरेखा डिजाइन गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Have you tested the blockchain network scalability limits, expert?	के तपाईंले ब्लकचेन नेटवर्कको स्केलेबिलिटी सीमा परीक्षण गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please check the database for any illegal access logs, manager.	कृपया डेटाबेसमा कुनै अवैध पहुँच लगहरू छन् कि जाँच गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you locate the source of the electromagnetic radiation, scientist?	के तपाईंले विद्युतचुम्बकीय विकिरणको स्रोत पत्ता लगाउनुभयो, वैज्ञानिकज्यू ?	FORMAL
+Please schedule the vaccine clinical trial phase three, doctor?	कृपया खोपको क्लिनिकल परीक्षणको तेस्रो चरणको तालिका बनाउनुहोस्, डाक्टरसाब ?	FORMAL
+Have you updated the autopilot software system manual, manager?	के तपाईंले अटोपाइलट सफ्टवेयर प्रणालीको निर्देशिका अपडेट गर्नुभयो, प्रबन्धकज्यू ?	FORMAL
+Please verify the machine learning dataset processing parameters, expert.	कृपया मेशिन लर्निङ डेटासेट प्रशोधन मापदण्ड प्रमाणित गर्नुहोस्, विशेषज्ञज्यू ।	FORMAL
+Did you map the under-ocean earthquake epicenter locations, professor?	के तपाईंले समुद्रमुनिको भूकम्पको केन्द्रविन्दुको नक्साङ्कन गर्नुभयो, प्राध्यापकज्यू ?	FORMAL
+Please approve the deep space communication station expansion, director.	कृपया गहिरो अन्तरिक्ष सञ्चार केन्द्रको विस्तार स्वीकृत गर्नुहोस्, निर्देशकज्यू ।	FORMAL
+Have you confirmed the hydrogen engine thrust measurement, engineer?	के तपाईंले हाइड्रोजन इन्जिनको थ्रस्ट मापन पुष्टि गर्नुभयो, इन्जिनियरज्यू ?	FORMAL
+Please upload the drone fleet coordination control system, chief.	कृपया ड्रोन फ्लीट समन्वय नियन्त्रण प्रणाली अपलोड गर्नुहोस्, प्रमुखज्यू ।	FORMAL
+Did you trace the origin of the network malware, officer?	के तपाईंले नेटवर्क मालवेयरको उत्पत्तिको खोजी गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please design the biological containment facility layout blueprints, architect.	कृपया जैविक नियन्त्रण केन्द्रको रूपरेखाको नीलोनक्सा डिजाइन गर्नुहोस्, वास्तुकारज्यू ।	FORMAL
+Have you checked the telescope mirrors for dust, astronomer?	के तपाईंले दूरबीनको ऐनामा धुलो छ कि भनेर जाँच गर्नुभयो, खगोलशास्त्रीज्यू ?	FORMAL
+Please inspect the ocean current turbine physical structure, inspector.	कृपया समुद्री बहाव टर्बाइनको भौतिक संरचनाको निरीक्षण गर्नुहोस्, निरीक्षकज्यू ।	FORMAL
+Did you update the AI text classification dataset tokens, expert?	के तपाईंले एआई पाठ वर्गीकरण डेटासेट टोकनहरू अपडेट गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please supervise the volcanic lava temperature tracking project, professor.	कृपया ज्वालामुखीको लाभाको तापक्रम ट्र्याकिङ परियोजनाको सुपरिवेक्षण गर्नुहोस्, प्राध्यापकज्यू ।	FORMAL
+Have you finalized the nuclear reactor cooling safety measures, director?	के तपाईंले आणविक रिएक्टर चिसो पार्ने सुरक्षा उपायहरूलाई अन्तिम रूप दिनुभयो, निर्देशकज्यू ?	FORMAL
+Please deploy the emergency cybersecurity patch update immediately, manager.	कृपया आपतकालीन साइबर सुरक्षा प्याच अपडेट तुरुन्तै लागू गर्नुहोस्, प्रबन्धकज्यू ।	FORMAL
+Did you identify the satellite communication signal jammer source, officer?	के तपाईंले उपग्रह सञ्चारको सङ्केत अवरोध गर्ने स्रोत पहिचान गर्नुभयो, अधिकृतज्यू ?	FORMAL
+Please present the quantum network photon transmission results, scientist.	कृपया क्वान्टम नेटवर्क फोटोन प्रसारणको नतिजा प्रस्तुत गर्नुहोस्, वैज्ञानिकज्यू ।	FORMAL
+Have you reviewed the bio-engineered seed testing standards, expert?	के तपाईंले जैविक इन्जिनियरिङ गरिएको बीउ परीक्षण मापदण्डको समीक्षा गर्नुभयो, विशेषज्ञज्यू ?	FORMAL
+Please confirm the data center green power supply architecture, engineer.	कृपया डेटा सेन्टरको हरित विद्युत आपूर्ति वास्तुकला पुष्टि गर्नुहोस्, इन्जिनियरज्यू ।	FORMAL

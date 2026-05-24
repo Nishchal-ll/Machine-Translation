@@ -1,30 +1,70 @@
 import torch
 from pathlib import Path
 import re
-import unicodedata
+
+try:
+    from peft import PeftModel
+    HAS_LORA = True
+except ImportError:
+    HAS_LORA = False
+
+from src.config import MODEL_NAME
 
 class NepaliTranslator:
     def __init__(self, model_path: str | Path, device=None):
-        from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+        from transformers import AutoTokenizer
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
-        self.tokenizer = AutoTokenizer.from_pretrained(model_path)
-        # Load model with trust_remote_code and explicit SafeTensors support
-        try:
-            self.model = AutoModelForSeq2SeqLM.from_pretrained(
-                model_path,
-                trust_remote_code=True,
-                use_safetensors=True
-            )
-        except Exception as e:
-            print(f"Trying fallback load: {e}")
-            self.model = AutoModelForSeq2SeqLM.from_pretrained(
-                model_path,
-                trust_remote_code=True
-            )
+
+        if isinstance(model_path, (str, Path)) and Path(model_path).exists():
+            self.model_path = Path(model_path)
+        else:
+            self.model_path = str(model_path)
+
+        self.tokenizer = AutoTokenizer.from_pretrained(self.model_path)
+        self.model = self._load_model(self.model_path)
         self.model = self.model.to(self.device)
         self.model.eval()
         self.tokenizer.src_lang = "eng_Latn"
         self.tokenizer.tgt_lang = "npi_Deva"
+
+    def _has_lora_adapter(self, model_path: Path) -> bool:
+        if not isinstance(model_path, Path):
+            return False
+        return (model_path / "adapter_config.json").exists() or (model_path / "adapter_model.bin").exists()
+
+    def _load_model(self, model_path: Path):
+        from transformers import AutoModelForSeq2SeqLM
+
+        try:
+            return AutoModelForSeq2SeqLM.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                use_safetensors=True,
+            )
+        except Exception as exc:
+            if HAS_LORA and self._has_lora_adapter(model_path):
+                print(f"⚠️  Attempting PEFT LoRA adapter load for {model_path}")
+                try:
+                    if (model_path / "base_model").exists():
+                        base_model = AutoModelForSeq2SeqLM.from_pretrained(
+                            model_path / "base_model",
+                            trust_remote_code=True,
+                            use_safetensors=True,
+                        )
+                    else:
+                        base_model = AutoModelForSeq2SeqLM.from_pretrained(
+                            MODEL_NAME,
+                            trust_remote_code=True,
+                            use_safetensors=True,
+                        )
+                    return PeftModel.from_pretrained(base_model, model_path)
+                except Exception as nested_exc:
+                    raise RuntimeError(
+                        f"Failed to load LoRA-enhanced model from {model_path}: {nested_exc}"
+                    ) from nested_exc
+            raise RuntimeError(
+                f"Failed to load model from {model_path}: {exc}"
+            ) from exc
 
     def is_devanagari(self, text: str) -> bool:
         """Check if text contains Devanagari script"""

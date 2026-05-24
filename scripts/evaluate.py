@@ -5,7 +5,7 @@ sys.path.append(str(Path(__file__).parent.parent))
 from src.config import *
 from src.data_utils import load_honorifics_from_register_files, stratified_split
 from src.evaluator import Evaluator
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+from src.translator import NepaliTranslator
 
 def main():
     model_path = MODEL_DIR / "best_honorifics_model"
@@ -16,10 +16,8 @@ def main():
     all_data, _, _ = load_honorifics_from_register_files(DATASET_FILES)
     _, _, test_data = stratified_split(all_data, seed=SEED)
 
-    tokenizer = AutoTokenizer.from_pretrained(model_path) 
-    model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
-
-    evaluator = Evaluator(model, tokenizer, DEVICE)
+    translator = NepaliTranslator(model_path, device=DEVICE)
+    evaluator = Evaluator(translator.model, translator.tokenizer, DEVICE)
     evaluator.evaluate(test_data)
 
 if __name__ == "__main__":

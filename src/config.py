@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).parent.parent
 DATA_DIR = ROOT_DIR / "data" / "raw"
 OUTPUT_DIR = ROOT_DIR / "outputs"
-MODEL_DIR = OUTPUT_DIR / "models"
+MODEL_DIR = Path(os.getenv("MODEL_DIR", OUTPUT_DIR / "models"))
 LOG_DIR = OUTPUT_DIR / "logs"
 
 # Training datasets by register

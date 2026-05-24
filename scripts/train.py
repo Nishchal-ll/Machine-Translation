@@ -32,6 +32,7 @@ from src.config import (
     SESSION_SAVE_EVERY_EPOCHS,
     RESUME_FROM_SESSION,
 )
+from src.bpe import BytePairEncoder
 from src.data_utils import load_honorifics_from_register_files, stratified_split
 from src.dataset import HonorificsDataset
 from src.trainer import Trainer
@@ -47,7 +48,9 @@ def parse_args():
     parser.add_argument("--max-length", type=int, help="Override maximum token length")
     parser.add_argument("--learning-rate", type=float, help="Override learning rate")
     parser.add_argument("--model-name", type=str, help="Override HuggingFace model name/path")
+    parser.add_argument("--model-dir", type=str, help="Override the output directory where the trained model is saved")
     parser.add_argument("--no-lora", action="store_true", help="Disable LoRA fine-tuning")
+    parser.add_argument("--bpe-merges", type=int, default=200, help="Number of scratch BPE merge operations for demonstration")
     parser.add_argument("--num-workers", type=int, help="Override DataLoader num_workers")
     parser.add_argument("--colab", action="store_true", help="Enable Colab-friendly defaults")
     return parser.parse_args()
@@ -92,12 +95,35 @@ def main():
     effective_model_name = args.model_name if args.model_name is not None else MODEL_NAME
     effective_use_lora = False if args.no_lora else USE_LORA
     effective_num_workers = NUM_WORKERS
+    effective_model_dir = Path(args.model_dir) if args.model_dir else MODEL_DIR
 
     if args.colab or COLAB_MODE:
         effective_num_workers = 0
 
     if args.num_workers is not None:
         effective_num_workers = args.num_workers
+
+    effective_model_dir.mkdir(parents=True, exist_ok=True)
+
+    # Scratch BPE demonstration step. This computes merge rules on the training English corpus
+    # so the project contains a from-scratch BPE implementation, but the actual model input
+    # still uses the built-in HuggingFace tokenizer BPE internally.
+    bpe_demo = BytePairEncoder(num_merges=args.bpe_merges)
+    bpe_corpus = [item["english"] for item in train_data]
+    bpe_demo.fit(bpe_corpus)
+
+    bpe_merges_path = effective_model_dir / "bpe_merges.txt"
+    with open(bpe_merges_path, "w", encoding="utf-8") as f:
+        for i, pair in enumerate(bpe_demo.get_merge_rules(), start=1):
+            f.write(f"{i}\t{pair[0]} {pair[1]}\n")
+
+    print(f"🧠 Scratch BPE prepared on English training data ({len(bpe_demo.get_merge_rules())} merges saved to {bpe_merges_path})")
+    if len(bpe_corpus) > 0:
+        print("📘 Scratch BPE example encodings:")
+        for sample_text in bpe_corpus[:3]:
+            print(f"   Input  : {sample_text}")
+            print(f"   Encoded: {bpe_demo.encode(sample_text)}")
+        print("⚠️  Note: actual model training still uses the transformer tokenizer's built-in BPE for input IDs.")
 
     config_obj = type('Config', (), {
         'MODEL_NAME': effective_model_name,
@@ -119,7 +145,7 @@ def main():
         'LORA_R': LORA_R,
         'LORA_ALPHA': LORA_ALPHA,
         'LORA_DROPOUT': LORA_DROPOUT,
-        'MODEL_DIR': MODEL_DIR,
+        'MODEL_DIR': effective_model_dir,
     })
 
     print_training_summary(config_obj)
@@ -197,6 +223,7 @@ def main():
 
     # Always save at end of run so next session can continue.
     trainer.save_session_checkpoint(epoch_completed=last_completed_epoch)
+    trainer.save_final_model()
 
     print("\n🎉 Training finished successfully!")
     print(f"Best model saved at: {trainer.best_model_path}")

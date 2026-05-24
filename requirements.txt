@@ -8,3 +8,6 @@ torch
 tqdm
 numpy
 flask
+peft
+bitsandbytes
+safetensors
