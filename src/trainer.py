@@ -29,10 +29,6 @@ class Trainer:
         self.tokenizer = tokenizer
         self.config = config
 
-        # Enable gradient checkpointing to save memory
-        if getattr(config, 'GRADIENT_CHECKPOINTING', False) and hasattr(self.model, 'gradient_checkpointing_enable'):
-            self.model.gradient_checkpointing_enable()
-
         # Apply LoRA for domain-specific fine-tuning
         if getattr(config, 'USE_LORA', False) and HAS_LORA:
             lora_config = LoraConfig(
@@ -45,6 +41,14 @@ class Trainer:
             )
             self.model = get_peft_model(self.model, lora_config)
             print(f"✅ LoRA enabled (r={config.LORA_R}, alpha={config.LORA_ALPHA})")
+
+        # Enable gradient checkpointing to save memory
+        if getattr(config, 'GRADIENT_CHECKPOINTING', False):
+            checkpoint_target = self.model
+            if hasattr(self.model, 'base_model'):
+                checkpoint_target = self.model.base_model
+            if hasattr(checkpoint_target, 'gradient_checkpointing_enable'):
+                checkpoint_target.gradient_checkpointing_enable()
 
         # Use 8-bit Adam if available (saves ~75% optimizer memory)
         weight_decay = getattr(config, 'WEIGHT_DECAY', 0.0)
@@ -84,6 +88,7 @@ class Trainer:
         self.model.train()
         total_loss = 0.0
         accumulation_counter = 0
+        self.optimizer.zero_grad()
 
         for batch_idx, batch in enumerate(tqdm(self.train_loader, desc="Training", leave=False)):
             batch = {k: v.to(self.config.DEVICE) for k, v in batch.items()}
