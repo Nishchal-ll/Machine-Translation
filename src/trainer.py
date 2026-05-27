@@ -30,6 +30,7 @@ class Trainer:
         self.config = config
 
         # Apply LoRA for domain-specific fine-tuning
+        self.lora_enabled = False
         if getattr(config, 'USE_LORA', False) and HAS_LORA:
             lora_config = LoraConfig(
                 r=config.LORA_R,
@@ -39,20 +40,30 @@ class Trainer:
                 bias="none",
                 task_type=TaskType.SEQ_2_SEQ_LM
             )
-            self.model = get_peft_model(self.model, lora_config)
-            print(f"✅ LoRA enabled (r={config.LORA_R}, alpha={config.LORA_ALPHA})")
+            lora_model = get_peft_model(self.model, lora_config)
+            trainable_params = sum(p.numel() for p in lora_model.parameters() if p.requires_grad)
+            if trainable_params > 0:
+                self.model = lora_model
+                self.lora_enabled = True
+                print(f"✅ LoRA enabled (r={config.LORA_R}, alpha={config.LORA_ALPHA})")
+            else:
+                print("⚠️ LoRA wrapper created no trainable parameters. Falling back to full fine-tuning.")
 
-        # Enable gradient checkpointing to save memory
+        # Enable gradient checkpointing to save memory if compatible
         if getattr(config, 'GRADIENT_CHECKPOINTING', False):
             checkpoint_target = self.model
             if hasattr(self.model, 'base_model'):
                 checkpoint_target = self.model.base_model
-            if hasattr(checkpoint_target, 'gradient_checkpointing_enable'):
-                checkpoint_target.gradient_checkpointing_enable()
-            if hasattr(checkpoint_target, 'enable_input_require_grads'):
-                checkpoint_target.enable_input_require_grads()
-            if hasattr(checkpoint_target, 'config'):
-                checkpoint_target.config.use_cache = False
+
+            if self.lora_enabled:
+                print("⚠️ Gradient checkpointing disabled for LoRA training due to compatibility issues.")
+            else:
+                if hasattr(checkpoint_target, 'gradient_checkpointing_enable'):
+                    checkpoint_target.gradient_checkpointing_enable()
+                if hasattr(checkpoint_target, 'enable_input_require_grads'):
+                    checkpoint_target.enable_input_require_grads()
+                if hasattr(checkpoint_target, 'config'):
+                    checkpoint_target.config.use_cache = False
 
         # Validate that there are trainable parameters
         trainable_params = sum(p.numel() for p in self.model.parameters() if p.requires_grad)

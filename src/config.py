@@ -44,10 +44,10 @@ GRADIENT_CLIP = float(os.getenv("GRADIENT_CLIP", 1.0))
 GRADIENT_ACCUMULATION_STEPS = int(os.getenv("GRADIENT_ACCUMULATION_STEPS", 4 if not COLAB_MODE else 2))    # Smaller accumulation for Colab
 GRADIENT_CHECKPOINTING = _bool_env("GRADIENT_CHECKPOINTING") if os.getenv("GRADIENT_CHECKPOINTING") is not None else True      # Trade compute for memory
 EARLY_STOPPING_PATIENCE = int(os.getenv("EARLY_STOPPING_PATIENCE", 8))        # Increased to allow longer training
-USE_LORA = _bool_env("USE_LORA") if os.getenv("USE_LORA") is not None else True                    # Use LoRA for efficient domain-specific fine-tuning
-LORA_R = int(os.getenv("LORA_R", 16))                        # LoRA rank (increased from 8 for more capacity)
-LORA_ALPHA = int(os.getenv("LORA_ALPHA", 32))                    # LoRA alpha (increased from 16)
-LORA_DROPOUT = float(os.getenv("LORA_DROPOUT", 0.05))                # LoRA dropout
+USE_LORA = _bool_env("USE_LORA") if os.getenv("USE_LORA") is not None else False                    # Disable LoRA by default; enable only explicitly
+LORA_R = int(os.getenv("LORA_R", 16))                        # LoRA rank (used only if USE_LORA=True)
+LORA_ALPHA = int(os.getenv("LORA_ALPHA", 32))                    # LoRA alpha (used only if USE_LORA=True)
+LORA_DROPOUT = float(os.getenv("LORA_DROPOUT", 0.05))                # LoRA dropout (used only if USE_LORA=True)
 SEED = int(os.getenv("SEED", 42))
 NUM_WORKERS = int(os.getenv("NUM_WORKERS", 0 if COLAB_MODE else 2))
 
