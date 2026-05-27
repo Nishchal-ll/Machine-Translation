@@ -62,7 +62,7 @@ def parse_args():
     parser.add_argument("--sample-text", type=str,
                         default="Please sign the international renewable energy treaty, secretary?",
                         help="Sentence to translate after each epoch")
-    parser.add_argument("--save-every", type=int, default=1,
+    parser.add_argument("--save-every", type=int, default=SESSION_SAVE_EVERY_EPOCHS,
                         help="Save checkpoint every N epochs")
     parser.add_argument("--resume", action="store_true",
                         help="Resume training from last checkpoint if available")

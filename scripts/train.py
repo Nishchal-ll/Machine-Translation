@@ -52,6 +52,7 @@ def parse_args():
     parser.add_argument("--no-lora", action="store_true", help="Disable LoRA fine-tuning")
     parser.add_argument("--bpe-merges", type=int, default=200, help="Number of scratch BPE merge operations for demonstration")
     parser.add_argument("--num-workers", type=int, help="Override DataLoader num_workers")
+    parser.add_argument("--resume", action="store_true", help="Resume training from last checkpoint if available")
     parser.add_argument("--colab", action="store_true", help="Enable Colab-friendly defaults")
     return parser.parse_args()
 
@@ -177,7 +178,7 @@ def main():
     trainer = Trainer(model, train_loader, val_loader, tokenizer, config=config_obj)
 
     resumed_epoch = 0
-    if RESUME_FROM_SESSION:
+    if RESUME_FROM_SESSION or args.resume:
         resumed_epoch = trainer.load_session_checkpoint()
 
     remaining_epochs = max(effective_epochs - resumed_epoch, 0)
@@ -196,7 +197,7 @@ def main():
 
     for session_epoch in range(1, remaining_epochs + 1):
         global_epoch = resumed_epoch + session_epoch
-        print(f"--- Epoch {global_epoch}/{EPOCHS} (Session {session_epoch}/{remaining_epochs}) ---")
+        print(f"--- Epoch {global_epoch}/{effective_epochs} (Session {session_epoch}/{remaining_epochs}) ---")
         train_loss = trainer.train_epoch()
         val_loss, perplexity = trainer.validate()
         last_completed_epoch = global_epoch
