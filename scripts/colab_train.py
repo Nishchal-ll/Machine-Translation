@@ -68,6 +68,8 @@ def parse_args():
                         help="Resume training from last checkpoint if available")
     parser.add_argument("--use-val-metrics", action="store_true",
                         help="Calculate validation metrics after each epoch")
+    parser.add_argument("--early-stopping-patience", type=int, default=EPOCHS,
+                        help="Override early stopping patience; default is full epoch budget")
     return parser.parse_args()
 
 
@@ -87,7 +89,7 @@ def create_config(args):
         'GRADIENT_CLIP': GRADIENT_CLIP,
         'GRADIENT_ACCUMULATION_STEPS': GRADIENT_ACCUMULATION_STEPS,
         'GRADIENT_CHECKPOINTING': GRADIENT_CHECKPOINTING,
-        'EARLY_STOPPING_PATIENCE': EARLY_STOPPING_PATIENCE,
+        'EARLY_STOPPING_PATIENCE': args.early_stopping_patience if args.early_stopping_patience is not None else EARLY_STOPPING_PATIENCE,
         'USE_LORA': False if args.no_lora else USE_LORA,
         'LORA_R': LORA_R,
         'LORA_ALPHA': LORA_ALPHA,

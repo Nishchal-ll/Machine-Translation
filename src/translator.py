@@ -13,7 +13,7 @@ from src.config import MODEL_NAME
 class NepaliTranslator:
     def __init__(self, model_path: str | Path, device=None):
         from transformers import AutoTokenizer
-        self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device(device or ("cuda" if torch.cuda.is_available() else "cpu"))
 
         if isinstance(model_path, (str, Path)) and Path(model_path).exists():
             self.model_path = Path(model_path)
@@ -22,7 +22,6 @@ class NepaliTranslator:
 
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_path)
         self.model = self._load_model(self.model_path)
-        self.model = self.model.to(self.device)
         self.model.eval()
         self.tokenizer.src_lang = "eng_Latn"
         self.tokenizer.tgt_lang = "npi_Deva"
@@ -35,11 +34,19 @@ class NepaliTranslator:
     def _load_model(self, model_path: Path):
         from transformers import AutoModelForSeq2SeqLM
 
+        device_map = "cpu"
+        torch_dtype = None
+        if isinstance(self.device, torch.device) and self.device.type == "cuda":
+            device_map = "auto"
+            torch_dtype = torch.float16
+
         try:
             return AutoModelForSeq2SeqLM.from_pretrained(
                 model_path,
                 trust_remote_code=True,
                 use_safetensors=True,
+                device_map=device_map,
+                torch_dtype=torch_dtype,
             )
         except Exception as exc:
             if HAS_LORA and self._has_lora_adapter(model_path):
@@ -50,14 +57,18 @@ class NepaliTranslator:
                             model_path / "base_model",
                             trust_remote_code=True,
                             use_safetensors=True,
+                            device_map=device_map,
+                            torch_dtype=torch_dtype,
                         )
                     else:
                         base_model = AutoModelForSeq2SeqLM.from_pretrained(
                             MODEL_NAME,
                             trust_remote_code=True,
                             use_safetensors=True,
+                            device_map=device_map,
+                            torch_dtype=torch_dtype,
                         )
-                    return PeftModel.from_pretrained(base_model, model_path)
+                    return PeftModel.from_pretrained(base_model, model_path, device_map=device_map)
                 except Exception as nested_exc:
                     raise RuntimeError(
                         f"Failed to load LoRA-enhanced model from {model_path}: {nested_exc}"

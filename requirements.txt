@@ -5,6 +5,7 @@ sentencepiece
 accelerate
 evaluate
 torch
+torchao>=0.16.0
 tqdm
 numpy
 flask
