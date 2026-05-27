@@ -49,6 +49,18 @@ class Trainer:
                 checkpoint_target = self.model.base_model
             if hasattr(checkpoint_target, 'gradient_checkpointing_enable'):
                 checkpoint_target.gradient_checkpointing_enable()
+            if hasattr(checkpoint_target, 'enable_input_require_grads'):
+                checkpoint_target.enable_input_require_grads()
+            if hasattr(checkpoint_target, 'config'):
+                checkpoint_target.config.use_cache = False
+
+        # Validate that there are trainable parameters
+        trainable_params = sum(p.numel() for p in self.model.parameters() if p.requires_grad)
+        if trainable_params == 0:
+            raise RuntimeError(
+                "No trainable parameters found. Check whether LoRA is enabled correctly or whether model weights are frozen."
+            )
+        print(f"⚙️  Trainable parameters: {trainable_params:,}")
 
         # Use 8-bit Adam if available (saves ~75% optimizer memory)
         weight_decay = getattr(config, 'WEIGHT_DECAY', 0.0)
