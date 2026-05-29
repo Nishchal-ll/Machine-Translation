@@ -114,7 +114,11 @@ class Trainer:
         self.optimizer.zero_grad()
 
         disable_tqdm = getattr(self.config, 'DISABLE_TQDM', False) or getattr(self.config, 'COLAB_MODE', False)
-        for batch_idx, batch in enumerate(tqdm(self.train_loader, desc="Training", leave=False, disable=disable_tqdm)):
+        train_iter = self.train_loader
+        if not disable_tqdm:
+            train_iter = tqdm(self.train_loader, desc="Training", leave=False)
+
+        for batch_idx, batch in enumerate(train_iter):
             batch = {k: v.to(self.config.DEVICE) for k, v in batch.items()}
 
             # Use mixed precision to reduce memory (new torch.amp API)
@@ -148,6 +152,10 @@ class Trainer:
 
             total_loss += loss.item() * self.gradient_accumulation_steps
 
+            # Print custom progress in Colab/disabled tqdm mode (every 10 steps to prevent scrolling lag)
+            if disable_tqdm and ((batch_idx + 1) % 10 == 0 or (batch_idx + 1) == len(self.train_loader)):
+                print(f"\rTraining Step: {batch_idx + 1}/{len(self.train_loader)}", end="", flush=True)
+
         # Final optimizer step for any remaining gradients
         if accumulation_counter % self.gradient_accumulation_steps != 0:
             if self.scaler:
@@ -161,6 +169,9 @@ class Trainer:
             self.scheduler.step()
             self.optimizer.zero_grad()
 
+        if disable_tqdm:
+            print()  # Add newline to finish progress line
+
         return total_loss / len(self.train_loader)
 
     @torch.no_grad()
@@ -169,10 +180,22 @@ class Trainer:
         total_loss = 0.0
 
         disable_tqdm = getattr(self.config, 'DISABLE_TQDM', False) or getattr(self.config, 'COLAB_MODE', False)
-        for batch in tqdm(self.val_loader, desc="Validating", leave=False, disable=disable_tqdm):
+        val_iter = self.val_loader
+        if not disable_tqdm:
+            val_iter = tqdm(self.val_loader, desc="Validating", leave=False)
+
+        for batch_idx, batch in enumerate(val_iter):
             batch = {k: v.to(self.config.DEVICE) for k, v in batch.items()}
             outputs = self.model(**batch)
-            total_loss += outputs.loss.item()
+            loss_val = outputs.loss.item()
+            total_loss += loss_val
+
+            # Print custom progress in Colab/disabled tqdm mode (every 10 steps to prevent scrolling lag)
+            if disable_tqdm and ((batch_idx + 1) % 10 == 0 or (batch_idx + 1) == len(self.val_loader)):
+                print(f"\rValidation Step: {batch_idx + 1}/{len(self.val_loader)}", end="", flush=True)
+
+        if disable_tqdm:
+            print()  # Add newline to finish progress line
 
         avg_loss = total_loss / len(self.val_loader)
         perplexity = math.exp(avg_loss)
