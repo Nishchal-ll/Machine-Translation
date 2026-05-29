@@ -4,6 +4,11 @@ from sacrebleu.metrics import CHRF, TER
 from tqdm import tqdm
 import re
 
+try:
+    from src.config import COLAB_MODE
+except ImportError:
+    COLAB_MODE = False
+
 class Evaluator:
     def __init__(self, model, tokenizer, device):
         self.model = model.to(device)
@@ -78,7 +83,8 @@ class Evaluator:
         partial_matches = 0  # Fuzzy matching for close translations
 
         print("Evaluating on test set...")
-        for item in tqdm(test_data):
+        disable_tqdm = COLAB_MODE
+        for item in tqdm(test_data, disable=disable_tqdm):
             pred = self.generate_translation(item["english"])
             predictions.append(pred)
             references.append(item["nepali"])

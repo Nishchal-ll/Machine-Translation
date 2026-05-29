@@ -30,8 +30,15 @@ MODEL_NAME = os.getenv("MODEL_NAME", "facebook/nllb-200-distilled-600M")
 SRC_LANG = "eng_Latn"
 TGT_LANG = "npi_Deva"
 
+# Detect if running in Google Colab
+try:
+    import google.colab
+    _detected_colab = True
+except ImportError:
+    _detected_colab = False
+
 # ====================== TRAINING CONFIG ======================
-COLAB_MODE = _bool_env("COLAB_MODE")
+COLAB_MODE = _bool_env("COLAB_MODE") or _detected_colab
 EPOCHS = int(os.getenv("EPOCHS", 20))                        # Increased from 15 for better convergence
 SESSION_SAVE_EVERY_EPOCHS = int(os.getenv("SESSION_SAVE_EVERY_EPOCHS", 1))      # Save resumable checkpoint every N epochs
 RESUME_FROM_SESSION = _bool_env("RESUME_FROM_SESSION") if os.getenv("RESUME_FROM_SESSION") is not None else True

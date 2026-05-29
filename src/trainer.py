@@ -113,7 +113,8 @@ class Trainer:
         accumulation_counter = 0
         self.optimizer.zero_grad()
 
-        for batch_idx, batch in enumerate(tqdm(self.train_loader, desc="Training", leave=False)):
+        disable_tqdm = getattr(self.config, 'DISABLE_TQDM', False) or getattr(self.config, 'COLAB_MODE', False)
+        for batch_idx, batch in enumerate(tqdm(self.train_loader, desc="Training", leave=False, disable=disable_tqdm)):
             batch = {k: v.to(self.config.DEVICE) for k, v in batch.items()}
 
             # Use mixed precision to reduce memory (new torch.amp API)
@@ -167,7 +168,8 @@ class Trainer:
         self.model.eval()
         total_loss = 0.0
 
-        for batch in tqdm(self.val_loader, desc="Validating", leave=False):
+        disable_tqdm = getattr(self.config, 'DISABLE_TQDM', False) or getattr(self.config, 'COLAB_MODE', False)
+        for batch in tqdm(self.val_loader, desc="Validating", leave=False, disable=disable_tqdm):
             batch = {k: v.to(self.config.DEVICE) for k, v in batch.items()}
             outputs = self.model(**batch)
             total_loss += outputs.loss.item()

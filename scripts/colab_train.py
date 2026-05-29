@@ -95,6 +95,7 @@ def create_config(args):
         'LORA_ALPHA': LORA_ALPHA,
         'LORA_DROPOUT': LORA_DROPOUT,
         'MODEL_DIR': Path(args.model_dir),
+        'COLAB_MODE': True,
     })
 
 
@@ -167,7 +168,7 @@ def main():
 
     trainer = Trainer(model, train_loader, val_loader, tokenizer, config=config)
     start_epoch = 0
-    if args.resume and checkpoint_path.exists():
+    if (args.resume or RESUME_FROM_SESSION) and checkpoint_path.exists():
         start_epoch = trainer.load_session_checkpoint()
 
     evaluator = Evaluator(trainer.model, tokenizer, DEVICE)

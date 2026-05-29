@@ -1,3 +1,4 @@
+# pyrefly: ignore [missing-import]
 import torch
 from pathlib import Path
 import re
@@ -134,10 +135,11 @@ class NepaliTranslator:
         
         text = ' '.join(cleaned_words).strip()
         
-        # Final validation - ensure it's mostly Devanagari
-        devanagari_chars = sum(1 for c in text if self.is_devanagari(c))
-        if len(text) > 0:
-            devanagari_ratio = devanagari_chars / len(text)
+        # Final validation - ensure it's mostly Devanagari among alphabetic characters
+        alphabetic_chars = [c for c in text if c.isalpha() or (0x0900 <= ord(c) <= 0x097F)]
+        if alphabetic_chars:
+            devanagari_chars = sum(1 for c in alphabetic_chars if self.is_devanagari(c))
+            devanagari_ratio = devanagari_chars / len(alphabetic_chars)
             if devanagari_ratio < 0.7:  # If less than 70% Devanagari, something went wrong
                 return ""  # Return empty if too much junk
         

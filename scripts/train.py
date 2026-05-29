@@ -147,6 +147,7 @@ def main():
         'LORA_ALPHA': LORA_ALPHA,
         'LORA_DROPOUT': LORA_DROPOUT,
         'MODEL_DIR': effective_model_dir,
+        'COLAB_MODE': args.colab or COLAB_MODE,
     })
 
     print_training_summary(config_obj)
