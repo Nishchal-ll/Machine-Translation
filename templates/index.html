@@ -175,8 +175,22 @@
             color: #9aa0a6;
         }
 
-        #outputText {
-            color: #3c4043;
+        .result-group {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            padding: 16px;
+        }
+
+        .result-group label {
+            font-size: 14px;
+            color: var(--muted);
+        }
+
+        .result-group textarea {
+            min-height: 130px;
+            font-size: 18px;
         }
 
         .meta {
@@ -298,7 +312,7 @@
 
         <div class="panel-wrap">
             <div class="panel">
-                <textarea id="inputText" placeholder="Enter text"></textarea>
+                <textarea id="inputText" placeholder="Enter English text"></textarea>
                 <div class="meta">
                     <span>Press Ctrl+Enter to translate</span>
                     <span><span id="charCount">0</span></span>
@@ -306,9 +320,9 @@
             </div>
 
             <div class="panel">
-                <textarea id="outputText" disabled placeholder="Translation"></textarea>
+                <textarea id="outputText" disabled placeholder="Nepali translation"></textarea>
                 <div class="meta">
-                    <span>Output</span>
+                    <span>Nepali output</span>
                     <span id="outCount">0</span>
                 </div>
             </div>
@@ -361,8 +375,8 @@
                 const data = await response.json();
 
                 if (data.success) {
-                    outputText.value = data.translation;
-                    outCount.textContent = data.translation.length;
+                    outputText.value = data.translation || '';
+                    outCount.textContent = outputText.value.length;
                     showStatus('✅ Translation successful!', 'success');
                 } else {
                     showStatus(`❌ ${data.error}`, 'error');
@@ -429,7 +443,7 @@
                 const response = await fetch('/api/health');
                 const data = await response.json();
                 if (!data.model_loaded) {
-                    showStatus('Model is loading or not available. Please train the model first.', 'error');
+                    showStatus('Model is not available. Please train the model first.', 'error');
                     translateBtn.disabled = true;
                 }
             } catch (error) {

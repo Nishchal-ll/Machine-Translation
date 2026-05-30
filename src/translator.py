@@ -12,7 +12,7 @@ except ImportError:
 from src.config import MODEL_NAME
 
 class NepaliTranslator:
-    def __init__(self, model_path: str | Path, device=None):
+    def __init__(self, model_path: str | Path, tokenizer_path: str | Path | None = None, device=None):
         from transformers import AutoTokenizer
         self.device = torch.device(device or ("cuda" if torch.cuda.is_available() else "cpu"))
 
@@ -21,11 +21,23 @@ class NepaliTranslator:
         else:
             self.model_path = str(model_path)
 
-        self.tokenizer = AutoTokenizer.from_pretrained(self.model_path)
+        if tokenizer_path is None:
+            tokenizer_path = self.model_path
+
+        if isinstance(tokenizer_path, (str, Path)) and Path(tokenizer_path).exists():
+            tokenizer_path = Path(tokenizer_path)
+
+        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
         self.model = self._load_model(self.model_path)
         self.model.eval()
         self.tokenizer.src_lang = "eng_Latn"
         self.tokenizer.tgt_lang = "npi_Deva"
+        try:
+            from transformers import GenerationConfig
+            self.generation_config = GenerationConfig.from_pretrained(self.model_path)
+            self.model.generation_config = self.generation_config
+        except Exception:
+            self.generation_config = None
 
     def _has_lora_adapter(self, model_path: Path) -> bool:
         if not isinstance(model_path, Path):
@@ -171,6 +183,7 @@ class NepaliTranslator:
 
         outputs = self.model.generate(
             **inputs,
+            generation_config=self.generation_config,
             max_length=max_length,
             min_length=2,
             num_beams=4,
