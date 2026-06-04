@@ -163,6 +163,11 @@ class NepaliTranslator:
         return [chunk.strip() for chunk in chunks if chunk.strip()]
 
     @torch.no_grad()
+    def _get_forced_bos_token_id(self, tgt_lang: str):
+        if hasattr(self.tokenizer, "lang_code_to_id"):
+            return self.tokenizer.lang_code_to_id.get(tgt_lang)
+        return None
+
     def translate_batch(self, english_texts: list[str], max_length=64) -> list[str]:
         if not english_texts:
             return []
@@ -181,21 +186,25 @@ class NepaliTranslator:
         )
         inputs = {k: v.to(self.device) for k, v in inputs.items()}
 
-        outputs = self.model.generate(
-            **inputs,
-            generation_config=self.generation_config,
-            max_length=max_length,
-            min_length=2,
-            num_beams=4,
-            length_penalty=1.0,
-            no_repeat_ngram_size=2,
-            early_stopping=True,
-            do_sample=False,
-            repetition_penalty=1.5,
-            diversity_penalty=0.0,
-            eos_token_id=self.tokenizer.eos_token_id,
-            pad_token_id=self.tokenizer.pad_token_id,
-        )
+        forced_bos_token_id = self._get_forced_bos_token_id(self.tokenizer.tgt_lang)
+        generate_kwargs = {
+            "generation_config": self.generation_config,
+            "max_length": max_length,
+            "min_length": 2,
+            "num_beams": 4,
+            "length_penalty": 1.0,
+            "no_repeat_ngram_size": 2,
+            "early_stopping": True,
+            "do_sample": False,
+            "repetition_penalty": 1.5,
+            "diversity_penalty": 0.0,
+            "eos_token_id": self.tokenizer.eos_token_id,
+            "pad_token_id": self.tokenizer.pad_token_id,
+        }
+        if forced_bos_token_id is not None:
+            generate_kwargs["forced_bos_token_id"] = forced_bos_token_id
+
+        outputs = self.model.generate(**inputs, **generate_kwargs)
 
         decoded = self.tokenizer.batch_decode(outputs, skip_special_tokens=True)
         return [self.postprocess_text(text) for text in decoded]

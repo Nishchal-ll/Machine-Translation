@@ -41,29 +41,38 @@ class Evaluator:
         inputs = self.tokenizer(text, return_tensors="pt", padding=True, truncation=True, max_length=max_length)
         inputs = {k: v.to(self.device) for k, v in inputs.items()}
 
-        # Conservative generation for clean output
-        outputs = self.model.generate(
-            **inputs,
-            max_length=max_length,
-            min_length=2,
-            num_beams=4,
-            length_penalty=1.2,
-            no_repeat_ngram_size=4,
-            early_stopping=True,
-            do_sample=False,
-            repetition_penalty=2.0,
-            eos_token_id=self.tokenizer.eos_token_id,
-            pad_token_id=self.tokenizer.pad_token_id,
-        )
+        target_lang_id = None
+        if hasattr(self.tokenizer, "lang_code_to_id"):
+            target_lang_id = self.tokenizer.lang_code_to_id.get("npi_Deva")
+
+        # Conservative generation for clean output and correct target language
+        generate_kwargs = {
+            "max_length": max_length,
+            "min_length": 2,
+            "num_beams": 4,
+            "length_penalty": 1.2,
+            "no_repeat_ngram_size": 4,
+            "early_stopping": True,
+            "do_sample": False,
+            "repetition_penalty": 2.0,
+            "eos_token_id": self.tokenizer.eos_token_id,
+            "pad_token_id": self.tokenizer.pad_token_id,
+        }
+        if target_lang_id is not None:
+            generate_kwargs["forced_bos_token_id"] = target_lang_id
+
+        outputs = self.model.generate(**inputs, **generate_kwargs)
 
         translation = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
         translation = self.remove_artifacts(translation)
         return translation.strip()
 
     def normalize_text(self, text: str) -> str:
-        """Normalize text for comparison (remove extra spaces)"""
+        """Normalize text for comparison (remove extra spaces and align punctuation)"""
         text = text.strip()
         text = re.sub(r'\s+', ' ', text)  # Normalize whitespace
+        text = re.sub(r'\s+([।,\?\!])', r'\1', text)
+        text = text.replace('.', '।')
         return text.lower()
 
     def is_similar(self, text1: str, text2: str, threshold=0.8) -> bool:
