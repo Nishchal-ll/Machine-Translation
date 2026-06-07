@@ -9,3 +9,4 @@ tqdm
 numpy
 flask
 matplotlib
+langdetect

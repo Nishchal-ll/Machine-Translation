@@ -27,7 +27,14 @@ class NepaliTranslator:
         if isinstance(tokenizer_path, (str, Path)) and Path(tokenizer_path).exists():
             tokenizer_path = Path(tokenizer_path)
 
-        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
+        # Load tokenizer with fallback to base model
+        try:
+            self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
+        except Exception as tok_exc:
+            print(f"⚠️  Could not load tokenizer from {tokenizer_path}: {tok_exc}")
+            print(f"   Loading tokenizer from base model {MODEL_NAME}")
+            self.tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+        
         self.model = self._load_model(self.model_path)
         self.model.eval()
         self.tokenizer.src_lang = "eng_Latn"
@@ -53,23 +60,71 @@ class NepaliTranslator:
             device_map = "auto"
             torch_dtype = torch.float16
 
+        # Check if we have a safetensors weights file
+        safetensors_path = Path(model_path) / "model.safetensors" if isinstance(model_path, (str, Path)) else None
+        if safetensors_path and safetensors_path.exists():
+            print(f"🔄 Found safetensors file, loading weights...")
+            try:
+                from safetensors.torch import load_file
+                local_base_path = Path(model_path) / "base_model"
+                if local_base_path.exists():
+                    print(f"  Loading local base model: {local_base_path}")
+                    base_model = AutoModelForSeq2SeqLM.from_pretrained(
+                        local_base_path,
+                        trust_remote_code=True,
+                        use_safetensors=True,
+                        device_map=device_map,
+                        torch_dtype=torch_dtype,
+                    )
+                else:
+                    print(f"  Loading base model: {MODEL_NAME}")
+                    base_model = AutoModelForSeq2SeqLM.from_pretrained(
+                        MODEL_NAME,
+                        trust_remote_code=True,
+                        use_safetensors=False,
+                        device_map=device_map,
+                        torch_dtype=torch_dtype,
+                    )
+                print(f"  Applying weights from {safetensors_path.name}")
+                state_dict = load_file(str(safetensors_path))
+                result = base_model.load_state_dict(state_dict, strict=False)
+                print(f"✅ Model loaded with fine-tuned weights")
+                if result.missing_keys:
+                    print(f"   (Some keys not loaded: {len(result.missing_keys)})")
+                return base_model
+            except Exception as weights_exc:
+                print(f"⚠️  Failed to load fine-tuned weights: {weights_exc}")
+                print(f"   Falling back to base model only...")
+                try:
+                    return AutoModelForSeq2SeqLM.from_pretrained(
+                        MODEL_NAME,
+                        trust_remote_code=True,
+                        use_safetensors=False,
+                        device_map=device_map,
+                        torch_dtype=torch_dtype,
+                    )
+                except Exception as base_exc:
+                    raise RuntimeError(f"Failed to load base model: {base_exc}") from base_exc
+
+        # Try loading as a full model directory (if no safetensors file)
         try:
             return AutoModelForSeq2SeqLM.from_pretrained(
                 model_path,
                 trust_remote_code=True,
-                use_safetensors=True,
+                use_safetensors=False,
                 device_map=device_map,
                 torch_dtype=torch_dtype,
             )
         except Exception as exc:
+            # Try LoRA adapters
             if HAS_LORA and self._has_lora_adapter(model_path):
                 print(f"⚠️  Attempting PEFT LoRA adapter load for {model_path}")
                 try:
-                    if (model_path / "base_model").exists():
+                    if (Path(model_path) / "base_model").exists():
                         base_model = AutoModelForSeq2SeqLM.from_pretrained(
                             model_path / "base_model",
                             trust_remote_code=True,
-                            use_safetensors=True,
+                            use_safetensors=False,
                             device_map=device_map,
                             torch_dtype=torch_dtype,
                         )
@@ -77,7 +132,7 @@ class NepaliTranslator:
                         base_model = AutoModelForSeq2SeqLM.from_pretrained(
                             MODEL_NAME,
                             trust_remote_code=True,
-                            use_safetensors=True,
+                            use_safetensors=False,
                             device_map=device_map,
                             torch_dtype=torch_dtype,
                         )
@@ -86,9 +141,19 @@ class NepaliTranslator:
                     raise RuntimeError(
                         f"Failed to load LoRA-enhanced model from {model_path}: {nested_exc}"
                     ) from nested_exc
-            raise RuntimeError(
-                f"Failed to load model from {model_path}: {exc}"
-            ) from exc
+            
+            # Final fallback to base model
+            print(f"⚠️  Could not load model-specific weights, using base model {MODEL_NAME}")
+            try:
+                return AutoModelForSeq2SeqLM.from_pretrained(
+                    MODEL_NAME,
+                    trust_remote_code=True,
+                    use_safetensors=False,
+                    device_map=device_map,
+                    torch_dtype=torch_dtype,
+                )
+            except Exception as base_exc:
+                raise RuntimeError(f"Failed to load base model: {base_exc}") from base_exc
 
     def is_devanagari(self, text: str) -> bool:
         """Check if text contains Devanagari script"""
