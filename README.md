@@ -444,6 +444,10 @@ This project uses Meta's NLLB-200 model under CC-BY-NC-4.0 license.
 
 ---
 
+
+## Author
+- **Nishchal Acharya** - [Portfolio & Projects](https://www.acharyanishchal.com.np)
+
 **Last Updated:** March 31, 2026
 **Model Version:** NLLB-200 Distilled 600M
 **Dataset:** 25,343 English-Nepali honorific pairs
