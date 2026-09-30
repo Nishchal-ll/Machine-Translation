@@ -1,457 +1,917 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nepali Honorifics Translator</title>
+    <title>Google Translate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <style>
         :root {
-            --bg: #ffffff;
-            --surface: #f8f9fa;
-            --line: #dadce0;
-            --text: #202124;
-            --muted: #5f6368;
-            --primary: #1a73e8;
-            --primary-hover: #1765ca;
+            --google-blue: #1a73e8;
+            --google-blue-hover: #1557b0;
+            --google-blue-light: #e8f0fe;
+            --google-blue-pill: #d3e3fd;
+            --google-blue-text: #041e49;
+
+            --bg-page: #ffffff;
+            --bg-surface: #ffffff;
+            --bg-card: #ffffff;
+            --bg-target: #f8fafd;
+            --border-color: #dadce0;
+            --border-subtle: #f1f3f4;
+
+            --text-primary: #202124;
+            --text-secondary: #5f6368;
+            --text-muted: #80868b;
+
+            --btn-hover: #f1f3f4;
+            --btn-active: #e8eaed;
+            --chip-active-bg: #c2e7ff;
+            --chip-active-color: #001d35;
+
+            --shadow-sm: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+            --shadow-md: 0 4px 12px rgba(60, 64, 67, 0.15);
+            --radius-xl: 24px;
+            --radius-lg: 16px;
+            --radius-md: 8px;
+            --radius-full: 9999px;
+
+            --font-main: "Google Sans", "Roboto", -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-devanagari: "Noto Sans Devanagari", "Google Sans", sans-serif;
+            --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        [data-theme="dark"] {
+            --bg-page: #131314;
+            --bg-surface: #1e1f20;
+            --bg-card: #1e1f20;
+            --bg-target: #1e1f20;
+            --border-color: #3c4043;
+            --border-subtle: #2d3135;
+
+            --text-primary: #e8eaed;
+            --text-secondary: #9aa0a6;
+            --text-muted: #80868b;
+
+            --btn-hover: #2d2f31;
+            --btn-active: #3c4043;
+            --chip-active-bg: #004a77;
+            --chip-active-color: #c2e7ff;
+            --google-blue: #8ab4f8;
+            --google-blue-hover: #aecbfa;
+            --google-blue-light: #004a77;
+            --google-blue-pill: #004a77;
+            --google-blue-text: #c2e7ff;
+
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
         }
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
         }
 
         body {
-            font-family: "Segoe UI", "Noto Sans", sans-serif;
-            background: var(--bg);
-            color: var(--text);
+            font-family: var(--font-main);
+            background-color: var(--bg-page);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            transition: background-color 0.25s ease, color 0.25s ease;
         }
 
-        .page {
-            max-width: 1280px;
-            margin: 24px auto;
-            padding: 0 12px;
-        }
-
-        .top-strip {
+        /* Top Google Navigation Header */
+        .g-header {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 8px 4px 14px;
-            border-bottom: 1px solid var(--line);
-            margin-bottom: 10px;
+            padding: 8px 16px;
+            background: var(--bg-surface);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
 
-        .brand {
-            font-size: 20px;
-            color: var(--primary);
-            font-weight: 600;
-        }
-
-        .sub {
-            font-size: 12px;
-            color: var(--muted);
-            text-align: right;
-        }
-
-        .status {
-            display: none;
-            font-size: 13px;
-            margin-bottom: 10px;
-            border-radius: 8px;
-            padding: 10px 12px;
-            border: 1px solid transparent;
-        }
-
-        .status.success {
-            display: block;
-            background: #e6f4ea;
-            border-color: #b7dfbf;
-            color: #137333;
-        }
-
-        .status.error {
-            display: block;
-            background: #fce8e6;
-            border-color: #f2b8b5;
-            color: #b3261e;
-        }
-
-        .status.loading {
-            display: block;
-            background: #e8f0fe;
-            border-color: #c5d5fc;
-            color: #174ea6;
-        }
-
-        .language-bar {
-            display: grid;
-            grid-template-columns: 1fr auto 1fr;
-            align-items: center;
-            border: 1px solid var(--line);
-            border-radius: 12px 12px 0 0;
-            background: #fff;
-            overflow: hidden;
-        }
-
-        .lang-side {
+        .header-left {
             display: flex;
             align-items: center;
-            gap: 8px;
-            padding: 12px;
-            min-height: 62px;
+            gap: 12px;
         }
 
-        .lang-side.right {
-            justify-content: flex-start;
-        }
-
-        .chip {
-            border: none;
+        .icon-btn {
             background: transparent;
-            color: var(--muted);
-            padding: 8px 10px;
-            border-radius: 8px;
-            font-size: 14px;
-            cursor: default;
-        }
-
-        .chip.active {
-            color: var(--primary);
-            background: #e8f0fe;
-            font-weight: 600;
-        }
-
-        .swap {
-            width: 36px;
-            height: 36px;
+            border: none;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
-            border: 1px solid var(--line);
-            background: #fff;
-            color: var(--muted);
-            display: grid;
-            place-items: center;
-            font-size: 16px;
-        }
-
-        .panel-wrap {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            border: 1px solid var(--line);
-            border-top: none;
-            border-radius: 0 0 12px 12px;
-            overflow: hidden;
-            min-height: 360px;
-        }
-
-        .panel {
-            position: relative;
-            border-right: 1px solid var(--line);
-            background: #fff;
             display: flex;
-            flex-direction: column;
-        }
-
-        .panel:last-child {
-            border-right: none;
-            background: var(--surface);
-        }
-
-        textarea {
-            border: none;
-            outline: none;
-            resize: none;
-            width: 100%;
-            flex: 1;
-            font-size: 26px;
-            line-height: 1.35;
-            background: transparent;
-            color: var(--text);
-            padding: 18px 18px 12px;
-            font-family: inherit;
-        }
-
-        textarea::placeholder {
-            color: #9aa0a6;
-        }
-
-        .result-group {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding: 16px;
-        }
-
-        .result-group label {
-            font-size: 14px;
-            color: var(--muted);
-        }
-
-        .result-group textarea {
-            min-height: 130px;
-            font-size: 18px;
-        }
-
-        .meta {
-            display: flex;
-            justify-content: space-between;
             align-items: center;
-            padding: 10px 16px 14px;
-            border-top: 1px solid rgba(218, 220, 224, 0.6);
-            font-size: 12px;
-            color: var(--muted);
-        }
-
-        .controls {
-            margin-top: 12px;
-            display: flex;
-            gap: 10px;
             justify-content: center;
-            flex-wrap: wrap;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: var(--transition);
         }
 
-        .btn {
-            border: 1px solid var(--line);
-            background: #fff;
-            color: var(--text);
-            padding: 9px 16px;
+        .icon-btn:hover {
+            background-color: var(--btn-hover);
+            color: var(--text-primary);
+        }
+
+        .icon-btn:active {
+            transform: scale(0.92);
+        }
+
+        .g-logo {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            text-decoration: none;
+            color: inherit;
+            user-select: none;
+        }
+
+        .logo-svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .logo-text {
+            font-size: 22px;
+            font-weight: 400;
+            letter-spacing: -0.3px;
+            display: flex;
+            align-items: center;
+            color: var(--text-secondary);
+        }
+
+        .logo-text .g-title {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .user-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #1a73e8;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             font-size: 14px;
-            border-radius: 8px;
+            font-weight: 500;
+            margin-left: 6px;
             cursor: pointer;
         }
 
-        .btn.primary {
-            background: var(--primary);
-            border-color: var(--primary);
-            color: #fff;
-            min-width: 120px;
+        .nllb-pill {
+            background: var(--google-blue-light);
+            color: var(--google-blue);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 3px 8px;
+            border-radius: var(--radius-full);
+            letter-spacing: 0.3px;
+            margin-left: 8px;
+            border: 1px solid var(--border-color);
         }
 
-        .btn.primary:hover:not(:disabled) {
-            background: var(--primary-hover);
-            border-color: var(--primary-hover);
+        /* Main Workspace Container */
+        .workspace {
+            max-width: 1280px;
+            width: 100%;
+            margin: 20px auto 30px;
+            padding: 0 16px;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
         }
 
-        .btn:hover:not(:disabled) {
-            background: #f1f3f4;
+        /* Translation Split Box (Google Translate Box) */
+        .translate-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            transition: box-shadow 0.25s ease, border-color 0.25s ease;
         }
 
-        .btn:disabled {
-            opacity: 0.65;
+        .translate-card:focus-within {
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Top Language Selector Bar */
+        .lang-strip {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            padding: 4px 8px;
+            background: var(--bg-surface);
+        }
+
+        .lang-group {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            scrollbar-width: none;
+        }
+
+        .lang-group::-webkit-scrollbar {
+            display: none;
+        }
+
+        .lang-tab {
+            padding: 8px 14px;
+            border-radius: var(--radius-full);
+            font-size: 14px;
+            font-weight: 500;
+            border: none;
+            background: transparent;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            white-space: nowrap;
+        }
+
+        .lang-tab:hover {
+            background-color: var(--btn-hover);
+            color: var(--text-primary);
+        }
+
+        .lang-tab.active {
+            color: var(--google-blue);
+            background-color: var(--google-blue-light);
+            font-weight: 600;
+        }
+
+        .swap-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 6px;
+        }
+
+        .swap-icon-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: none;
+            background: transparent;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .swap-icon-btn:hover {
+            background-color: var(--btn-hover);
+            color: var(--text-primary);
+            transform: rotate(180deg);
+        }
+
+        /* Split Input / Output Panels */
+        .panels-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            min-height: 300px;
+        }
+
+        .panel-box {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            background: var(--bg-card);
+        }
+
+        .panel-box.source-side {
+            border-right: 1px solid var(--border-color);
+        }
+
+        .panel-box.target-side {
+            background-color: var(--bg-target);
+        }
+
+        .text-area-container {
+            flex: 1;
+            position: relative;
+            padding: 16px 20px;
+            display: flex;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100%;
+            min-height: 190px;
+            border: none;
+            outline: none;
+            resize: none;
+            background: transparent;
+            color: var(--text-primary);
+            font-size: 24px;
+            line-height: 1.4;
+            font-family: inherit;
+        }
+
+        #targetText {
+            font-family: var(--font-devanagari);
+            font-size: 24px;
+        }
+
+        textarea::placeholder {
+            color: var(--text-muted);
+            font-size: 24px;
+        }
+
+        .btn-clear-text {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: none;
+            background: transparent;
+            color: var(--text-secondary);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .btn-clear-text:hover {
+            background-color: var(--btn-hover);
+            color: var(--text-primary);
+        }
+
+        .btn-clear-text.show {
+            display: flex;
+        }
+
+        /* Loading Animation */
+        .shimmer-loader {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent 0%, rgba(26, 115, 232, 0.06) 50%, transparent 100%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+            pointer-events: none;
+        }
+
+        .shimmer-loader.active {
+            display: block;
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: -200% 0;
+            }
+
+            100% {
+                background-position: 200% 0;
+            }
+        }
+
+        /* Panel Bottom Action Bars */
+        .panel-actions {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 14px;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .action-group-left {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+
+        .action-group-right {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .char-count {
+            font-size: 12px;
+            color: var(--text-muted);
+            user-select: none;
+        }
+
+        .translate-submit-btn {
+            background: var(--google-blue);
+            color: #ffffff;
+            border: none;
+            padding: 8px 22px;
+            border-radius: var(--radius-full);
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: var(--transition);
+        }
+
+        .translate-submit-btn:hover:not(:disabled) {
+            background: var(--google-blue-hover);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .translate-submit-btn:disabled {
+            opacity: 0.6;
             cursor: not-allowed;
         }
 
-        .spinner {
-            display: inline-block;
-            width: 12px;
-            height: 12px;
-            border: 2px solid rgba(23, 78, 166, 0.2);
-            border-top-color: #174ea6;
-            border-radius: 50%;
-            animation: spin 0.7s linear infinite;
-            margin-right: 8px;
-            vertical-align: middle;
+        /* Mic pulse */
+        .mic-active {
+            color: #ea4335 !important;
+            animation: pulseMic 1.2s infinite;
         }
 
-        @keyframes spin {
-            to {
-                transform: rotate(360deg);
+        @keyframes pulseMic {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.15);
+                background: rgba(234, 67, 53, 0.12);
             }
         }
 
-        @media (max-width: 900px) {
-            .panel-wrap {
+        /* Toast Snackbar */
+        .g-snackbar {
+            position: fixed;
+            bottom: 24px;
+            left: 24px;
+            background: #323232;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            transform: translateY(80px);
+            opacity: 0;
+            transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1), opacity 0.25s ease;
+        }
+
+        .g-snackbar.visible {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        /* Responsive */
+        @media (max-width: 800px) {
+            .panels-grid {
                 grid-template-columns: 1fr;
             }
 
-            .panel {
+            .panel-box.source-side {
                 border-right: none;
-                border-bottom: 1px solid var(--line);
-                min-height: 220px;
+                border-bottom: 1px solid var(--border-color);
             }
 
-            .panel:last-child {
-                border-bottom: none;
+            .lang-strip {
+                grid-template-columns: 1fr;
+                gap: 4px;
+            }
+
+            .swap-wrapper {
+                display: none;
             }
 
             textarea {
                 font-size: 20px;
+                min-height: 140px;
             }
 
-            .language-bar {
-                grid-template-columns: 1fr;
-                gap: 0;
-            }
-
-            .swap {
-                display: none;
+            #targetText {
+                font-size: 20px;
             }
         }
     </style>
 </head>
+
 <body>
-    <div class="page">
-        <div class="top-strip">
-            <div class="brand">Honorific Aware Translator</div>
-            <div class="sub">English to Nepali • Honorifics aware</div>
+
+    <!-- Header -->
+    <header class="g-header">
+        <div class="header-left">
+            <button class="icon-btn" title="Main menu">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+            <a href="/" class="g-logo">
+                <svg class="logo-svg" viewBox="0 0 24 24">
+                    <path fill="#4285F4"
+                        d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z" />
+                </svg>
+                <div class="logo-text">
+                    <span style="color: #4285F4;">H</span><span style="color: #EA4335;">o</span><span
+                        style="color: #FBBC05;">n</span><span style="color: #4285F4;">o</span><span
+                        style="color: #34A853;">r</span><span style="color: #EA4335;">i</span><span
+                        style="color: #4285F4;">f</span><span style="color: #EA4335;">i</span><span
+                        style="color: #FBBC05;">c</span>
+                    <span class="g-title" style="margin-left: 6px;">Translate</span>
+                </div>
+                <span class="nllb-pill">NLLB-200</span>
+            </a>
         </div>
 
-        <div class="status" id="status"></div>
-
-        <div class="language-bar">
-            <div class="lang-side">
-                <button class="chip">Source language</button>
-                <button class="chip active">English</button>
-            </div>
-            <div class="swap" aria-hidden="true">⇄</div>
-            <div class="lang-side right">
-                <button class="chip active">Nepali</button>
-            </div>
+        <div class="header-right">
+            <button class="icon-btn" id="themeBtn" title="Dark / Light theme">
+                <span class="material-symbols-outlined" id="themeIcon">dark_mode</span>
+            </button>
+            <button class="icon-btn" title="Settings">
+                <span class="material-symbols-outlined">settings</span>
+            </button>
+            <div class="user-avatar" title="Account">N</div>
         </div>
+    </header>
 
-        <div class="panel-wrap">
-            <div class="panel">
-                <textarea id="inputText" placeholder="Enter English text"></textarea>
-                <div class="meta">
-                    <span>Press Ctrl+Enter to translate</span>
-                    <span><span id="charCount">0</span></span>
+    <!-- Main Workspace -->
+    <main class="workspace">
+        <div class="translate-card">
+
+            <!-- Language Selector Strip -->
+            <div class="lang-strip">
+                <!-- Source Languages -->
+                <div class="lang-group">
+                    <button class="lang-tab" id="detectLangTab">
+                        <span id="detectLangText">Detect language</span>
+                    </button>
+                    <button class="lang-tab active">English</button>
+                </div>
+
+                <!-- Swap Button -->
+                <div class="swap-wrapper">
+                    <button class="swap-icon-btn" id="swapLangBtn" title="Swap languages">
+                        <span class="material-symbols-outlined" style="font-size: 20px;">swap_horiz</span>
+                    </button>
+                </div>
+
+                <!-- Target Languages -->
+                <div class="lang-group">
+                    <button class="lang-tab active">Nepali</button>
                 </div>
             </div>
 
-            <div class="panel">
-                <textarea id="outputText" disabled placeholder="Nepali translation"></textarea>
-                <div class="meta">
-                    <span>Nepali output</span>
-                    <span id="outCount">0</span>
+            <!-- Panels Split -->
+            <div class="panels-grid">
+
+                <!-- Source Input Panel -->
+                <div class="panel-box source-side">
+                    <div class="text-area-container">
+                        <textarea id="sourceText" placeholder="Enter text" autofocus spellcheck="false"></textarea>
+                        <button class="btn-clear-text" id="clearTextBtn" title="Clear text">
+                            <span class="material-symbols-outlined" style="font-size: 20px;">close</span>
+                        </button>
+                    </div>
+
+                    <div class="panel-actions">
+                        <div class="action-group-left">
+                            <button class="icon-btn" id="micBtn" title="Translate by voice">
+                                <span class="material-symbols-outlined">mic</span>
+                            </button>
+                            <button class="icon-btn" id="listenSourceBtn" title="Listen">
+                                <span class="material-symbols-outlined">volume_up</span>
+                            </button>
+                        </div>
+                        <div class="action-group-right">
+                            <span class="char-count" id="charCountLabel">0 / 5,000</span>
+                            <button class="translate-submit-btn" id="translateBtn">
+                                Translate
+                            </button>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Target Output Panel -->
+                <div class="panel-box target-side">
+                    <div class="shimmer-loader" id="shimmerLoader"></div>
+                    <div class="text-area-container">
+                        <textarea id="targetText" readonly placeholder="Translation"></textarea>
+                    </div>
+
+                    <div class="panel-actions">
+                        <div class="action-group-left">
+                            <button class="icon-btn" id="listenTargetBtn" title="Listen">
+                                <span class="material-symbols-outlined">volume_up</span>
+                            </button>
+                            <button class="icon-btn" id="copyBtn" title="Copy translation">
+                                <span class="material-symbols-outlined">content_copy</span>
+                            </button>
+                            <button class="icon-btn" id="starBtn" title="Save translation">
+                                <span class="material-symbols-outlined">star_border</span>
+                            </button>
+                            <button class="icon-btn" id="shareBtn" title="Share translation">
+                                <span class="material-symbols-outlined">share</span>
+                            </button>
+                        </div>
+                        <div class="action-group-right">
+                            <button class="icon-btn" id="thumbUpBtn" title="Rate this translation">
+                                <span class="material-symbols-outlined">thumb_up</span>
+                            </button>
+                            <button class="icon-btn" id="thumbDownBtn" title="Rate this translation">
+                                <span class="material-symbols-outlined">thumb_down</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+    </main>
 
-        <div class="controls">
-            <button class="btn primary" id="translateBtn">Translate</button>
-            <button class="btn" id="copyBtn">Copy</button>
-            <button class="btn" id="clearBtn">Clear</button>
-        </div>
+    <!-- Google Snackbar Toast -->
+    <div class="g-snackbar" id="gSnackbar">
+        <span class="material-symbols-outlined" id="snackbarIcon" style="font-size: 20px;">check</span>
+        <span id="snackbarText">Copied to clipboard</span>
     </div>
 
-
     <script>
-        const inputText = document.getElementById('inputText');
-        const outputText = document.getElementById('outputText');
+        const sourceText = document.getElementById('sourceText');
+        const targetText = document.getElementById('targetText');
+        const clearTextBtn = document.getElementById('clearTextBtn');
+        const charCountLabel = document.getElementById('charCountLabel');
         const translateBtn = document.getElementById('translateBtn');
-        const clearBtn = document.getElementById('clearBtn');
+        const shimmerLoader = document.getElementById('shimmerLoader');
+        const detectLangText = document.getElementById('detectLangText');
+        const detectLangTab = document.getElementById('detectLangTab');
         const copyBtn = document.getElementById('copyBtn');
-        const statusDiv = document.getElementById('status');
-        const charCount = document.getElementById('charCount');
-        const outCount = document.getElementById('outCount');
+        const listenSourceBtn = document.getElementById('listenSourceBtn');
+        const listenTargetBtn = document.getElementById('listenTargetBtn');
+        const micBtn = document.getElementById('micBtn');
+        const starBtn = document.getElementById('starBtn');
+        const shareBtn = document.getElementById('shareBtn');
+        const thumbUpBtn = document.getElementById('thumbUpBtn');
+        const thumbDownBtn = document.getElementById('thumbDownBtn');
+        const themeBtn = document.getElementById('themeBtn');
+        const themeIcon = document.getElementById('themeIcon');
+        const gSnackbar = document.getElementById('gSnackbar');
+        const snackbarText = document.getElementById('snackbarText');
+        const snackbarIcon = document.getElementById('snackbarIcon');
 
-        inputText.addEventListener('input', (e) => {
-            charCount.textContent = e.target.value.length;
+        let debounceTimer = null;
+        let isTranslating = false;
+        let recognition = null;
+        let isRecording = false;
+
+        // Dark / Light Theme
+        const currentTheme = localStorage.getItem('g_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        applyTheme(currentTheme);
+
+        themeBtn.addEventListener('click', () => {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            applyTheme(isDark ? 'light' : 'dark');
         });
 
-        translateBtn.addEventListener('click', async () => {
-            const text = inputText.value.trim();
-
-            if (!text) {
-                showStatus('Please enter some text to translate', 'error');
-                return;
+        function applyTheme(theme) {
+            if (theme === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                themeIcon.textContent = 'light_mode';
+            } else {
+                document.documentElement.removeAttribute('data-theme');
+                themeIcon.textContent = 'dark_mode';
             }
+            localStorage.setItem('g_theme', theme);
+        }
 
-            translateBtn.disabled = true;
-            showStatus('<span class="spinner"></span>Translating...', 'loading');
-            outputText.value = '';
-            outCount.textContent = '0';
-
-            try {
-                const response = await fetch('/api/translate', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({ text: text })
-                });
-
-                const data = await response.json();
-
-                if (data.success) {
-                    outputText.value = data.translation || '';
-                    outCount.textContent = outputText.value.length;
-                    showStatus('✅ Translation successful!', 'success');
-                } else {
-                    showStatus(`❌ ${data.error}`, 'error');
-                }
-            } catch (error) {
-                console.error('Error:', error);
-                showStatus('❌ Network error. Please check your connection.', 'error');
-            } finally {
-                translateBtn.disabled = false;
-            }
-        });
-
-        clearBtn.addEventListener('click', () => {
-            inputText.value = '';
-            outputText.value = '';
-            charCount.textContent = 0;
-            outCount.textContent = 0;
-            statusDiv.textContent = '';
-            statusDiv.className = 'status';
-            inputText.focus();
-        });
-
-        copyBtn.addEventListener('click', async () => {
-            const text = outputText.value;
-
-            if (!text) {
-                showStatus('Nothing to copy', 'error');
-                return;
-            }
-
-            try {
-                await navigator.clipboard.writeText(text);
-                showStatus('Copied to clipboard!', 'success');
-                const originalText = copyBtn.textContent;
-                copyBtn.textContent = '✓ Copied';
-                setTimeout(() => {
-                    copyBtn.textContent = originalText;
-                }, 2000);
-            } catch (error) {
-                console.error('Copy error:', error);
-                showStatus('Failed to copy', 'error');
-            }
-        });
-
-        function showStatus(message, type) {
-            statusDiv.innerHTML = message;
-            statusDiv.className = `status ${type}`;
-            if (type !== 'loading') {
-                setTimeout(() => {
-                    statusDiv.textContent = '';
-                    statusDiv.className = 'status';
-                }, 3000);
+        // Input text handling
+        function handleInput() {
+            const val = sourceText.value;
+            charCountLabel.textContent = `${val.length} / 5,000`;
+            if (val.length > 0) {
+                clearTextBtn.classList.add('show');
+            } else {
+                clearTextBtn.classList.remove('show');
+                targetText.value = '';
+                detectLangText.textContent = 'Detect language';
+                detectLangTab.classList.remove('active');
             }
         }
 
-        inputText.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' && e.ctrlKey) {
-                translateBtn.click();
+        sourceText.addEventListener('input', () => {
+            handleInput();
+            clearTimeout(debounceTimer);
+            if (sourceText.value.trim().length >= 2) {
+                debounceTimer = setTimeout(doTranslate, 600);
             }
         });
 
-        window.addEventListener('load', async () => {
+        sourceText.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+                e.preventDefault();
+                doTranslate();
+            }
+        });
+
+        clearTextBtn.addEventListener('click', () => {
+            sourceText.value = '';
+            handleInput();
+            sourceText.focus();
+        });
+
+        // Translate function
+        async function doTranslate() {
+            const text = sourceText.value.trim();
+            if (!text || isTranslating) return;
+
+            isTranslating = true;
+            shimmerLoader.classList.add('active');
+            translateBtn.disabled = true;
+
             try {
-                const response = await fetch('/api/health');
-                const data = await response.json();
-                if (!data.model_loaded) {
-                    showStatus('Model is not available. Please train the model first.', 'error');
-                    translateBtn.disabled = true;
+                const res = await fetch('/api/translate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ text: text })
+                });
+                const data = await res.json();
+
+                if (data.success) {
+                    targetText.value = data.translation || '';
+                    if (data.language_detection && data.language_detection.detected_language) {
+                        const lang = data.language_detection.detected_language.toUpperCase();
+                        detectLangText.textContent = `${lang} - Detected`;
+                        detectLangTab.classList.add('active');
+                    }
+                } else {
+                    showToast(data.error || 'Translation failed', 'error');
                 }
-            } catch (error) {
-                console.error('Health check error:', error);
+            } catch (err) {
+                showToast('Failed to connect to translation server', 'error');
+            } finally {
+                isTranslating = false;
+                shimmerLoader.classList.remove('active');
+                translateBtn.disabled = false;
+            }
+        }
+
+        translateBtn.addEventListener('click', doTranslate);
+
+        // Copy button
+        copyBtn.addEventListener('click', async () => {
+            const val = targetText.value;
+            if (!val) return;
+            try {
+                await navigator.clipboard.writeText(val);
+                showToast('Translation copied to clipboard', 'content_copy');
+            } catch (e) {
+                showToast('Failed to copy', 'error');
             }
         });
 
-        inputText.focus();
+        // Speech Recognition
+        if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+            const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
+            recognition = new SpeechRec();
+            recognition.continuous = false;
+            recognition.interimResults = false;
+            recognition.lang = 'en-US';
+
+            recognition.onstart = () => {
+                isRecording = true;
+                micBtn.classList.add('mic-active');
+                showToast('Listening...', 'mic');
+            };
+            recognition.onresult = (e) => {
+                sourceText.value = e.results[0][0].transcript;
+                handleInput();
+                doTranslate();
+            };
+            recognition.onerror = () => {
+                isRecording = false;
+                micBtn.classList.remove('mic-active');
+            };
+            recognition.onend = () => {
+                isRecording = false;
+                micBtn.classList.remove('mic-active');
+            };
+        }
+
+        micBtn.addEventListener('click', () => {
+            if (!recognition) {
+                showToast('Voice input not supported in this browser', 'info');
+                return;
+            }
+            if (isRecording) {
+                recognition.stop();
+            } else {
+                recognition.start();
+            }
+        });
+
+        // TTS Audio
+        listenSourceBtn.addEventListener('click', () => {
+            const val = sourceText.value.trim();
+            if (val) speak(val, 'en-US');
+        });
+
+        listenTargetBtn.addEventListener('click', () => {
+            const val = targetText.value.trim();
+            if (val) speak(val, 'ne-NP');
+        });
+
+        function speak(text, lang) {
+            if (!('speechSynthesis' in window)) return;
+            window.speechSynthesis.cancel();
+            const utt = new SpeechSynthesisUtterance(text);
+            utt.lang = lang;
+            window.speechSynthesis.speak(utt);
+        }
+
+        // Star / Save
+        starBtn.addEventListener('click', () => {
+            const icon = starBtn.querySelector('.material-symbols-outlined');
+            if (icon.textContent === 'star') {
+                icon.textContent = 'star_border';
+                icon.style.color = '';
+                showToast('Saved translation removed', 'star_border');
+            } else {
+                icon.textContent = 'star';
+                icon.style.color = '#fbbc04';
+                showToast('Translation saved', 'star');
+            }
+        });
+
+        // Share
+        shareBtn.addEventListener('click', async () => {
+            const val = targetText.value;
+            if (!val) return;
+            if (navigator.share) {
+                try {
+                    await navigator.share({ title: 'Translation', text: `${sourceText.value} → ${val}` });
+                } catch (e) { }
+            } else {
+                await navigator.clipboard.writeText(`${sourceText.value} → ${val}`);
+                showToast('Translation link copied to clipboard', 'share');
+            }
+        });
+
+        // Feedback
+        thumbUpBtn.addEventListener('click', () => {
+            thumbUpBtn.style.color = '#34a853';
+            thumbDownBtn.style.color = '';
+            showToast('Thanks for the feedback!', 'thumb_up');
+        });
+
+        thumbDownBtn.addEventListener('click', () => {
+            thumbDownBtn.style.color = '#ea4335';
+            thumbUpBtn.style.color = '';
+            showToast('Feedback recorded', 'thumb_down');
+        });
+
+        // Toast Snackbar
+        function showToast(msg, icon = 'check') {
+            snackbarText.textContent = msg;
+            snackbarIcon.textContent = icon;
+            gSnackbar.classList.add('visible');
+            setTimeout(() => {
+                gSnackbar.classList.remove('visible');
+            }, 3000);
+        }
     </script>
 </body>
+
 </html>

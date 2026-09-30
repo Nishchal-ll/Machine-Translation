@@ -1,6 +1,8 @@
 # 🇳🇵 NLLB-200 Nepali Honorifics Translation Fine-Tuning
 
-Accurate English to Nepali translation specialized in **honorific domain** (respectful forms, formal register), fine-tuned from Meta's NLLB-200 model.
+Accurate English to Nepali translation specialized in **honorific domain** (respectful forms, formal register), fine-tuned from Meta's NLLB-200 model with a Google Translate-styled UI.
+
+![Honorific Translate UI](image.png)
 
 ---
 
@@ -20,24 +22,31 @@ Accurate English to Nepali translation specialized in **honorific domain** (resp
 
 ### Requirements
 - Python 3.10+
-- CUDA-capable GPU (4GB+ VRAM)
-- Windows/Linux
+- CUDA-capable GPU (4GB+ VRAM) or CPU
+- Linux / Windows / macOS
 
 ### Installation
 ```bash
-# Clone/setup project
-cd nllb-honorifics-nepali
+# Clone the repository
+git clone https://github.com/Nishchal-ll/Machine-Translation.git
+cd Machine-Translation
 
-# Create virtual environment
-python -m venv venv
-venv\Scripts\Activate.ps1  # Windows
+# Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Linux/macOS
+# venv\Scripts\activate   # On Windows
 
 # Install dependencies
 pip install -r requirements.txt
-pip install peft bitsandbytes  # For LoRA + optimization
 ```
 
-### Try Translation Demo
+### Run the Google Translate-Style Web UI
+```bash
+python app.py
+```
+Open **`http://localhost:5000`** in your browser.
+
+### Try CLI Translation Demo
 ```bash
 python scripts/demo.py
 ```
